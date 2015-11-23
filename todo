@@ -1,5 +1,5 @@
 TODO
-
+----------------
 add bullets to resume
 TRansparent panel (instead of white)
 Change date and progress bar color-stop
@@ -8,3 +8,40 @@ fix bullets on resume
 add links to resume (gti, ecocar, ect)
 get more detials from linked in and about me
 fix urls in top of html (jquery and fonts throow degugger errors)
+make project gallery cleaner
+open projects in new tab
+chanege project hover mask color
+cange project full view to more details
+
+
+Projects
+-------------
+ADAS - Screen shot, link to youtube and github
+Image search - code snip
+hackathon - pic + gh link for each
+Reac maps - screenshot
+Tesla X - Pic + link
+UW Infotainmet - github page
+Audio DL - code snip
+lane tracking? youtube channel
+tuner - code snip
+ecocar Camaro - pic + ecocar3 link
+gaze tracking
+Tesla D - Pic + link
+dx art car pic + gh link
+Verellen
+Gameboy CAD - pic
+dx art  synth pic + gh link
+ecocar malibu - Pic + uwecocar link
+Supercollider - screenshot
+sounds on soundcloud https://soundcloud.com/gj-1214b/sets/lost-in-space
+custom guitar fx - pic
+Custom GTI controller - pic + link
+gti	pic + link
+
+
+Papers
+	Cryptography
+	331
+	233
+	ECOCAR

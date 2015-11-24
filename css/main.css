@@ -156,6 +156,11 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   padding: 0px;
   list-style: none;
 }
+.list{
+  margin-left: 20px;
+  padding-bottom: 20px;
+  list-style: square;
+}
 .break{
   padding-bottom: 1em;
   clear: both;
@@ -339,14 +344,19 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 
 /* WorkExperience */
 .work li{
-  border-bottom: 1px solid #f1f1f1;
-  margin-bottom: 2em;
+  /*border-bottom: 1px solid #f1f1f1;
+  margin-bottom: 2em;*/
 }
 .work li span{
   float: right;
 }
 .work li h5{
   float: left;
+}
+/*Added to draw lines before h5 headers*/
+.work li h6{
+  border-bottom: 1px solid #f1f1f1;
+  margin-bottom: 1em;
 }
 .work li p{
   clear: both;
@@ -357,6 +367,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   position: relative;
 }
 .image img{
+  padding-top: 10px;
   margin: 0px;
   width: 100%;
 }

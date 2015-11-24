@@ -2,87 +2,100 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Jake Garrison</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width">
-  <link rel='shortcut icon' type='image/x-icon' href='assets/favicon.ico' />
-  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/normalize.min.css">
-  <link rel="stylesheet" href="css/main.css">
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
-  <script src="js/vendor/jquery.hashchange.min.js"></script>
-  <script src="js/vendor/jquery.easytabs.min.js"></script>
-  <script src="js/main.js"></script>
-  <!--[if lt IE 9]>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Jake Garrison</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
+	<link rel='shortcut icon' type='image/x-icon' href='assets/favicon.ico' />
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')
+	</script>
+	<script src="js/vendor/jquery.hashchange.min.js"></script>
+	<script src="js/vendor/jquery.easytabs.min.js"></script>
+	<script src="js/main.js"></script>
+	<!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
       <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
       <![endif]-->
-  <!--Google Analytics    -->
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  
-    ga('create', 'UA-70620937-1', 'auto');
-    ga('send', 'pageview');
-  
-  </script>
+	<!--Google Analytics    -->
+	<script>
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-70620937-1', 'auto');
+		ga('send', 'pageview');
+	</script>
 </head>
-  <body class="bg-fixed bg-1">
-<!--[if lt IE 7]>
+
+<body class="bg-fixed bg-1">
+	<!--[if lt IE 7]>
     <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
-   <div class="main-container">
-    <div class="main wrapper clearfix">
-      <!-- Header Start -->
-        <header id="header">
-            <div id="logo">
-                <h2>
-                    Jake Garrison
-                </h2>
-                <h4>
-                    Engineer and Developer
-                </h4>
-            </div>
-        </header>
-        <!-- Header End -->
-        <!-- Main Tab Container -->
-        <div id="tab-container" class="tab-container">
-          <!-- Tab List -->
-            <ul class='etabs'>
-                <li class='tab' id="tab-about"><a href="#about"><i class="icon-user"></i><span> About Me</span></a></li>
-                <li class='tab'><a href="#resume"><i class="icon-align-justify"></i><span> Resume</span></a></li>
-                <li class='tab'><a href="#projects"><i class="icon-terminal"></i><span> Projects</span></a></li>
-                <li class='tab'><a href="#papers"><i class="icon-file-text"></i><span> Papers</span></a></li>
-                <li class='tab'><a href="#contact"><i class="icon-envelope"></i><span> Contact</span></a></li>
-            </ul>
-          <!-- End Tab List -->
-            <div id="tab-data-wrap">
-              <!-- About Tab Data -->
-                <div id="about">
-                    <section class="clearfix">
-                        <div class="g2">
-                            <div class="photo">
-                                <img src="assets/jake.jpg" alt="Jake Garrison">
-                            </div>
-                            <div class="info">
-                                <h2>
-                                    Jake Garrison
-                                </h2>
-                                <h4>
-                                  Engineer / Developer / Musician
-                                </h4>
-                                <p>I'm Jake Garrison, I like making and breaking things</p>
-                                <p>
-                                  I am a senior at UW majoring Electrical Engineering specializing in DSP, Communications and Entrepreneurship. In my free time, I build various electronic projects from software to embedded devices to custom analog music gear. My main research is in the area of hybrid electric vehicles and encompasses everything related to them. Lately I have been focusing on computer vision for autonomous driving.
-                                </p>
-                                <!-- <p>
+	<div class="main-container">
+		<div class="main wrapper clearfix">
+			<!-- Header Start -->
+			<header id="header">
+				<div id="logo">
+					<h2>
+						Jake Garrison
+					</h2>
+					<h4>
+						Engineer and Developer
+					</h4>
+				</div>
+			</header>
+			<!-- Header End -->
+			<!-- Main Tab Container -->
+			<div id="tab-container" class="tab-container">
+				<!-- Tab List -->
+				<ul class='etabs'>
+					<li class='tab' id="tab-about"><a href="#about"><i class="icon-user"></i><span> About</span></a></li>
+					<li class='tab'><a href="#resume"><i class="icon-align-justify"></i><span> Resume</span></a></li>
+					<li class='tab'><a href="#projects"><i class="icon-terminal"></i><span> Projects</span></a></li>
+					<li class='tab'><a href="#papers"><i class="icon-file-text"></i><span> Papers</span></a></li>
+					<li class='tab'><a href="#contact"><i class="icon-envelope"></i><span> Contact</span></a></li>
+				</ul>
+				<!-- End Tab List -->
+				<div id="tab-data-wrap">
+					<!-- About Tab Data -->
+					<div id="about">
+						<section class="clearfix">
+							<div class="g2">
+								<div class="photo">
+									<img src="assets/jake.jpg" alt="Jake Garrison">
+								</div>
+								<div class="info">
+									<h2>
+										Jake Garrison
+									</h2>
+									<h4>
+										Engineer / Developer / Musician
+									</h4>
+									<p>I'm Jake Garrison, I like making and breaking things</p>
+									<p>
+										I am a senior at UW majoring Electrical Engineering specializing in DSP, Communications and Entrepreneurship. In my free time, I build various electronic projects from software to embedded devices to custom analog music gear. My main research is in the
+										area of hybrid electric vehicles and encompasses everything related to them. Lately I have been focusing on computer vision for autonomous driving.
+									</p>
+									<!-- <p>
                                 While in high school, I converted a 1986 VW GTI to a fully electric car. In college I continued my EV passion by joining the UW EcoCAR2 team and competing and placing second in the three year advanced hybrid electric design competition. Now we have started EcoCAR3 and as the Driver Assist Lead I plan to build the the foundation for a successful car down the road. Lately, I have spent my summers working at Tesla Motors and have helped contribute to the most advanced consumer EV on the market.
                                 </p>
                                 <p>
@@ -91,567 +104,638 @@
                                 <p>
                                 Finally, I have a handful of apps, programs, embedded devices and controllers I have designed with purposes ranging from bitcoin mining to image processing to music discovery apps. These projects often rely on linux operating systems or development boards such as Arduinos, Raspberry Pis and mobile and utilize languages such as Python, C, C++ and Javascript to say the least. Many of these projects are a result of hackathons, school projects, or other team projects.
                                 </p> -->
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="main-links sidebar">
-                                <ul>
-                                    <li><a href="#resume">My Resume</a></li>
-                                    <li><a href="#projects">My Projects</a></li>
-                                    <li><a href="#papers">My reports and presentations</a></li>
-                                    <li><a href="#contact">Get in touch with me</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="break"></div>
-                        <div class="contact-info">
-                          <div class="g1">
-                            <div class="item-box clearfix">
-                              <i class="icon-envelope"></i>
-                              <div class="item-data">
-                                <h3><a target="_blank" href="mailto:jakehgarrison@gmail.com">jakehgarrison@gmail.com</a></h3>
-                                <p>Email Address</p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="g1">
-                            <div class="item-box clearfix">
-                              <i class="icon-github"></i>
-                              <div class="item-data">
-                                <h3><a target="_blank" href="https://github.com/jake-g">jake-g</a></h3>
-                                <p>Github Page</p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="g1">
-                            <div class="item-box clearfix">
-                              <i class="icon-linkedin"></i>
-                              <div class="item-data">
-                                <h3><a target="_blank" href="https://www.linkedin.com/in/garrisonjake">Jake Garrison</a></h3>
-                                <p>LinkedIn Profile</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                    </section><!-- content -->
-                </div>
-              <!-- End About Tab Data -->
-              <!-- Resume Tab Data -->
-                <div id="resume">
-                    <section class="clearfix">
-                        <div class="g2">
-                            <h3>
-                                Education
-                            </h3>
-                            <ul class="no-list work">
-                                <li>
-                                    <h5>
-                                      University of Washington
-                                    </h5><span class="label label-success">2011-2015</span>
-                                    <p>
-                                      <b>B.A. Electrical Engineering</b>
-                                    </p>
-                                    <p>Enrolled in UW with not much of an idea of what I wanted to do. I dabbled in Mechanical Engineering, Design, Music, Computer Science and settled on Electrical Engineering. I became fascinated with DSP due to its wide realm of mediums (sound, image, video) and focused on communications, computer vision and entrepreneurship.</p>
-                                </li>
-                            </ul>
-                            <h3>
-                                Work Experience
-                            </h3>
-                            <ul class="no-list work">
-                                <li>
-                                    <h5>
-                                        Autopilot Driver Assist Display
-                                    </h5><span class="label label-info">2015-Present</span>
-                                    <p>Founded and lead a student team designing an open source simple, driver assist display with safety and usability as a priority. We aim accelerate the mergeing AI, tech, and automotive, as well as provid a modern and informative car UI.</p>
-                                    <ul class="list">
-                                        <li> Using Python, Electron, Node and React js</li>
-                                        <li>Flask server with AWS cloud storage</li>
-                                        <li>Leadership experience. Using agile project mangment tools</li>
-                                    </ul>
-                                </li>
-                                  <li>
-                                    <h6></h6>
-                                    <h5>
-                                      DubHacks Sponsor Award
-                                    </h5><span class="label label-info">2013-2014</span>
-                                    <p><a target="_blank" href="http://devpost.com/software/distractedness"><b>Project Page</b></a></p>
-                                    <p>Won Most <i>Innovative Use of Data</i> (GE) and <i>Best Travel Hack</i> (Concur). Essentially tracks a drivers head and gathers data to determine if a driver is distracted. The Data can be explored and visualized on the mobile app. Used Microsoft Kinect, and programmed with C++, Python, Node and React JS</p>
-                                </li>
-                                <li>
-                                    <h5>
-                                        Tesla Motors Systems Integration
-                                    </h5><span class="label label-info">Summer 2015</span>
-                                    <p>Integration intern on a small team focused solely on the development of the Model X falcon doors.</p>
-                                    <ul class="list">
-                                        <li>Contributed to: controls, firmware, sensing, design, validation and testing</li>
-                                        <li>High priority project</li>
-                                        <li>Lots of data collection, parsing, optimizing and troubleshooting</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                  <h6></h6>
-                                    <h5>
-                                      Developer
-                                    </h5><span class="label label-info">2015-Present</span>
-                                    <p>I have contributed to my own, open source and contracted programs, websites, design and apps and continue to start and take on new projects. <i>See projects section for more details</i></p>
-                                </li>
-                                <li>
-                                    <h5>
-                                      Advanced Driver Assist Lead
-                                    </h5><span class="label label-info">2014-Present</span>
-                                    <p><a href="http://ecocar3.org/"><b>Website</b></a></p>
-                                    <p>Lead the autopilot research team for EcoCAR 3 which aims to design and integrate advanced auto pilot features on a 2016 Camaro. Our system will include a custom display and modified steering wheel with driver controls and haptic feedback.</p>
-                                    <ul class="list">
-                                      <li>Embedded Freescale S32V linux programming experience</li>
-                                      <li>Development in OpenCV and other vision based enviornments</li>
-                                      <li>Experience with sensors such as video, ultrasonic, gps and radar</li>
-                                      <li>Creating and implementing professional CAD, drawings, schematics, and pcb designs</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                  <h6></h6>
-                                    <h5>
-                                      Bankroll Bitcoin Miner Startup
-                                    </h5><span class="label label-info">Summer 2014</span>
-                                    <p>One of three working on a hardware tech startup. Project is now open source. Contributed to PCB, firmware development, schematic and plastic enclosure</p>
-                                </li>
-                                <li>
-                                  <h6></h6>
-                                    <h5>
-                                        Tesla Motors Power Electronics
-                                    </h5><span class="label label-info">Summer 2014</span>
-                                      <p>Power Electronics intern focused on the high voltage electric system for the Model S P85D Insane mode
-                                      <ul class="list">
-                                      	<li>Injection Molded and machined part design and tooling</li>
-                                      	<li>Testing and validation on existing parts (temperature and current cycling)</li>
-                                      	<li>R+D for future technology (specifically high voltage fuses, contactors and charging plugs)</li>
-                                      	<li>Creating and implementing professional CAD, drawings, schematics, and pcb designs</li>
-                                      </ul>
-                                    </p>
-                                </li>
-                                <li>
-                                  <h6></h6>
-                                    <h5>
-                                      Electrical Lead
-                                    </h5><span class="label label-info">2013-2015</span>
-                                    <p><a target="_blank" href="http://uwecocar.com/"><b>EcoCAR 2 Competition</b></a></p>
-                                    <p>Involved in the competition for all three years and became electrical lead in year two and propelled the team to win first place electrical team for multiple years</p>
-                                      <ul class="list">
-                                        <li>Lithium Ion Battery pack design</li>
-                                        <li>High voltage training, fusing, simulation, harnesses</li>
-                                        <li>Modeling high and low voltage electrical systems in Simulink, Matlab and NX CAD</li>
-                                        <li>Creating and implementing professional schematics and wire harnesses</li>
-                                        <li>Project management and collaboration with multidisciplinary students, faculty and industry</li>
-                                      </ul>
-                                </li>
-                                <li>
-                                  <h6></h6>
-                                    <h5>
-                                      Focused Ion Beam
-                                    </h5><span class="label label-info">2013-2014</span>
-                                    <p>
-                                      Research Assistant for Professor Bruce Darling, UW Electrical Engineering. Learned to simulate and design circuit boards using NI LabView Multisim and Ultiboard
-                                    </p>
-                                </li>
-                                <li>
-                                  <h6></h6>
-                                    <h5>
-                                      Verellen Amplifiers
-                                    </h5><span class="label label-info">Summer 2013</span>
-                                    <p><a target="_blank" href="http://www.verellenamplifiers.com/verellennewsite/"><b>Website</b></a></p>
-                                    <p>
-                                      Worked in a Fremont, Seattle startup the build custom boutique tube amplifiers and analog distortion pedals. My duties including board soldering, hardware mounting, testing and some design
-                                    </p>
-                                </li>
-                                <li>
-                                  <h6></h6>
-                                    <h5>
-                                      Custom Music Equipment
-                                    </h5><span class="label label-info">2011-Present</span>
-                                    <p>
-                                      I personally designed, built and sold guitar pedals and analog audio FX for local bands and friends
-                                    </p>
-                                    <ul class="list">
-                                        <li>	Learned analog electronics fundamentals</li>
-                                        <li>	Became familiar with PCB design, entrepreneurship and part sourcing </li>
-                                        <li>	Lots of troubleshooting and breadboard work </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                  <h6></h6>
-                                    <h5>
-                                      Electric Car Conversion
-                                    </h5><span class="label label-info">2010-2012</span>
-                                    <p><a target="_blank" href="http://electricgti.blogspot.com/"><b>Website</b></a></p>
-                                    <p>I designed, funded and converted a gas powered Volkswagen GTI to fully electric while in highschool.</p>
-                                      <ul class="list">
-                                        <li>	Designed and hand built the high voltage motor controller along with several metal/wood components</li>
-                                        <li>	Sourced and paid for all of the components, also received sponsorships </li>
-                                        <li>	Awarded engineering scholarship, admission to UW and invited onto the team </li>
-                                      </ul>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="g1">
-                            <div class="sidebar">
-                              <h3>
-                                Awards
-                              </h3>
-                                <ul class="list">
-                                  <li>Best Travel Hack</li>
-                                  <li>Most Innovative Use of Data</li>
-                                  <li>1st Place Electrical Presentation</li>
-                                  <li>3rd Place Mathworks Simulation</li>
-                                  <li>2nd Place Team Overall</li>
-                                  <li>1st Place Battery Pack Design</li>
-                                  <li>WA Society of Engineers Scholarship</li>
-                                </ul>
-                                <h3>
-                                    Skills
-                                </h3>
-                                <h5>
-                                    Software
-                                </h5>
-                                <div class="meter emerald">
-                                    <span style="width: 85%"><span>Matlab / Labview</span></span>
-                                </div>
-                                <div class="meter emerald">
-                                    <span style="width: 80%"><span>Linux</span></span>
-                                </div>
-                                <div class="meter emerald">
-                                    <span style="width: 60%"><span>Intellij / Pycharm </span></span>
-                                </div>
-                                <div class="meter emerald">
-                                    <span style="width: 50%"><span>Photoshop / Sketch</span></span>
-                                </div>
-                                <div class="meter emerald">
-                                    <span style="width: 45%"><span>Multisim / Altium</span></span>
-                                </div>
-                                <div class="meter emerald">
-                                    <span style="width: 85%"><span>Microsoft Office</span></span>
-                                </div>
-                                <div class="meter emerald">
-                                    <span style="width: 65%"><span>Soldiworks / NX </span></span>
-                                </div>
-                                <div class="meter emerald">
-                                    <span style="width: 80%"><span>Ableton Live / Audition</span></span>
-                                </div>
-                                <div class="break"></div>
-                                <h5>
-                                    Programming Language
-                                </h5>
-                                <div class="meter carrot">
-                                    <span style="width: 80%"><span>Python</span></span>
-                                </div>
-                                <div class="meter carrot">
-                                    <span style="width: 45%"><span>C</span></span>
-                                </div>
-                                <div class="meter carrot">
-                                    <span style="width: 55%"><span>Java</span></span>
-                                </div>
-                                <div class="meter carrot">
-                                    <span style="width: 40%"><span>C++</span></span>
-                                </div>
-                                <div class="meter carrot">
-                                    <span style="width: 75%"><span>Bash</span></span>
-                                </div>
-                                <div class="meter carrot">
-                                  <span style="width: 60%"><span>JavaScript</span></span>
-                                </div>
-                                <div class="meter carrot">
-                                    <span style="width: 70%"><span>HTML/CSS</span></span>
-                                </div>
-                                <div class="meter carrot">
-                                    <span style="width: 40%"><span>Super Collider</span></span>
-                                </div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="main-links sidebar">
+									<ul>
+										<li><a href="#resume">My Resume</a></li>
+										<li><a href="#projects">My Projects</a></li>
+										<li><a href="#papers">My reports and presentations</a></li>
+										<li><a href="#contact">Get in touch with me</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="break"></div>
+							<div class="contact-info">
+								<div class="g1">
+									<div class="item-box clearfix">
+										<i class="icon-envelope"></i>
+										<div class="item-data">
+											<h3><a target="_blank" href="mailto:jakehgarrison@gmail.com">jakehgarrison@gmail.com</a></h3>
+											<p>Email Address</p>
+										</div>
+									</div>
+								</div>
+								<div class="g1">
+									<div class="item-box clearfix">
+										<i class="icon-github"></i>
+										<div class="item-data">
+											<h3><a target="_blank" href="https://github.com/jake-g">jake-g</a></h3>
+											<p>Github Page</p>
+										</div>
+									</div>
+								</div>
+								<div class="g1">
+									<div class="item-box clearfix">
+										<i class="icon-linkedin"></i>
+										<div class="item-data">
+											<h3><a target="_blank" href="https://www.linkedin.com/in/garrisonjake">Jake Garrison</a></h3>
+											<p>LinkedIn Profile</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<!-- content -->
+					</div>
+					<!-- End About Tab Data -->
+					<!-- Resume Tab Data -->
+					<div id="resume">
+						<section class="clearfix">
+							<div class="g2">
+								<h3>
+									Education
+								</h3>
+								<ul class="no-list work">
+									<li>
+										<h5>
+											University of Washington
+										</h5>
+										<span class="label label-success">2011-2015</span>
+										<p>
+											<b>B.A. Electrical Engineering</b>
+										</p>
+										<p>Enrolled in UW with not much of an idea of what I wanted to do. I dabbled in Mechanical Engineering, Design, Music, Computer Science and settled on Electrical Engineering. I became fascinated with DSP due to its wide realm of mediums (sound,
+											image, video) and focused on communications, computer vision and entrepreneurship.</p>
+									</li>
+								</ul>
+								<h3>
+									Work Experience
+								</h3>
+								<ul class="no-list work">
+									<li>
+										<h5>
+											Autopilot Driver Assist Display
+										</h5>
+										<span class="label label-info">2015-Present</span>
+										<p>Founded and lead a student team designing an open source simple, driver assist display with safety and usability as a priority. We aim accelerate the mergeing AI, tech, and automotive, as well as provid a modern and informative car UI.</p>
+										<ul class="list">
+											<li> Using Python, Electron, Node and React js</li>
+											<li>Flask server with AWS cloud storage</li>
+											<li>Leadership experience. Using agile project mangment tools</li>
+										</ul>
+									</li>
+									<li>
+										<h6></h6>
+										<h5>
+											DubHacks Sponsor Award
+										</h5>
+										<span class="label label-info">2013-2014</span>
+										<p><a target="_blank" href="http://devpost.com/software/distractedness"><b>Project Page</b></a></p>
+										<p>Won Most <i>Innovative Use of Data</i> (GE) and <i>Best Travel Hack</i> (Concur). Essentially tracks a drivers head and gathers data to determine if a driver is distracted. The Data can be explored and visualized on the mobile app. Used Microsoft
+											Kinect, and programmed with C++, Python, Node and React JS</p>
+									</li>
+									<li>
+										<h5>
+											Tesla Motors Systems Integration
+										</h5>
+										<span class="label label-info">Summer 2015</span>
+										<p>Integration intern on a small team focused solely on the development of the Model X falcon doors.</p>
+										<ul class="list">
+											<li>Contributed to: controls, firmware, sensing, design, validation and testing</li>
+											<li>High priority project</li>
+											<li>Lots of data collection, parsing, optimizing and troubleshooting</li>
+										</ul>
+									</li>
+									<li>
+										<h6></h6>
+										<h5>
+											Developer
+										</h5>
+										<span class="label label-info">2015-Present</span>
+										<p>I have contributed to my own, open source and contracted programs, websites, design and apps and continue to start and take on new projects. <i>See projects section for more details</i></p>
+									</li>
+									<li>
+										<h5>
+											Advanced Driver Assist Lead
+										</h5>
+										<span class="label label-info">2014-Present</span>
+										<p><a href="http://ecocar3.org/"><b>Website</b></a></p>
+										<p>Lead the autopilot research team for EcoCAR 3 which aims to design and integrate advanced auto pilot features on a 2016 Camaro. Our system will include a custom display and modified steering wheel with driver controls and haptic feedback.</p>
+										<ul class="list">
+											<li>Embedded Freescale S32V linux programming experience</li>
+											<li>Development in OpenCV and other vision based enviornments</li>
+											<li>Experience with sensors such as video, ultrasonic, gps and radar</li>
+											<li>Creating and implementing professional CAD, drawings, schematics, and pcb designs</li>
+										</ul>
+									</li>
+									<li>
+										<h6></h6>
+										<h5>
+											Bankroll Bitcoin Miner Startup
+										</h5>
+										<span class="label label-info">Summer 2014</span>
+										<p>One of three working on a hardware tech startup. Project is now open source. Contributed to PCB, firmware development, schematic and plastic enclosure</p>
+									</li>
+									<li>
+										<h6></h6>
+										<h5>
+											Tesla Motors Power Electronics
+										</h5>
+										<span class="label label-info">Summer 2014</span>
+										<p>Power Electronics intern focused on the high voltage electric system for the Model S P85D Insane mode
+											<ul class="list">
+												<li>Injection Molded and machined part design and tooling</li>
+												<li>Testing and validation on existing parts (temperature and current cycling)</li>
+												<li>R+D for future technology (specifically high voltage fuses, contactors and charging plugs)</li>
+												<li>Creating and implementing professional CAD, drawings, schematics, and pcb designs</li>
+											</ul>
+										</p>
+									</li>
+									<li>
+										<h6></h6>
+										<h5>
+											Electrical Lead
+										</h5>
+										<span class="label label-info">2013-2015</span>
+										<p><a target="_blank" href="http://uwecocar.com/"><b>EcoCAR 2 Competition</b></a></p>
+										<p>Involved in the competition for all three years and became electrical lead in year two and propelled the team to win first place electrical team for multiple years</p>
+										<ul class="list">
+											<li>Lithium Ion Battery pack design</li>
+											<li>High voltage training, fusing, simulation, harnesses</li>
+											<li>Modeling high and low voltage electrical systems in Simulink, Matlab and NX CAD</li>
+											<li>Creating and implementing professional schematics and wire harnesses</li>
+											<li>Project management and collaboration with multidisciplinary students, faculty and industry</li>
+										</ul>
+									</li>
+									<li>
+										<h6></h6>
+										<h5>
+											Focused Ion Beam
+										</h5>
+										<span class="label label-info">2013-2014</span>
+										<p>
+											Research Assistant for Professor Bruce Darling, UW Electrical Engineering. Learned to simulate and design circuit boards using NI LabView Multisim and Ultiboard
+										</p>
+									</li>
+									<li>
+										<h6></h6>
+										<h5>
+											Verellen Amplifiers
+										</h5>
+										<span class="label label-info">Summer 2013</span>
+										<p><a target="_blank" href="http://www.verellenamplifiers.com/verellennewsite/"><b>Website</b></a></p>
+										<p>
+											Worked in a Fremont, Seattle startup the build custom boutique tube amplifiers and analog distortion pedals. My duties including board soldering, hardware mounting, testing and some design
+										</p>
+									</li>
+									<li>
+										<h6></h6>
+										<h5>
+											Custom Music Equipment
+										</h5>
+										<span class="label label-info">2011-Present</span>
+										<p>
+											I personally designed, built and sold guitar pedals and analog audio FX for local bands and friends
+										</p>
+										<ul class="list">
+											<li> Learned analog electronics fundamentals</li>
+											<li> Became familiar with PCB design, entrepreneurship and part sourcing </li>
+											<li> Lots of troubleshooting and breadboard work </li>
+										</ul>
+									</li>
+									<li>
+										<h6></h6>
+										<h5>
+											Electric Car Conversion
+										</h5>
+										<span class="label label-info">2010-2012</span>
+										<p><a target="_blank" href="http://electricgti.blogspot.com/"><b>Website</b></a></p>
+										<p>I designed, funded and converted a gas powered Volkswagen GTI to fully electric while in highschool.</p>
+										<ul class="list">
+											<li> Designed and hand built the high voltage motor controller along with several metal/wood components</li>
+											<li> Sourced and paid for all of the components, also received sponsorships </li>
+											<li> Awarded engineering scholarship, admission to UW and invited onto the team </li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+							<div class="g1">
+								<div class="sidebar">
+									<h3>
+										Awards
+									</h3>
+									<ul class="list">
+										<li>Best Travel Hack</li>
+										<li>Most Innovative Use of Data</li>
+										<li>1st Place Electrical Presentation</li>
+										<li>3rd Place Mathworks Simulation</li>
+										<li>2nd Place Team Overall</li>
+										<li>1st Place Battery Pack Design</li>
+										<li>WA Society of Engineers Scholarship</li>
+									</ul>
+									<h3>
+										Skills
+									</h3>
+									<h5>
+										Software
+									</h5>
+									<div class="meter emerald">
+										<span style="width: 85%">
+											<span>Matlab / Labview</span>
+										</span>
+									</div>
+									<div class="meter emerald">
+										<span style="width: 80%">
+											<span>Linux</span>
+										</span>
+									</div>
+									<div class="meter emerald">
+										<span style="width: 60%">
+											<span>Intellij / Pycharm </span>
+										</span>
+									</div>
+									<div class="meter emerald">
+										<span style="width: 50%">
+											<span>Photoshop / Sketch</span>
+										</span>
+									</div>
+									<div class="meter emerald">
+										<span style="width: 45%">
+											<span>Multisim / Altium</span>
+										</span>
+									</div>
+									<div class="meter emerald">
+										<span style="width: 85%">
+											<span>Microsoft Office</span>
+										</span>
+									</div>
+									<div class="meter emerald">
+										<span style="width: 65%">
+											<span>Soldiworks / NX </span>
+										</span>
+									</div>
+									<div class="meter emerald">
+										<span style="width: 80%">
+											<span>Ableton Live / Audition</span>
+										</span>
+									</div>
+									<div class="break"></div>
+									<h5>
+										Programming Language
+									</h5>
+									<div class="meter carrot">
+										<span style="width: 80%">
+											<span>Python</span>
+										</span>
+									</div>
+									<div class="meter carrot">
+										<span style="width: 45%">
+											<span>C</span>
+										</span>
+									</div>
+									<div class="meter carrot">
+										<span style="width: 55%">
+											<span>Java</span>
+										</span>
+									</div>
+									<div class="meter carrot">
+										<span style="width: 40%">
+											<span>C++</span>
+										</span>
+									</div>
+									<div class="meter carrot">
+										<span style="width: 75%">
+											<span>Bash</span>
+										</span>
+									</div>
+									<div class="meter carrot">
+										<span style="width: 60%">
+											<span>JavaScript</span>
+										</span>
+									</div>
+									<div class="meter carrot">
+										<span style="width: 70%">
+											<span>HTML/CSS</span>
+										</span>
+									</div>
+									<div class="meter carrot">
+										<span style="width: 40%">
+											<span>Super Collider</span>
+										</span>
+									</div>
 
-                                <div class="break"></div>
-                                <h5>
-                                    Experience
-                                </h5>
-                                <div class="meter asbestos">
-                                    <span style="width: 85%"><span>Digital Signal Processing</span></span>
-                                </div>
-                                <div class="meter asbestos">
-                                    <span style="width: 75%"><span>Computer Vision</span></span>
-                                </div>
-                                <div class="meter asbestos">
-                                    <span style="width: 50%"><span>Embedded Design</span></span>
-                                </div>
-                                <div class="meter asbestos">
-                                    <span style="width: 60%"><span>Analog Design</span></span>
-                                </div>
-                                <div class="meter asbestos">
-                                    <span style="width: 45%"><span>Cryptography</span></span>
-                                </div>
-                                <div class="meter asbestos">
-                                    <span style="width: 60%"><span>Controls</span></span>
-                                </div>
-                                <div class="meter asbestos">
-                                    <span style="width: 45%"><span>Mechanical Design</span></span>
-                                </div>
-                                <div class="meter asbestos">
-                                    <span style="width: 65%"><span>Computer Science </span></span>
-                                </div>
-                                <div class="meter asbestos">
-                                    <span style="width: 80%"><span>Music Production</span></span>
-                                </div>
-                                <div class="meter asbestos">
-                                    <span style="width: 50%"><span>Web Development</span></span>
-                                </div>
-                                <div class="meter asbestos">
-                                    <span style="width: 45%"><span>User Experience</span></span>
-                                </div>
-                                <div class="break"></div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-              <!-- End Resume Tab Data -->
-              <!-- Projects Tab Data -->
-                <div id="projects">
-                    <section class="clearfix">
-                        <div class="g1">
-                            <div class="image">
-                              <br><b>Autonomous Driving</b>
-                                <img src="assets/ADAS.png" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a target="_blank" href="https://www.youtube.com/playlist?list=PLWptjpDqazOymOtZTLaiW0OCP8Qe2uAKr" class="btn">Video Demo</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                              <br><b>Reverse Image Search</b>
-                                <img src="assets/Img_Search.png" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a target="_blank" href="https://github.com/jake-g/Image-Search" class="btn">Details</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                              <br><b>Drivability Hardware and App</b>
-                                <img src="assets/drivability.png" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a target="_blank" href="http://devpost.com/software/distractedness" class="btn">Details</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="break"></div>
-                        <div class="g1">
-                          <br><b>React.js Maps Web App</b>
-                            <div class="image">
-                                <img src="assets/react-maps.png" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a target="_blank" href="https://github.com/jake-g/react-maps" class="btn">Details</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                              <br><b>Tesla Model X Falcon Doors</b>
-                                <img src="assets/Tesla_modelX.jpg" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a target="_blank" href="https://www.teslamotors.com/modelx" class="btn">Website</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                              <br><b>Vehicle Infotainment System</b>
-                                <img src="assets/eco-banner.png" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <!-- <a target="_blank" href="http://jake-g.github.io/Vehicle-Infotainment-Center/" class="btn">Website</a> -->
-                                        <a target="_blank" href="assets/eco-banner.png" class="btn">Website</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                              <br><b>Online Music Scraper</b>
-                                <img src="assets/music-scrape.png" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a target="_blank" href="https://github.com/jake-g/audio-scrape/" class="btn">Details</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                              <br><br><b>Lane Tracking</b>
-                                <img src="assets/lane_tracking.png" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a target="_blank" href="https://youtu.be/-vmnam3ergc?list=PLWptjpDqazOymOtZTLaiW0OCP8Qe2uAKr" class="btn">Video Demo</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                              <br><b>Gaze Tracking</b>
-                                <img src="assets/gaze_track.png" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a target="_blank" href="https://github.com/jake-g/gaze_traker" class="btn">Details</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                              <br><b>EcoCAR 3</b>
-                                <img src="assets/ecocar-circle.png" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a target="_blank" href="http://ecocar3.org/washington/about-us/" class="btn">Competition Info</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                              <br><b>Instrument Tuner (FFT)</b>
-                                <img src="assets/Ctuner.png" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a target="_blank" href="https://github.com/jake-g/tuner" class="btn">Details</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                              <br><b>Tesla Model S Duel Motor</b>
-                                <img src="assets/Tesla_DuMo.png" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a target="_blank" href="https://www.teslamotors.com/models" class="btn">Website</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                              <br><b>RC Car Composer</b>
-                                <img src="assets/car-composer.png" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a target="_blank" href="https://github.com/jake-g/Car-Composer" class="btn">Details</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                              <br><b>Verellen Amplifiers</b>
-                                <img src="assets/verellen.gif" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a target="_blank" href="http://www.verellenamplifiers.com/verellennewsite/" class="btn">Website</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                              <br><b>Gameboy Color CAD</b>
-                                <img src="assets/gameboy.png" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a target="_blank" href="assets/gameboy.png" class="btn">Full View</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                              <br><b>EcoCAR 2</b>
-                                <img src="assets/ecocar_malibu.jpg" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a target="_blank" href="http://uwecocar.com/project.html" class="btn">Website</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                              <br><b>Supercollider Compositions</b>
-                                <img src="assets/SuperCollider.png" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a target="_blank" href="https://github.com/jake-g/SuperCollider_Compositions" class="btn">Details</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                              <br><b>Arduino Synthesizer</b>
-                                <img src="assets/Arduino_synth.jpg" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a target="_blank" href="https://github.com/jake-g/Car-Composer" class="btn">Details</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                              <br><b>Converted Car to Electric</b>
-                                <img src="assets/gti.jpg" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a target="_blank" href="http://electricgti.blogspot.com/" class="btn">Website</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                              <br><b>Homemade Analog Audio</b>
-                                <img src="assets/pedal.jpg" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a target="_blank" href="assets/pedal.jpg" class="btn">Full View</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                              <br><b>Homemade 500 Amp DC Motor Controller</b>
-                                <img src="assets/Gti_controller.jpg" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a target="_blank" href="https://picasaweb.google.com/110209982684020292593/ControllerConstruction?authkey=Gv1sRgCNeMz4-04cbyIA#slideshow/6030597058882272562" class="btn">Slideshow</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-              <!-- End Projects Data -->
+									<div class="break"></div>
+									<h5>
+										Experience
+									</h5>
+									<div class="meter asbestos">
+										<span style="width: 85%">
+											<span>Digital Signal Processing</span>
+										</span>
+									</div>
+									<div class="meter asbestos">
+										<span style="width: 75%">
+											<span>Computer Vision</span>
+										</span>
+									</div>
+									<div class="meter asbestos">
+										<span style="width: 50%">
+											<span>Embedded Design</span>
+										</span>
+									</div>
+									<div class="meter asbestos">
+										<span style="width: 60%">
+											<span>Analog Design</span>
+										</span>
+									</div>
+									<div class="meter asbestos">
+										<span style="width: 45%">
+											<span>Cryptography</span>
+										</span>
+									</div>
+									<div class="meter asbestos">
+										<span style="width: 60%">
+											<span>Controls</span>
+										</span>
+									</div>
+									<div class="meter asbestos">
+										<span style="width: 45%">
+											<span>Mechanical Design</span>
+										</span>
+									</div>
+									<div class="meter asbestos">
+										<span style="width: 65%">
+											<span>Computer Science </span>
+										</span>
+									</div>
+									<div class="meter asbestos">
+										<span style="width: 80%">
+											<span>Music Production</span>
+										</span>
+									</div>
+									<div class="meter asbestos">
+										<span style="width: 50%">
+											<span>Web Development</span>
+										</span>
+									</div>
+									<div class="meter asbestos">
+										<span style="width: 45%">
+											<span>User Experience</span>
+										</span>
+									</div>
+									<div class="break"></div>
+								</div>
+							</div>
+						</section>
+					</div>
+					<!-- End Resume Tab Data -->
+					<!-- Projects Tab Data -->
+					<div id="projects">
+						<section class="clearfix">
+							<div class="g1">
+								<div class="image">
+									<br><b>Autonomous Driving</b>
+									<img src="assets/ADAS.png" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://www.youtube.com/playlist?list=PLWptjpDqazOymOtZTLaiW0OCP8Qe2uAKr" class="btn">Video Demo</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<br><b>Reverse Image Search</b>
+									<img src="assets/Img_Search.png" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://github.com/jake-g/Image-Search" class="btn">Details</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<br><b>Drivability Hardware and App</b>
+									<img src="assets/drivability.png" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="http://devpost.com/software/distractedness" class="btn">Details</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="break"></div>
+							<div class="g1">
+								<br><b>React.js Maps Web App</b>
+								<div class="image">
+									<img src="assets/react-maps.png" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://github.com/jake-g/react-maps" class="btn">Details</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<br><b>Tesla Model X Falcon Doors</b>
+									<img src="assets/Tesla_modelX.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://www.teslamotors.com/modelx" class="btn">Website</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<br><b>Vehicle Infotainment System</b>
+									<img src="assets/eco-banner.png" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<!-- <a target="_blank" href="http://jake-g.github.io/Vehicle-Infotainment-Center/" class="btn">Website</a> -->
+											<a target="_blank" href="assets/eco-banner.png" class="btn">Website</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<br><b>Online Music Scraper</b>
+									<img src="assets/music-scrape.png" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://github.com/jake-g/audio-scrape/" class="btn">Details</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<br>
+									<br><b>Lane Tracking</b>
+									<img src="assets/lane_tracking.png" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://youtu.be/-vmnam3ergc?list=PLWptjpDqazOymOtZTLaiW0OCP8Qe2uAKr" class="btn">Video Demo</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<br><b>Gaze Tracking</b>
+									<img src="assets/gaze_track.png" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://github.com/jake-g/gaze_traker" class="btn">Details</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<br><b>EcoCAR 3</b>
+									<img src="assets/ecocar-circle.png" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="http://ecocar3.org/washington/about-us/" class="btn">Competition Info</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<br><b>Instrument Tuner (FFT)</b>
+									<img src="assets/Ctuner.png" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://github.com/jake-g/tuner" class="btn">Details</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<br><b>Tesla Model S Duel Motor</b>
+									<img src="assets/Tesla_DuMo.png" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://www.teslamotors.com/models" class="btn">Website</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<br><b>RC Car Composer</b>
+									<img src="assets/car-composer.png" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://github.com/jake-g/Car-Composer" class="btn">Details</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<br><b>Verellen Amplifiers</b>
+									<img src="assets/verellen.gif" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="http://www.verellenamplifiers.com/verellennewsite/" class="btn">Website</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<br><b>Gameboy Color CAD</b>
+									<img src="assets/gameboy.png" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="assets/gameboy.png" class="btn">Full View</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<br><b>EcoCAR 2</b>
+									<img src="assets/ecocar_malibu.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="http://uwecocar.com/project.html" class="btn">Website</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<br><b>Supercollider Compositions</b>
+									<img src="assets/SuperCollider.png" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://github.com/jake-g/SuperCollider_Compositions" class="btn">Details</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<br><b>Arduino Synthesizer</b>
+									<img src="assets/Arduino_synth.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://github.com/jake-g/Car-Composer" class="btn">Details</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<br><b>Converted Car to Electric</b>
+									<img src="assets/gti.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="http://electricgti.blogspot.com/" class="btn">Website</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<br><b>Homemade Analog Audio</b>
+									<img src="assets/pedal.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="assets/pedal.jpg" class="btn">Full View</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<br><b>Homemade 500 Amp DC Motor Controller</b>
+									<img src="assets/Gti_controller.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://picasaweb.google.com/110209982684020292593/ControllerConstruction?authkey=Gv1sRgCNeMz4-04cbyIA#slideshow/6030597058882272562" class="btn">Slideshow</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+					<!-- End Projects Data -->
 
-              <!-- papers Tab Data -->
-                <div id="papers">
-                    <section class="clearfix">
-                        <!-- <div class="g1">
+					<!-- papers Tab Data -->
+					<div id="papers">
+						<section class="clearfix">
+							<!-- <div class="g1">
                             <div class="image">
                               <br><b>Advanced Driver Assist Submission</b>
                                 <img src="assets/ADAS_Vision_Tool_Check_UW_EcoCAR.jpg" alt="">
@@ -662,51 +746,51 @@
                                 </div>
                             </div>
                         </div> -->
-                        <div class="g1">
-                            <div class="image">
-                              <br><b>EcoCAR Electrical Presentation</b>
-                                <img src="assets/Electrical_Presentation_UW_EcoCAR3.jpg" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a target="_blank" href="papers/Electrical_Presentation_UW_EcoCAR3.pdf" class="btn">Read</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                              <br><b>Lane Detection Writeup</b>
-                                <img src="assets/Lane_Detection_EE341.jpg" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a target="_blank" href="papers/Lane_Detection_EE341.pdf" class="btn">Read</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                              <br><b>Regulated Rectifier Circuit Design</b>
-                                <img src="assets/Regulated_Supply_EE331.jpg" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a target="_blank" href="papers/Regulated_Supply_EE331.pdf" class="btn">Read</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                              <br><b>Wireless Routing in Hostile Enviornments</b>
-                                <img src="assets/Wireless_Routing_EE418.jpg" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a target="_blank" href="papers/Wireless_Routing_EE418.pdf" class="btn">Read</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- <div class="g1">
+							<div class="g1">
+								<div class="image">
+									<br><b>EcoCAR Electrical Presentation</b>
+									<img src="assets/Electrical_Presentation_UW_EcoCAR3.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="papers/Electrical_Presentation_UW_EcoCAR3.pdf" class="btn">Read</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<br><b>Lane Detection Writeup</b>
+									<img src="assets/Lane_Detection_EE341.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="papers/Lane_Detection_EE341.pdf" class="btn">Read</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<br><b>Regulated Rectifier Circuit Design</b>
+									<img src="assets/Regulated_Supply_EE331.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="papers/Regulated_Supply_EE331.pdf" class="btn">Read</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<br><b>Wireless Routing in Hostile Enviornments</b>
+									<img src="assets/Wireless_Routing_EE418.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="papers/Wireless_Routing_EE418.pdf" class="btn">Read</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- <div class="g1">
                           <br><b>Battery Pack Design</b>
                             <div class="image">
                                 <img src="assets/Battery_Pack_ESS_EcoCAR3.jpg" alt="">
@@ -717,85 +801,88 @@
                                 </div>
                             </div>
                         </div> -->
-                        <div class="g1">
-                            <div class="image">
-                              <br><b>Fake Facebook Detection Metrics</b>
-                                <img src="assets/Fakebook_EE418.jpg" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a target="_blank" href="papers/Fakebook_EE418.pdf" class="btn">Read</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                              <br><b>Analog Audio Filter Amplifier Circuit</b>
-                                <img src="assets/Audio_Amplifier_EE233.jpg" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a target="_blank" href="papers/Audio_Amplifier_EE233.pdf" class="btn">Read</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                      </section>
-                  </div>
-              <!-- End papers Data -->
-              <!-- Contact Tab Data -->
-                <div id="contact">
-                    <section class="clearfix">
-                       <div class="g1">
-                         <div class="sny-icon-box">
-                           <div class="sny-icon">
-                              <i class="icon-globe"></i>
-                            </div>
-                            <div class="sny-icon-content">
-                              <h4>My Address</h4>
-                              <p>Seattle, WA</p>
-                            </div>
-                         </div>
-                       </div>
-                       <div class="g1">
-                         <div class="sny-icon-box">
-                           <div class="sny-icon">
-                              <i class="icon-phone"></i>
-                            </div>
-                            <div class="sny-icon-content">
-                              <h4>Mobile Number</h4>
-                              <p>509-385-8609</p>
-                            </div>
-                         </div>
-                       </div>
-                       <div class="g1">
-                         <div class="sny-icon-box">
-                           <div class="sny-icon">
-                              <i class="icon-user"></i>
-                            </div>
-                            <div class="sny-icon-content">
-                              <h4>About Me</h4>
-                              <p>I love to work.</p>
-                            </div>
-                         </div>
-                       </div>
-                       <div class="break"></div>
+							<div class="g1">
+								<div class="image">
+									<br><b>Fake Facebook Detection Metrics</b>
+									<img src="assets/Fakebook_EE418.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="papers/Fakebook_EE418.pdf" class="btn">Read</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<br><b>Analog Audio Filter Amplifier Circuit</b>
+									<img src="assets/Audio_Amplifier_EE233.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="papers/Audio_Amplifier_EE233.pdf" class="btn">Read</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+					<!-- End papers Data -->
+					<!-- Contact Tab Data -->
+					<div id="contact">
+						<section class="clearfix">
+							<div class="g1">
+								<div class="sny-icon-box">
+									<div class="sny-icon">
+										<i class="icon-globe"></i>
+									</div>
+									<div class="sny-icon-content">
+										<h4>My Address</h4>
+										<p>Seattle, WA</p>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="sny-icon-box">
+									<div class="sny-icon">
+										<i class="icon-phone"></i>
+									</div>
+									<div class="sny-icon-content">
+										<h4>Mobile Number</h4>
+										<p>509-385-8609</p>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="sny-icon-box">
+									<div class="sny-icon">
+										<i class="icon-user"></i>
+									</div>
+									<div class="sny-icon-content">
+										<h4>About Me</h4>
+										<p>I love to work.</p>
+									</div>
+								</div>
+							</div>
+							<div class="break"></div>
 
-                    </section>
-                </div>
-              <!-- End Contact Data -->
-            </div>
-        </div>
-        <!-- End Tab Container -->
-        <footer>
-            <p>
-                  2015    Jake Garrison
-                <!-- (and several borrowed ideas from people on the web) -->
-            </p>
-        </footer>
-    </div><!-- #main -->
-</div><!-- #main-container -->
+						</section>
+					</div>
+					<!-- End Contact Data -->
+				</div>
+			</div>
+			<!-- End Tab Container -->
+			<footer>
+				<p>
+					2015 Jake Garrison
+					<!-- (and several borrowed ideas from people on the web) -->
+				</p>
+			</footer>
+		</div>
+		<!-- #main -->
+	</div>
+	<!-- #main-container -->
 
 
 
 </body>
+
 </html>

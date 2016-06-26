@@ -1,6 +1,8 @@
 # Changelog
 
 ####6/25/16
+* Removed background
+* Download resume
 * Updated projects
 	* reorganized
 	* added new

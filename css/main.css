@@ -342,6 +342,35 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   color: #999;
 }
 
+.item-nobox{
+  padding: 6px 6px 6px 70%;
+  /*border: 1px solid #f1f1f1;*/
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.item-nobox i{
+  float: left;
+  margin-right: 12px;
+}
+.item-nobox i.icon-envelope{
+
+}
+.item-nobox .item-data{
+ margin-top: 6px;
+}
+.item-nobox .item-data h3{
+  line-height: 1em;
+  margin: 3px 0px 0px 0px;
+  font-size: 1em;
+
+}
+.item-nobox .item-data p{
+  margin: 0px;
+  font-size: 12px;
+  color: #999;
+}
+}
 /* WorkExperience */
 .work li{
   /*border-bottom: 1px solid #f1f1f1;

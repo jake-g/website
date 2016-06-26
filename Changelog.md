@@ -1,11 +1,21 @@
 # Changelog
 
 ####6/25/16
-* Updated About description and added Distraction demo
+* Updated projects
+	* reorganized
+	* added new
+	* added multiple links
+* Updated Papers
+	* added new ones
+	* removed bad ones
+	* fixed cover pic
 * Updated Resume
 	* added Haiku deck
 	* edited other jobs
 	* updated skills and awards
+	* added download link
+* Updated About description and added Distraction demo
+
 ---------------
 ####4/25/16
 * updated bio and jobs

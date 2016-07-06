@@ -433,6 +433,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   top: 50%;
   display: inline-block;
   margin-top: -20px;
+  border-radius: 5px;
 }
 /* Icon Box */
 .sny-icon{

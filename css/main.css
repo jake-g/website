@@ -236,7 +236,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   background: #fff;
   position: relative;
   top: 1px;
-  border-color: #f1f1f1;
+  border-color: #cccccc;
   border-bottom: none;
 }
 
@@ -288,7 +288,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   padding: 0;
 }
 .main-links ul li{
-  border-bottom: 1px solid #F1F1F1;
+  border-bottom: 1px solid #cccccc;
   padding: 10px 0;
 }
 .main-links ul li a{
@@ -315,7 +315,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 
 .item-box{
   padding: 6px 6px 6px 10px;
-  border: 1px solid #f1f1f1;
+  border: 1px solid #cccccc;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -384,7 +384,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 }
 /*Added to draw lines before h5 headers*/
 .work li h6{
-  border-bottom: 1px solid #f1f1f1;
+  border-bottom: 1px solid #cccccc;
   margin-bottom: 1em;
 }
 .work li p{
@@ -544,7 +544,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 .meter {
   height: 24px;  /* Can be anything */
   position: relative;
-  border: 1px solid #f1f1f1;
+  border: 1px solid #cccccc;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
@@ -703,7 +703,7 @@ Change widths as necessary
   /* Sidebar */
   .sidebar{
    padding-left: 20px;
-   border-left: 1px solid #f1f1f1;
+   border-left: 1px solid #cccccc;
  }
  /* COLUMN GRID */
  .g1,.g2,.g3 {display:inline; float: left}

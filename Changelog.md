@@ -8,6 +8,10 @@
 * added to resume
 * added images to resume
 * style and formatting
+* added papers
+* hid projects and code
+* updated contact
+* open links in new tab
 
 ---------------
 ####6/25/16

@@ -1,5 +1,15 @@
 # Changelog
 
+---------------
+####2/20/17
+* Redesigned column layout
+* new resume upload
+* Rewrote about
+* added to resume
+* added images to resume
+* style and formatting
+
+---------------
 ####6/25/16
 * Removed background
 * Download resume

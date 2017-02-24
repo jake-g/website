@@ -6,8 +6,11 @@
 * add recent papers and projects
 * trim projects down. feature good on top and others on bottom
 * split papers into papers then presentations
+* no title for papers (redundant)
 * add game of life
 * add woof and rtunes content demo
+* add news interviews / media
+* organize images folder with subfolders
 
 ### Bugs
 * Resize images to load faster (projects papers ext)

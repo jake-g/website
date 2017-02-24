@@ -33,7 +33,7 @@ $(document).ready(function() {
 		updateHash: true,
 		transitionIn: 'slideDown',
 		transitionOut: 'slideUp',
-		animationSpeed: 1200,
+		animationSpeed: 800,
 		tabActiveClass: 'active'
 	}).bind('easytabs:midTransition', function(event, $clicked, $targetPanel) {
 		if ($targetPanel.selector == '#resume') {

@@ -2,10 +2,9 @@
 #### 2/21/17
 
 ### Update
-* add recent projects
 * add game of life
-* add woof and rtunes content demo
 * add news interviews / media attention
+* add puppy.ai craigslist bot, node img scraper, ubi projects
 
 ### Organization
 * maybe add a presentations tab for posters, presentations

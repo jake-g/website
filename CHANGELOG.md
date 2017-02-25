@@ -1,6 +1,13 @@
 # Changelog
 
 ---------------
+####2/24/17
+* Added sections to projects and papers
+* reduced size of images
+* reorg images
+* cleaned html and css
+
+---------------
 ####2/20/17
 * Redesigned column layout
 * new resume upload
@@ -9,7 +16,7 @@
 * added images to resume
 * style and formatting
 * added papers
-* hid projects and code
+* hide projects and code
 * updated contact
 * open links in new tab
 

@@ -3,6 +3,7 @@
 
 ### Update
 * add recent projects
+* add posters
 * add game of life
 * add woof and rtunes content demo
 * add news interviews / media attention
@@ -10,7 +11,7 @@
 ### Organization
 * categorize projects (software web, hardware, cars, audio)
 * OR feature good projects on top and others on bottom
-* maybe add a presentations tab for posters, presentations 
+* maybe add a presentations tab for posters, presentations
 * organize images folder with subfolders
 
 ### Style

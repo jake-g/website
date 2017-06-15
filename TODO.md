@@ -13,7 +13,7 @@
 * add puppy.ai craigslist bot, node img scraper, ubi projects
 
 ### Organization
-* maybe add a presentations tab for posters, presentations
+
 
 ### Style
 * Make is more obvious that there are sections in projects/paper (table of

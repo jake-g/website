@@ -1,6 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
-
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans=Lato:400,700);
+https://fonts.googleapis.com/css?family=Work+Sans
 *, *:before, *:after {
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
@@ -21,7 +22,7 @@ p, blockquote, q, pre, address, hr, code, samp, dl, ol, ul, form, table, fieldse
 
 /* TYPOGRAPHY */
 /* Composed to a scale of 12px, 14px, 16px, 18px, 21px, 24px, 36px, 48px, 60px and 72px */
-h1, h2, h3, h4, h5, h6 {font-family:'Open Sans', sans-serif;color:#444;}
+h1, h2, h3, h4, h5, h6 {font-family:'Work Sans', sans-serif;color:#444;}
 h1 {margin: 0; font-size: 3.75em; line-height: 1.2em; margin-bottom: 0.4em} /* 60px / 72px */
 h2 {margin: 0; font-size: 3em; line-height: 1em; margin-bottom: 0.5em} /* 48px / 48px */
 h3 {margin: 0; font-size: 2.25em; line-height: 1.333em; margin-bottom: 1em} /* 36px / 48px */
@@ -208,7 +209,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 #tab-data-wrap{
   padding: 30px 20px;
   background: #fff;
-  border: 1px solid #cccccc;
+  /* border: 1px solid #cccccc; */
   box-shadow: 0px 6px #1abc9c;
   border-radius: 4px 4px 4px 4px;
 }
@@ -219,7 +220,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   zoom: 1;
   *display: inline;
   background: #fff;
-  border: solid 1px #cccccc;
+  /* border: solid 1px #cccccc; */
   border-bottom: 0px;
   -moz-border-radius: 4px 4px 0 0;
   -webkit-border-radius: 4px 4px 0 0;
@@ -245,7 +246,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   background: #fff;
   position: relative;
   top: 1px;
-  border-color: #cccccc;
+  /* border-color: #cccccc; */
   border-bottom: none;
 }
 

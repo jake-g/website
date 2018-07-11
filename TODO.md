@@ -2,6 +2,11 @@
 #### 3/13/17
 
 ### Update
+* pc build
+* Ubicomp Projects (eye, bili, spiro, cough, carpacio)
+* bots
+* altcoin io
+* 3d printing
 * add zuru project
 * spirosound and carpacio projects
 * puppy ai webapp
@@ -20,7 +25,6 @@
   contents or something)
 
 ### Bugs
-* Clean up all the ie compatibility stuff in header and css
 * Bar graphs glitch when resize window to small then large again
 * laggy on safari. disable animations?
 * no rounded radius corners in firefox

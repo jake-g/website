@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<!-- [if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>-->
 <html class="no-js">
 
 
@@ -16,17 +12,13 @@
 	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.min.css">
 	<link rel="stylesheet" href="css/main.css">
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+	<!-- Resource jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 	<script>
-		window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')
+		if (!window.jQuery) document.write('<script src="js/vendor/jquery-3.0.0.min.js"><\/script>');
 	</script>
-	<script src="js/vendor/jquery.hashchange.min.js"></script>
-	<script src="js/vendor/jquery.easytabs.min.js"></script>
 	<script src="js/main.js"></script>
-	<!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-      <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
-      <![endif]-->
 
 	<!--Google Analytics    -->
 	<script>
@@ -48,36 +40,34 @@
 </head>
 
 <!-- Content -->
-
 <body class="bg-fixed bg-1">
-	<!--[if lt IE 7]>
-    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-    <![endif]-->
 	<div class="main-container">
 		<div class="main wrapper clearfix">
 			<!-- Header Start -->
-			<header id="header">
-				<div id="logo">
-					<h2>
-						Jake Garrison
-					</h2>
-					<!-- <h4>
-						Engineer and Developer
-					</h4> -->
-				</div>
+			<header id="header" class="cd-auto-hide-header">
+				<nav class="primary-nav">
+					<!-- Tab List -->
+					<ul class="etabs">
+						<li class="tab"><a href="#about"><i class="icon-user"></i><span> About</span></a></li>
+						<li class="tab"><a href="#resume"><i class="icon-align-justify"></i><span> Resume</span></a></li>
+						<li class="tab"><a href="#projects"><i class="icon-terminal"></i><span> Projects</span></a></li>
+						<li class="tab"><a href="#papers"><i class="icon-file-text"></i><span> Papers</span></a></li>
+						<li class="tab"><a href="#contact"><i class="icon-envelope"></i><span> Contact</span></a></li>
+					</ul>
+					<!-- End Tab List -->
+				</nav>
 			</header>
 			<!-- Header End -->
+			<div id="logo">
+				<h2>
+					Jake Garrison
+				</h2>
+				<!-- <h4>
+					Engineer and Developer
+				</h4> -->
+			</div>
 			<!-- Main Tab Container -->
 			<div id="tab-container" class="tab-container">
-				<!-- Tab List -->
-				<ul class="etabs">
-					<li class="tab"><a href="#about"><i class="icon-user"></i><span> About</span></a></li>
-					<li class="tab"><a href="#resume"><i class="icon-align-justify"></i><span> Resume</span></a></li>
-					<li class="tab"><a href="#projects"><i class="icon-terminal"></i><span> Projects</span></a></li>
-					<li class="tab"><a href="#papers"><i class="icon-file-text"></i><span> Papers</span></a></li>
-					<li class="tab"><a href="#contact"><i class="icon-envelope"></i><span> Contact</span></a></li>
-				</ul>
-				<!-- End Tab List -->
 				<div id="tab-data-wrap">
 					<!-- About Tab Data -->
 					<div id="about">
@@ -208,8 +198,8 @@
 										</h5>
 										<span class="label label-info">2015-Present</span>
 										<p><a target="_blank" href="https://puppyai.github.io/"><b>Website</b></a></p>
-										<p>An iOS dog breed detection app assisted by offline mobile deep learning powered by Tensorflow. puppy.ai is available in the app store via website above. I am responsible for app design and the breed classifier engine and working remotely with an
-											international team of three.</p>
+										<p>An iOS dog breed detection app assisted by offline mobile deep learning powered by Tensorflow. puppy.ai is available in the app store via website above. I am responsible for app design and the breed classifier engine and working remotely with
+											an international team of three.</p>
 										<ul class="list">
 											<li>Trained Tensorflow CNN model (Python)</li>
 											<li>Designed iOS app and web app (Objective C/js)</li>

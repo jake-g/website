@@ -1,8 +1,34 @@
 # TODO
+#### 7/1/2018
+* link to thesis in bio. look for other places to insert links
+* make most links go to the section with more info rather than to an external website. (like instead of verellen.com link in bio, have that link go to the project panel)
+
+Contact Info
+* take off mobile Number
+* make a mini view (dektop only) with contact info on sidebar
+
+Skill Bars
+* replace color level bars with ascii bars or scores
+* update skill bars with new Skills
+
+Resume
+* reduce text
+* update resume with new jobs
+
+Project gallery 
+* lazy load images
+* add new projects
+* add new papers/Posters
+* github style search
+* no hover action, 
+* have buttons just as text below image like reddit
+
+
 #### 3/13/17
 
 ### Update
 * pc build
+* mining
 * Ubicomp Projects (eye, bili, spiro, cough, carpacio)
 * bots
 * altcoin io

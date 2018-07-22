@@ -313,18 +313,10 @@ span.amp {
   vertical-align: baseline;
 }
 
-/* Best available ampersand */
-
-/* MICRO CLEARFIX HACK */
-
-/* For modern browsers */
-
-/* For IE 6/7 (trigger hasLayout) */
-
 /* DEFAULT MOBILE STYLE */
 
 body {
-  width: 92%;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -358,15 +350,6 @@ body {
 
 /* Utility */
 
-.bg-fixed {
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 
 .clearfix:after {
   content: ".";
@@ -404,11 +387,6 @@ body {
   clear: both;
 }
 
-/* Backgrounds */
-
-.bg-1 {
-  /*background-image: url('../images/background.jpg');*/
-}
 
 /* Header */
 
@@ -425,7 +403,7 @@ body {
 /* Tabs */
 
 .etabs {
-  margin: 0px 5% 0px 5%;
+  margin: 5px 10px 5px 10px;
   padding: 0px;
   text-align: center;
 }
@@ -451,7 +429,7 @@ body {
   border-bottom: 0px;
   -moz-border-radius: 4px 4px 0 0;
   -webkit-border-radius: 4px 4px 0 0;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .tab a {

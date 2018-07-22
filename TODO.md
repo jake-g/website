@@ -2,9 +2,10 @@
 #### 7/1/2018
 * link to thesis in bio. look for other places to insert links
 * make most links go to the section with more info rather than to an external website. (like instead of verellen.com link in bio, have that link go to the project panel)
+* top tabs go into icon only too soon
 
 Contact Info
-* take off mobile Number
+<!-- * take off mobile Number -->
 * make a mini view (dektop only) with contact info on sidebar
 
 Skill Bars

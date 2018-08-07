@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js">
 
-
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,17 +15,19 @@
 	<!-- Resource jQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 	<script>
-		if (!window.jQuery) document.write('<script src="js/vendor/jquery-3.0.0.min.js"><\/script>');
+		if (!window.jQuery)
+			document.write('<script src="js/vendor/jquery-3.0.0.min.js"><\/script>');
 	</script>
 	<script src="js/main.js"></script>
 
-	<!--Google Analytics    -->
+	<!--Google Analytics -->
 	<script>
 		(function(i, s, o, g, r, a, m) {
 			i['GoogleAnalyticsObject'] = r;
 			i[r] = i[r] || function() {
-				(i[r].q = i[r].q || []).push(arguments)
-			}, i[r].l = 1 * new Date();
+					(i[r].q = i[r].q || []).push(arguments)
+				},
+				i[r].l = 1 * new Date();
 			a = s.createElement(o),
 				m = s.getElementsByTagName(o)[0];
 			a.async = 1;
@@ -48,11 +49,36 @@
 			<nav class="primary-nav">
 				<!-- Tab List -->
 				<ul class="etabs">
-					<li class="tab"><a href="#about"><i class="icon-user"></i><span> About</span></a></li>
-					<li class="tab"><a href="#resume"><i class="icon-align-justify"></i><span> Resume</span></a></li>
-					<li class="tab"><a href="#projects"><i class="icon-terminal"></i><span> Projects</span></a></li>
-					<li class="tab"><a href="#papers"><i class="icon-file-text"></i><span> Papers</span></a></li>
-					<li class="tab"><a href="#contact"><i class="icon-envelope"></i><span> Contact</span></a></li>
+					<li class="tab">
+						<a href="#about">
+								<i class="icon-user"></i>
+								<span>
+									About</span></a>
+					</li>
+					<li class="tab">
+						<a href="#resume">
+								<i class="icon-align-justify"></i>
+								<span>
+									Resume</span></a>
+					</li>
+					<li class="tab">
+						<a href="#projects">
+								<i class="icon-terminal"></i>
+								<span>
+									Projects</span></a>
+					</li>
+					<li class="tab">
+						<a href="#papers">
+								<i class="icon-file-text"></i>
+								<span>
+									Papers</span></a>
+					</li>
+					<li class="tab">
+						<a href="#contact">
+								<i class="icon-envelope"></i>
+								<span>
+									Contact</span></a>
+					</li>
 				</ul>
 				<!-- End Tab List -->
 			</nav>
@@ -63,10 +89,6 @@
 			<h2>
 					Jake Garrison
 				</h2>
-
-			<!-- <h4>
-					Engineer and Developer
-				</h4> -->
 		</div>
 		<!-- Main Tab Container -->
 		<div id="tab-container" class="tab-container">
@@ -82,47 +104,51 @@
 								<h4>
 										<center>I'm Jake. I like designing, making, breaking and solving and fixing things</center>
 									</h4>
-								<p><i>
-										I studied Electrical Engineering at the University of Washington as an undergraduate and specialized in machine learning, computer vision, and signal processing for graduate school. I was born and raised in Spokane, WA and am now based in Seattle, WA.
-										In my free time, I build various (mostly) open source projects from software to embedded devices to analog music gear.
-									</i></p>
-								<!-- <div class="break"></div> -->
+								<p>
+									<i>
+											I studied Electrical Engineering at the University of Washington as an undergraduate and specialized in machine learning, computer vision, and signal processing for graduate school. I was born and raised in Spokane, WA and am now based in Seattle,
+											WA. In my free time, I build various (mostly) open source projects from software to embedded devices to analog music gear.
+										</i>
+								</p>
 								<div class="line-break"></div>
 								<h3>Academic Epochs</h3>
 								<h6>High School</h6>
 								<p>
-									I designed and built my own <a target="_blank" href="http://electricgti.blogspot.com/">electric vehicle</a> by converting a seized Volkswagen car to run fully off of batteries. I also designed and built custom analog/digital audio hardware. It
-									still drives.
+									I designed and built my own
+									<a target="_blank" href="http://electricgti.blogspot.com/">electric vehicle</a> by converting a seized Volkswagen car to run fully off of batteries. I also designed and built custom analog/digital audio hardware. It still drives.
 								</p>
 								<h6>College</h6>
 								<p>
-									I continued working with electric cars as one of the leads for the <a target="_blank" href="http://uwecocar.com/">UW EcoCar team</a>. This led to an internship at Tesla where production firmware code for the Model S Insane Mode and Model X Falcon
-									Wing doors and Autopilot. Following this, I focused on autonomous driving and in-vehicle display research via EcoCAR. During this time I continued to build audio hardware and software. I briefly worked at <a target="_blank" href="https://www.verellenamplifiers.com/">Verellen Amplifiers</a>,
-									researched various sound synthesis techniques, and also built <a target="_blank" href="http://www.rtunes.xyz/">rtunes</a>, a cross-platform music discovery app based on crowdsourced data from Reddit and AI. I also began contributing to hardware
-									and software related to cryptocurrency mining and 3D printing.
+									I continued working with electric cars as one of the leads for the
+									<a target="_blank" href="http://uwecocar.com/">UW EcoCar team</a>. This led to an internship at Tesla where production firmware code for the Model S Insane Mode and Model X Falcon Wing doors and Autopilot. Following this, I focused on autonomous
+									driving and in-vehicle display research via EcoCAR. During this time I continued to build audio hardware and software. I briefly worked at
+									<a target="_blank" href="https://www.verellenamplifiers.com/">Verellen Amplifiers</a>, researched various sound synthesis techniques, and also built
+									<a target="_blank" href="http://www.rtunes.xyz/">rtunes</a>, a cross-platform music discovery app based on crowdsourced data from Reddit and AI. I also began contributing to hardware and software related to cryptocurrency mining and 3D printing.
 								</p>
 								<h6>Graduate School</h6>
 								<p>
-									I was a researcher at the <a target="_blank" href="https://ubicomplab.cs.washington.edu/">UbiComp lab</a>. Specifically, I worked on health screening/sensing mobile applications based on audio, video and other sensor input. My thesis was on the
-									topic of smartphone sound based spirometry powered by AI. I explored several other AI, machine learning powered solutions as part of <a target="_blank" href="http://www.dedsimple.com/">Dedsimple</a>, a company I co-founded. Additionally, I helped
-									develop Zuru, an AI design assistant service offered by <a target="_blank" href="https://www.haikudeck.com/zuru/">Haiku Deck</a>.
+									I was a researcher at the
+									<a target="_blank" href="https://ubicomplab.cs.washington.edu/">UbiComp lab</a>. Specifically, I worked on health screening/sensing mobile applications based on audio, video and other sensor input. My thesis was on the topic of smartphone sound
+									based spirometry powered by AI. I explored several other AI, machine learning powered solutions as part of
+									<a target="_blank" href="http://www.dedsimple.com/">Dedsimple</a>, a company I co-founded. Additionally, I helped develop Zuru, an AI design assistant service offered by
+									<a target="_blank" href="https://www.haikudeck.com/zuru/">Haiku Deck</a>.
 								</p>
 							</div>
 						</div>
 						<!-- <div class="links-col">
-								<div class="main-links sidebar">
-									<ul>
-										<li><a href="#resume">Resume</a></li>
-										<li><a href="#projects">Projects</a></li>
-										<li><a href="#papers">Papers</a></li>
-										<li><a target="_blank" href="https://ubicomplab.cs.washington.edu/">UW UbiComp lab</a></li>
-										<li><a target="_blank" href="http://uwecocar.com/">UW EcoCar Lab</a></li>
-										<li><a target="_blank" href="http://www.rtunes.xyz/">rtunes</a></li>
-										<li><a target="_blank" href="http://electricgti.blogspot.com/">Electric GTI</a></li>
-										<li><a href="#contact">Contact me</a></li>
-									</ul>
-								</div>
-							</div> -->
+							<div class="main-links sidebar">
+								<ul>
+									<li><a href="#resume">Resume</a></li>
+									<li><a href="#projects">Projects</a></li>
+									<li><a href="#papers">Papers</a></li>
+									<li><a target="_blank" href="https://ubicomplab.cs.washington.edu/">UW UbiComp lab</a></li>
+									<li><a target="_blank" href="http://uwecocar.com/">UW EcoCar Lab</a></li>
+									<li><a target="_blank" href="http://www.rtunes.xyz/">rtunes</a></li>
+									<li><a target="_blank" href="http://electricgti.blogspot.com/">Electric GTI</a></li>
+									<li><a href="#contact">Contact me</a></li>
+								</ul>
+							</div>
+						</div> -->
 						<div class="break"></div>
 					</section>
 					<!-- content -->
@@ -164,7 +190,11 @@
 											UbiComp Lab
 										</h5>
 									<span class="label label-info">2016-Present</span>
-									<p><a target="_blank" href="https://ubicomplab.cs.washington.edu/"><b>Website</b></a></p>
+									<p>
+										<a target="_blank" href="https://ubicomplab.cs.washington.edu/">
+												<b>Website</b>
+											</a>
+									</p>
 									<p>The ubiquitous computing (UbiComp) research lab, led by Prof. Shwetak Patel, focuses on many areas of ubiquitous computing including novel user interface technology, energy sensing, low-power sensing, health sensing, and activity recognition
 										by applying expertise in sensing, signal processing, embedded systems, circuits, and human-computer interaction. Close collaborations with Microsoft Research, Oculus Research, Intel, Google, and many other companies.
 									</p>
@@ -179,15 +209,18 @@
 								<li>
 									<div class="line-break"></div>
 									<div class="logo"><img src="images/logos/puppy.jpg" alt=""></div>
-									<h5>
-											Puppy.ai
-										</h5>
+									<h5>Puppy.ai</h5>
 									<span class="label label-info">2015-Present</span>
-									<p><a target="_blank" href="https://puppyai.github.io/"><b>Website</b></a></p>
+									<p>
+										<a target="_blank" href="https://puppyai.github.io/">
+												<b>Website</b>
+											</a>
+									</p>
 									<p>An iOS dog breed detection app assisted by on-device deep learning powered by Tensorflow. puppy.ai is available in the app store. Worked on a small, effective international team of three.</p>
 									<ul class="list">
 										<li>Trained Tensorflow model and build mobile engine</li>
-										<li>Designed iOS app <a target="_blank" href="https://itunes.apple.com/us/app/puppy.ai/id1207505795?mt=8">(App Store link)</a> and web app</li>
+										<li>Designed iOS app
+											<a target="_blank" href="https://itunes.apple.com/us/app/puppy.ai/id1207505795?mt=8">(App Store link)</a> and web app</li>
 									</ul>
 								</li>
 								<li>
@@ -197,7 +230,11 @@
 											rtunes.xyz
 										</h5>
 									<span class="label label-info">2016-Present</span>
-									<p><a target="_blank" href="http://rtunes.xyz/"><b>Web App</b></a></p>
+									<p>
+										<a target="_blank" href="http://rtunes.xyz/">
+												<b>Web App</b>
+											</a>
+									</p>
 									<p>Created open source music player that generates hundreds of playlists and stations based on crowed sourced data from Reddit. Select playlists that answer questions such as "What's your favorite song in a language you don't speak", or get a live
 										feed of music as people around the world post it.</p>
 									<ul class="list">
@@ -213,7 +250,11 @@
 											Haiku Deck
 										</h5>
 									<span class="label label-info">Summer 2016</span>
-									<p><a target="_blank" href="https://www.haikudeck.com/zuru"><b>Demo</b></a></p>
+									<p>
+										<a target="_blank" href="https://www.haikudeck.com/zuru">
+												<b>Demo</b>
+											</a>
+									</p>
 									<p>A presentation iOS and Web app Seattle startup used by millions. It features Zuru, an AI platform for presentation automation. I contributed to research and development for the Zuru service and its assistant features that generate presentations
 										from external content such as wikipedia or outlines.</p>
 									<ul class="list">
@@ -230,12 +271,22 @@
 										</h5>
 									<span class="label label-info">2015-2016</span>
 									<p>
-										<a target="_blank" href="https://youtu.be/vnFNyZdMrwk"><b> Video Demo</b></a>
-										<a target="_blank" href="https://uwecocar.github.io/UW-Infotainment"><b> Interactive Demo</b></a>
+										<a target="_blank" href="https://youtu.be/vnFNyZdMrwk">
+												<b>
+													Video Demo</b>
+											</a>
+										<a target="_blank" href="https://uwecocar.github.io/UW-Infotainment">
+												<b>
+													Interactive Demo</b>
+											</a>
 									</p>
-									<p>Founded and lead a student team designing a full-fledged driver awareness system to monitor a driver's attention using metrics such as distraction, sleep, phone usage and happiness. Metrics are based on realtime analysis of the drivers face and
-										can be visualized on our UI. This concept won <i>Innovative Use of Data</i> (GE) and <i>Best Travel Hack</i> (Concur) at its original unveiling at DubHacks, then <i>3rd place Consumer Appeal</i> at the national EcoCAR event. Entered in Amazon
-										Catalyst for funding.</p>
+									<p>
+										Founded and lead a student team designing a full-fledged driver awareness system to monitor a driver's attention using metrics such as distraction, sleep, phone usage and happiness. Metrics are based on realtime analysis of the drivers face and can be
+										visualized on our UI. This concept won
+										<i>Innovative Use of Data</i> (GE) and
+										<i>Best Travel Hack</i> (Concur) at its original unveiling at DubHacks, then
+										<i>3rd place Consumer Appeal</i> at the national EcoCAR event. Entered in Amazon Catalyst for funding.
+									</p>
 									<ul class="list">
 										<li>Microsoft Kinect embedded vision hardware</li>
 										<li>Vision detection algorithms (C/C++, OpenCV, Matlab)</li>
@@ -267,7 +318,11 @@
 											Tesla Integration Team
 										</h5>
 									<span class="label label-info">Summer 2015</span>
-									<p><a target="_blank" href="https://www.teslamotors.com/modelx"><b>Model X</b></a></p>
+									<p>
+										<a target="_blank" href="https://www.teslamotors.com/modelx">
+												<b>Model X</b>
+											</a>
+									</p>
 									<p>Systems Integration intern on a small multidisciplinary team focused solely on the development of the Model X falcon doors and sensing.</p>
 									<ul class="list">
 										<li>Wrote production code</li>
@@ -287,12 +342,17 @@
 										</h5>
 									<span class="label label-info">2015-2016</span>
 									<p>
-										<a target="_blank" href="http://ecocar3.org/"><b>EcoCAR 3</b></a>
-										<a target="_blank" href="https://www.youtube.com/playlist?list=PLWptjpDqazOymOtZTLaiW0OCP8Qe2uAKr"><b>Youtube Channel</b></a>
+										<a target="_blank" href="http://ecocar3.org/">
+												<b>EcoCAR 3</b>
+											</a>
+										<a target="_blank" href="https://www.youtube.com/playlist?list=PLWptjpDqazOymOtZTLaiW0OCP8Qe2uAKr">
+												<b>Youtube Channel</b>
+											</a>
 									</p>
 
 									<p>Lead the autopilot research team for EcoCAR 3 which aims to design and integrate advanced autopilot features on a 2016 Camaro. Our system is capable of realtime object detection including sign, lane, vehicle and pedestrian detection. Received
-										<i>Second Place for Driver Assist technology (tie)</i></p>
+										<i>Second Place for Driver Assist technology (tie)</i>
+									</p>
 									<ul class="list">
 										<li>Project Management and leadership</li>
 										<li>Developed realtime vision applications based on the YOLO convolutional neural network framework and deployed on the NVIDIA Jetson TX1 Embedded Systems Module</li>
@@ -316,7 +376,11 @@
 											Tesla Power Electronics
 										</h5>
 									<span class="label label-info">Summer 2014</span>
-									<p><a target="_blank" href="https://www.teslamotors.com/models"><b>Model S</b></a></p>
+									<p>
+										<a target="_blank" href="https://www.teslamotors.com/models">
+												<b>Model S</b>
+											</a>
+									</p>
 									<p>Power Electronics intern focused on the high voltage electric system for the Model S P85D Insane mode
 										<ul class="list">
 											<li>Injection Molded and machined part design and tooling</li>
@@ -334,7 +398,11 @@
 											Electrical Lead
 										</h5>
 									<span class="label label-info">2013-2015</span>
-									<p><a target="_blank" href="http://uwecocar.com/"><b>EcoCAR 2</b></a></p>
+									<p>
+										<a target="_blank" href="http://uwecocar.com/">
+												<b>EcoCAR 2</b>
+											</a>
+									</p>
 									<p>Involved in the competition for all three years and became electrical lead . We were awarded first place electrical team for multiple years</p>
 									<ul class="list">
 										<li>Lithium ion battery pack design</li>
@@ -368,7 +436,11 @@
 											Verellen Amplifiers
 										</h5>
 									<span class="label label-info">Summer 2013</span>
-									<p><a target="_blank" href="http://www.verellenamplifiers.com/verellennewsite/"><b>Website</b></a></p>
+									<p>
+										<a target="_blank" href="http://www.verellenamplifiers.com/verellennewsite/">
+												<b>Website</b>
+											</a>
+									</p>
 									<p>
 										Worked in a Fremont, Seattle startup that builds custom boutique tube amplifiers and analog distortion pedals.
 									</p>
@@ -388,9 +460,14 @@
 										Designed, built and sold guitar pedals and analog audio FX for local bands and friends
 									</p>
 									<ul class="list">
-										<li> Learned analog electronics fundamentals</li>
-										<li> Became familiar with PCB design, entrepreneurship and part sourcing </li>
-										<li> Lots of troubleshooting and breadboard work </li>
+										<li>
+											Learned analog electronics fundamentals</li>
+										<li>
+											Became familiar with PCB design, entrepreneurship and part sourcing
+										</li>
+										<li>
+											Lots of troubleshooting and breadboard work
+										</li>
 									</ul>
 								</li>
 								<li>
@@ -400,7 +477,11 @@
 											Electric Car Conversion
 										</h5>
 									<span class="label label-info">2010-2012</span>
-									<p><a target="_blank" href="http://electricgti.blogspot.com/"><b>Website</b></a></p>
+									<p>
+										<a target="_blank" href="http://electricgti.blogspot.com/">
+												<b>Website</b>
+											</a>
+									</p>
 									<p>I designed, funded and converted a gas powered Volkswagen GTI to fully electric while in highschool. Awarded Washington Society of Engineering scholarship upon completion</p>
 									<ul class="list">
 										<li>Designed and hand built the high voltage motor controller</li>
@@ -419,7 +500,10 @@
 											<i class="icon-download"></i>
 										</div>
 										<div class="item-data">
-											<h3><a target="_blank" href="docs/Garrison_Jake_MSEE_Resume_Feb_2017.pdf">Download Resume </a></h3>
+											<h3>
+													<a target="_blank" href="docs/Garrison_Jake_MSEE_Resume_Feb_2017.pdf">Download Resume
+													</a>
+												</h3>
 											<p>Printer Friendy</p>
 										</div>
 									</div>
@@ -466,12 +550,31 @@
 									<li>Modern physics and biology</li>
 									<li>Everything else interesting</li>
 								</ul>
+								<h4>
+										Awards
+									</h4>
+								<ul class="list">
+									<li>3.8 graduate school GPA</li>
+									<li>Invited to Boeing Innovation Summit</li>
+									<li>Amazon Catalyst runner-up</li>
+									<li>Best Travel Hack</li>
+									<li>Most Innovative Use of Data</li>
+									<li>WA Society of Engineers Scholarship</li>
+									<li>1st Place Electrical Presentation</li>
+									<li>1st Place Battery Pack Design</li>
+									<li>2nd Place EcoCar Team Overall</li>
+									<li>2nd Place Driver Assist Technology</li>
+									<li>3rd Place Consumer Appeal Presentation</li>
+									<li>3rd Place Mathworks Simulation</li>
+								</ul>
 								<div class="item-center clearfix">
 									<div class="sny-icon">
 										<i class="icon-envelope"></i>
 									</div>
 									<div class="item-data">
-										<h3><a target="_blank" href="mailto:jakehgarrison@gmail.com">jakehgarrison@</a></h3>
+										<h3>
+												<a target="_blank" href="mailto:jakehgarrison@gmail.com">jakehgarrison@</a>
+											</h3>
 										<p>Email Address</p>
 									</div>
 								</div>
@@ -480,7 +583,9 @@
 										<i class="icon-github"></i>
 									</div>
 									<div class="item-data">
-										<h3><a target="_blank" href="https://github.com/jake-g">jake-g</a></h3>
+										<h3>
+												<a target="_blank" href="https://github.com/jake-g">jake-g</a>
+											</h3>
 										<p>Github Page</p>
 									</div>
 								</div>
@@ -489,985 +594,633 @@
 										<i class="icon-linkedin"></i>
 									</div>
 									<div class="item-data">
-										<h3><a target="_blank" href="https://www.linkedin.com/in/garrisonjake">Jake Garrison</a></h3>
+										<h3>
+												<a target="_blank" href="https://www.linkedin.com/in/garrisonjake">Jake Garrison</a>
+											</h3>
 										<p>LinkedIn Profile</p>
 									</div>
 								</div>
-								<!-- <div class="meter carrot">
-										<span style="width: 95%">
-											<span>Python</span>
-										</span>
-									</div>
-									<div class="meter carrot">
-										<span style="width: 70%">
-											<span>C</span>
-										</span>
-									</div>
-									<div class="meter carrot">
-										<span style="width: 60%">
-											<span>C++</span>
-										</span>
-									</div>
-									<div class="meter carrot">
-										<span style="width: 50%">
-											<span>Obj C</span>
-										</span>
-									</div>
-									<div class="meter carrot">
-										<span style="width: 55%">
-											<span>Java</span>
-										</span>
-									</div>
-									<div class="meter carrot">
-										<span style="width: 75%">
-											<span>Bash</span>
-										</span>
-									</div>
-									<div class="meter carrot">
-										<span style="width: 90%">
-											<span>JavaScript</span>
-										</span>
-									</div>
-									<div class="meter carrot">
-										<span style="width: 80%">
-											<span>HTML/CSS</span>
-										</span>
-									</div>
-									<div class="meter carrot">
-										<span style="width: 30%">
-											<span>Assembly</span>
-										</span>
-									</div>
-									<div class="meter carrot">
-										<span style="width: 40%">
-											<span>Super Collider</span>
-										</span>
-									</div>
-									<div class="break"></div>
-									<h5>
-										Frameworks
-									</h5>
-									<div class="meter blue">
-										<span style="width: 85%">
-											<span>Numpy / Pandas</span>
-										</span>
-									</div>
-									<div class="meter blue">
-										<span style="width: 75%">
-											<span>Tensorflow / Keras</span>
-										</span>
-									</div>
-									<div class="meter blue">
-										<span style="width: 75%">
-											<span>React.js</span>
-										</span>
-									</div>
-									<div class="meter blue">
-										<span style="width: 50%">
-											<span>D3.js</span>
-										</span>
-									</div>
-									<div class="meter blue">
-										<span style="width: 70%">
-											<span>OpenCV</span>
-										</span>
-									</div>
-									<div class="break"></div>
-									<h5>
-									Software
-									</h5>
-									<div class="meter emerald">
-										<span style="width: 85%">
-										<span>Matlab</span>
-										</span>
-									</div>
-									<div class="meter emerald">
-									<span style="width: 60%">
-										<span>Intellij / Pycharm </span>
-									</span>
-								</div>
-									<div class="meter emerald">
-										<span style="width: 50%">
-										<span>Photoshop</span>
-										</span>
-									</div>
-									<div class="meter emerald">
-										<span style="width: 45%">
-										<span>Multisim / Altium</span>
-										</span>
-									</div>
-									<div class="meter emerald">
-										<span style="width: 85%">
-										<span>Microsoft Office</span>
-										</span>
-									</div>
-									<div class="meter emerald">
-										<span style="width: 65%">
-										<span>Soldiworks / Catia </span>
-										</span>
-									</div>
-									<div class="meter emerald">
-										<span style="width: 80%">
-										<span>Ableton Live / Audition</span>
-										</span>
-									</div>
-
-									<div class="break"></div>
-									<h5>
-										Experience
-									</h5>
-									<div class="meter asbestos">
-										<span style="width: 85%">
-											<span>Digital Signal Processing</span>
-										</span>
-									</div>
-									<div class="meter asbestos">
-										<span style="width: 80%">
-											<span>Computer Vision</span>
-										</span>
-									</div>
-									<div class="meter asbestos">
-										<span style="width: 85%">
-											<span>Machine Learning / AI</span>
-										</span>
-									</div>
-									<div class="meter asbestos">
-										<span style="width: 75%">
-											<span>Linux</span>
-										</span>
-									</div>
-									<div class="meter asbestos">
-										<span style="width: 60%">
-											<span>Embedded Design</span>
-										</span>
-									</div>
-									<div class="meter asbestos">
-										<span style="width: 65%">
-											<span>Analog Design</span>
-										</span>
-									</div>
-									<div class="meter asbestos">
-										<span style="width: 50%">
-											<span>Cryptography</span>
-										</span>
-									</div>
-									<div class="meter asbestos">
-										<span style="width: 60%">
-											<span>Controls</span>
-										</span>
-									</div>
-									<div class="meter asbestos">
-										<span style="width: 45%">
-											<span>Mechanical Design</span>
-										</span>
-									</div>
-									<div class="meter asbestos">
-										<span style="width: 55%">
-											<span>3d Printing</span>
-										</span>
-									</div>
-									<div class="meter asbestos">
-										<span style="width: 85%">
-											<span>Web Development</span>
-										</span>
-									</div>
-									<div class="meter asbestos">
-										<span style="width: 70%">
-											<span>Mobile Development</span>
-										</span>
-									</div>
-									<div class="meter asbestos">
-										<span style="width: 75%">
-											<span>Data Visualization</span>
-										</span>
-									</div>
-									<div class="meter asbestos">
-										<span style="width: 75%">
-											<span>Teaching</span>
-										</span>
-									</div>
-									<div class="meter asbestos">
-										<span style="width: 85%">
-											<span>Music Production</span>
-										</span>
-									</div> -->
-								<!-- <div class="break"></div>
-									
-									<h4>
-										Achievements
-									</h4>
-									<ul class="list">
-										<li>Invited to Boeing Innovation Summit</li>
-										<li>4.0 GPA in both Undergrad Capstone projects</li>
-										<li>Best Travel Hack</li>
-										<li>Most Innovative Use of Data</li>
-										<li>WA Society of Engineers Scholarship</li>
-										<li>1st Place Electrical Presentation</li>
-										<li>1st Place Battery Pack Design</li>
-										<li>2nd Place EcoCar Team Overall</li>
-										<li>2nd Place Driver Assist Technology</li>
-										<li>3rd Place Consumer Appeal Presentation</li>
-										<li>3rd Place Mathworks Simulation</li>
-									</ul>
-								</div> -->
 							</div>
+						</div>
 					</section>
-					</div>
-					<!-- End Resume Tab Data -->
+				</div>
+				<!-- End Resume Tab Data -->
 
-					<div class="line-break"></div>
-
-					<!-- Projects Tab Data -->
-					<div id="projects">
-						<section class="clearfix">
-							<div class="section">
-								<h2>Projects</h2>
-								<!-- <h4>Software</h4> -->
-								<h4>Machine Learning</h4>
-								<div class="g1">
-									<div class="image">
-										<h6>Wikipedia Summarizer</h6>
-										<img src="images/projects/wikisummarize.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="https://github.com/jake-g/wikipedia-summarize" class="btn">Code</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="g1">
-									<div class="image">
-										<h6>Urban Parking App</h6>
-										<img src="images/projects/parking.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="http://urbanparking.xyz" class="btn">Details</a>
-												<a target="_blank" href="docs/Urban_Parking_Poster.pdf" class="btn">Poster</a>
-												<a target="_blank" href="docs/Urban_Parking_Report_EE498.pdf" class="btn">Paper</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- <div class="g1">
-									<div class="image">
-										<h6>Animal Classifier</h6>
-										<img src="images/projects/classify.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="images/classify.jpg" class="btn">Example</a>
-											</div>
-										</div>
-									</div>
-								</div> -->
-								<div class="g1">
-									<div class="image">
-										<h6>OpenAI Gym Experiments</h6>
-										<img src="images/projects/openai.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="https://github.com/jake-g/openAI-gym" class="btn">Code</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="break"></div>
-								<h4>Vision</h4>
-								<div class="g1">
-									<div class="image">
-										<h6>phone.ai</h6>
-										<img src="images/projects/phoneai.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="http://jakegarrison.me/docs/PhoneAI.pdf" class="btn">Paper</a>
-												<a target="_blank" href="http://jakegarrison.me/docs/PhoneAI_poster.pdf" class="btn">Poster</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="g1">
-									<div class="image">
-										<h6>puppy.ai</h6>
-										<img src="images/projects/puppyai.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<!-- <a target="_blank" href="https://youtu.be/gFdy60YwJBo" class="btn">Video</a> -->
-												<a target="_blank" href="https://itunes.apple.com/us/app/puppy.ai/id1207505795?mt=8" class="btn">iOS App</a>
-												<a target="_blank" href="https://puppyai.github.io/" class="btn">Website</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="g1">
-									<div class="image">
-										<h6>Reverse Image Search</h6>
-										<img src="images/projects/Img_Search.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="https://github.com/jake-g/Image-Search" class="btn">Code</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="g1">
-									<div class="image">
-										<h6>Cartoon Filter GUI</h6>
-										<img src="images/projects/Cartoon_Filter_GUI.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="https://github.com/jake-g/cartoon_filter" class="btn">Code</a>
-												<a target="_blank" href="docs/Cartoon_Filter_EE440.pdf" class="btn">Paper</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="g1">
-									<div class="image">
-										<h6>Matlab Image Processing Tools</h6>
-										<img src="images/projects/bush.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="https://github.com/jake-g/image-processing-tools" class="btn">Code</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="g1">
-									<div class="image">
-										<h6>Gaze Tracking</h6>
-										<img src="images/projects/gaze_track.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="https://github.com/jake-g/gaze_traker" class="btn">Code</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="break"></div>
-								<h4>Sound</h4>
-								<div class="g1">
-									<div class="image">
-										<h6>rtunes.xyz</h6>
-										<img src="images/projects/rtunes.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="http://www.rtunes.xyz/" class="btn">Webapp</a>
-												<a target="_blank" href="http://www.rtunes.xyz/#/download" class="btn">Download</a>
-												<a target="_blank" href="https://github.com/jake-g/rtunes" class="btn">Code</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="g1">
-									<div class="image">
-										<h6>C Instrument Tuner</h6>
-										<img src="images/projects/Ctuner.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="https://github.com/jake-g/tuner" class="btn">Code</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="g1">
-									<div class="image">
-										<h6>Online Music Scraper</h6>
-										<img src="images/projects/music-scrape.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="https://github.com/jake-g/audio-scrape/" class="btn">Code</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="g1">
-									<div class="image">
-										<h6>Audio Seperate</h6>
-										<img src="images/projects/audio-separate.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="https://github.com/jake-g/audio-separate" class="btn">Code</a>
-												<a target="_blank" href="http://research.ics.aalto.fi/ica/cocktail/cocktail_en.cgi" class="btn">Demo</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="g1">
-									<div class="image">
-										<h6>Supercollider Compositions</h6>
-										<img src="images/projects/SuperCollider.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="https://github.com/jake-g/SuperCollider_Compositions" class="btn">Code</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="break"></div>
-								<h4>Automotive</h4>
-								<div class="g1">
-									<div class="image">
-										<h6>Driver Awareness System</h6>
-										<img src="images/projects/driver_aware.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="https://github.com/jake-g/Driver-Awareness" class="btn">Code</a>
-												<a target="_blank" href="https://youtu.be/vnFNyZdMrwk?list=PLWptjpDqazOymOtZTLaiW0OCP8Qe2uAKr" class="btn">Video</a>
-												<a target="_blank" href="https://uwecocar.github.io/UW-Infotainment/" class="btn">Demo</a>
-												<a target="_blank" href="docs/Consumer_Appeal_Poster.pdf" class="btn">Poster</a>
-												<a target="_blank" href="http://devpost.com/software/distractedness" class="btn">DevPost</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="g1">
-									<div class="image">
-										<h6>Dashcam Vehicle Distance</h6>
-										<img src="images/projects/ADAS2.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="https://github.com/jake-g/Autonomous-Driving-Vision-Algorithms" class="btn">Code</a>
-												<a target="_blank" href="https://www.youtube.com/playlist?list=PLWptjpDqazOymOtZTLaiW0OCP8Qe2uAKr" class="btn">Videos</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- <div class="g1">
-									<div class="image">
-										<h6>DriveAbility Hardware and App</h6>
-										<img src="images/projects/drivability.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="http://devpost.com/software/distractedness" class="btn">Details</a>
-												<a target="_blank" href="https://youtu.be/JYNVRgCxrdg" class="btn">Video</a>
-											</div>
-										</div>
-									</div>
-								</div> -->
-								<div class="g1">
-									<div class="image">
-										<h6>Tesla Model X Falcon Doors</h6>
-										<img src="images/projects/Tesla_modelX.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="https://www.teslamotors.com/modelx" class="btn">Website</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="g1">
-									<div class="image">
-										<h6>EcoCAR 3</h6>
-										<img src="images/projects/ecocar3.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="http://ecocar3.org/washington/about-us/" class="btn">Details</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="g1">
-									<div class="image">
-										<h6>Autonomous Vehicle Simulator</h6>
-										<img src="images/projects/torcs.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="https://github.com/jake-g/Autonomous-Driving-Simulator" class="btn">Code</a>
-												<a target="_blank" href="https://youtu.be/vGdrySzDii4?list=PLWptjpDqazOymOtZTLaiW0OCP8Qe2uAKr" class="btn">Video</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="g1">
-									<div class="image">
-										<h6>Lane Tracking</h6>
-										<img src="images/projects/lane_tracking.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="https://github.com/jake-g/lane-detection" class="btn">Code</a>
-												<a target="_blank" href="https://youtu.be/-vmnam3ergc?list=PLWptjpDqazOymOtZTLaiW0OCP8Qe2uAKr" class="btn">Video</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="g1">
-									<div class="image">
-										<h6>Battery Pack Design</h6>
-										<img src="images/papers/Battery_Pack_ESS_EcoCAR3.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="docs/Battery_Pack_ESS_EcoCAR3.pdf" class="btn">Read</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="g1">
-									<div class="image">
-										<h6>Tesla Model S Duel Motor</h6>
-										<img src="images/projects/Tesla_DuMo.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="https://www.teslamotors.com/models" class="btn">Website</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="g1">
-									<div class="image">
-										<h6>EcoCAR 2</h6>
-										<img src="images/projects/ecocar_malibu.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="http://uwecocar.com/project.html" class="btn">Website</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="g1">
-									<div class="image">
-										<h6>Electric Car Conversion</h6>
-										<img src="images/projects/gti.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="http://electricgti.blogspot.com/" class="btn">Website</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="g1">
-									<div class="image">
-										<h6>Homemade 500 Amp DC Motor Controller</h6>
-										<img src="images/projects/controller.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="https://picasaweb.google.com/110209982684020292593/ControllerConstruction?authkey=Gv1sRgCNeMz4-04cbyIA#slideshow/6030597058882272562" class="btn">Slideshow</a>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div class="break"></div>
-								<h4>Audio Hardware</h4>
-								<div class="g1">
-									<div class="image">
-										<h6>Realtime Pitch Shifter</h6>
-										<img src="images/projects/pitch_shift.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="https://github.com/jake-g/pitch_shift" class="btn">Code</a>
-												<a target="_blank" href="docs/Pitch_Shift_Pres.pdf" class="btn">Presentation</a>
-												<a target="_blank" href="docs/Pitch_Shift_Report_EE443.pdf" class="btn">Paper</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- <div class="g1">
-									<div class="image">
-										<h6>DSP Audio FPGA</h6>
-										<img src="images/projects/dsp_hardware.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="https://github.com/jake-g/dsp-fpga-labs" class="btn">Code</a>
-											</div>
-										</div>
-									</div>
-								</div> -->
-								<div class="g1">
-									<div class="image">
-										<h6>Verellen Amplifiers</h6>
-										<img src="images/projects/verellen.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="http://www.verellenamplifiers.com/verellennewsite/" class="btn">Website</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="g1">
-									<div class="image">
-										<h6>Homemade Analog Audio</h6>
-										<img src="images/projects/pedal.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="images/projects/pedalpedal.jpg" class="btn">View</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- <div class="g1">
-					        <div class="image">
-					          <h6>Arduino Synthesizer</h6>
-					          <img src="images/projects/Arduino_synth.jpg" alt="">
-					          <div class="image-overlay">
-					            <div class="image-link">
-					              <a target="_blank" href="https://github.com/jake-g/Arduino-Synth" class="btn">Code</a>
-					            </div>
-					          </div>
-					        </div>
-					      </div> -->
-								<!-- <div class="g1">
-					        <div class="image">
-					          <h6>RC Car Composer</h6>
-					          <img src="images/projects/car-composer.jpg" alt="">
-					          <div class="image-overlay">
-					            <div class="image-link">
-					              <a target="_blank" href="https://github.com/jake-g/Car-Composer" class="btn">Code</a>
-					            </div>
-					          </div>
-					        </div>
-					      </div> -->
-								<!-- <div class="g1">
-									<div class="image">
-										<h6>Barker Code Correlator</h6>
-										<img src="images/projects/barker.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="https://github.com/jake-g/correlator" class="btn">Code</a>
-												<a target="_blank" href="docs/Matched_Correlator_EE416.pdf" class="btn">Paper</a>
-											</div>
-										</div>
-									</div>
-								</div> -->
-								<!-- <div class="g1">
-									<div class="image">
-										<h6>Filter Design</h6>
-										<img src="images/projects/filters.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="https://github.com/jake-g/filters" class="btn">Code</a>
-											</div>
-										</div>
-									</div>
-								</div> -->
-								<!-- <div class="break"></div>
-								<div class="g1">
-									<h6>React.js Maps Web App</h6>
-									<div class="image">
-										<img src="images/projects/react-maps.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="https://github.com/jake-g/react-maps" class="btn">Code</a>
-											</div>
-										</div>
-									</div>
-								</div> -->
-							</div>
-							<div class="break"></div>
-							<h4>Fabrication</h4>
+				<div class="break"></div>
+				<!-- Projects Tab Data -->
+				<div id="projects">
+					<section class="clearfix">
+						<div class="section">
+							<h2>Projects</h2>
+							<h4>Machine Learning</h4>
 							<div class="g1">
 								<div class="image">
-									<h6>Gameboy Color CAD</h6>
-									<img src="images/projects/gameboy.jpg" alt="">
+									<h6>Wikipedia Summarizer</h6>
+									<img src="images/projects/wikisummarize.jpg" alt="">
 									<div class="image-overlay">
 										<div class="image-link">
-											<a target="_blank" href="images/gameboy.jpg" class="btn">View</a>
+											<a target="_blank" href="https://github.com/jake-g/wikipedia-summarize" class="btn">Code</a>
 										</div>
 									</div>
 								</div>
 							</div>
-						</section>
-					</div>
-					<!-- End Projects Data -->
-
-					<!-- papers Tab Data -->
-					<div id="papers">
-						<section class="clearfix">
-							<div class="section">
-								<h4>Papers</h4>
-								<div class="g1">
-									<div class="image">
-										<h6>Smartphone AI</h6>
-										<img src="images/papers/PhoneAI.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="docs/PhoneAI.pdf" class="btn">Read</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="g1">
-									<div class="image">
-										<h6>Spiro Sound</h6>
-										<img src="images/papers/SpiroSound.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="docs/SpiroSound.pdf" class="btn">Read</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="g1">
-									<div class="image">
-										<h6>Deep Sound Classification</h6>
-										<img src="images/papers/Sound Classification_EE562.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="docs/Sound Classification_EE562.pdf" class="btn">Read</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="g1">
-									<div class="image">
-										<h6>Urban Parking AI</h6>
-										<img src="images/papers/Urban_Parking_Report_EE498.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="docs/Urban_Parking_Report_EE498.pdf" class="btn">Read</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="g1">
-									<div class="image">
-										<h6>FPGA Pitch Shifter</h6>
-										<img src="images/papers/Pitch_Shift_Report_EE443.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="docs/Pitch_Shift_Report_EE443.pdf" class="btn">Read</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="g1">
-									<div class="image">
-										<h6>Cartoon Image Filter</h6>
-										<img src="images/papers/Cartoon_Filter_EE440.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="docs/Cartoon_Filter_EE440.pdf" class="btn">Read</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="g1">
-									<div class="image">
-										<h6>Driver Assist Writup</h6>
-										<img src="images/papers/ADAS_Hardware_Tool_Check UW_EcoCAR.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="docs/ADAS_Hardware_Tool_Check UW_EcoCAR.pdf" class="btn">Read</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- <div class="g1">
+							<div class="g1">
 								<div class="image">
-								<h6>Matched Correlator</h6>
-									<img src="images/papers/Matched_Correlator_EE416.jpg" alt="">
+									<h6>Urban Parking App</h6>
+									<img src="images/projects/parking.jpg" alt="">
 									<div class="image-overlay">
 										<div class="image-link">
-											<a target="_blank" href="docs/Matched_Correlator_EE416.pdf" class="btn">Read</a>
+											<a target="_blank" href="http://urbanparking.xyz" class="btn">Details</a>
+											<a target="_blank" href="docs/Urban_Parking_Poster.pdf" class="btn">Poster</a>
+											<a target="_blank" href="docs/Urban_Parking_Report_EE498.pdf" class="btn">Paper</a>
 										</div>
 									</div>
 								</div>
-							</div> -->
-								<!-- <div class="g1">
+							</div>
+							<!-- <div class="g1"> <div class="image"> <h6>Animal Classifier</h6> <img src="images/projects/classify.jpg" alt=""> <div class="image-overlay"> <div class="image-link"> <a target="_blank" href="images/classify.jpg" class="btn">Example</a> </div>
+								</div> </div> </div> -->
+							<div class="g1">
 								<div class="image">
-								<h6>Wireless Routing</h6>
-									<img src="images/papers/Wireless_Routing_EE418.jpg" alt="">
+									<h6>OpenAI Gym Experiments</h6>
+									<img src="images/projects/openai.jpg" alt="">
 									<div class="image-overlay">
 										<div class="image-link">
-											<a target="_blank" href="docs/Wireless_Routing_EE418.pdf" class="btn">Read</a>
+											<a target="_blank" href="https://github.com/jake-g/openAI-gym" class="btn">Code</a>
 										</div>
 									</div>
 								</div>
-							</div> -->
+							</div>
+							<div class="break"></div>
+							<h4>Vision</h4>
+							<div class="g1">
+								<div class="image">
+									<h6>phone.ai</h6>
+									<img src="images/projects/phoneai.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="http://jakegarrison.me/docs/PhoneAI.pdf" class="btn">Paper</a>
+											<a target="_blank" href="http://jakegarrison.me/docs/PhoneAI_poster.pdf" class="btn">Poster</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>puppy.ai</h6>
+									<img src="images/projects/puppyai.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<!-- <a target="_blank" href="https://youtu.be/gFdy60YwJBo" class="btn">Video</a> -->
+											<a target="_blank" href="https://itunes.apple.com/us/app/puppy.ai/id1207505795?mt=8" class="btn">iOS App</a>
+											<a target="_blank" href="https://puppyai.github.io/" class="btn">Website</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>Reverse Image Search</h6>
+									<img src="images/projects/Img_Search.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://github.com/jake-g/Image-Search" class="btn">Code</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>Cartoon Filter GUI</h6>
+									<img src="images/projects/Cartoon_Filter_GUI.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://github.com/jake-g/cartoon_filter" class="btn">Code</a>
+											<a target="_blank" href="docs/Cartoon_Filter_EE440.pdf" class="btn">Paper</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>Matlab Image Processing Tools</h6>
+									<img src="images/projects/bush.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://github.com/jake-g/image-processing-tools" class="btn">Code</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>Gaze Tracking</h6>
+									<img src="images/projects/gaze_track.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://github.com/jake-g/gaze_traker" class="btn">Code</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="break"></div>
+							<h4>Sound</h4>
+							<div class="g1">
+								<div class="image">
+									<h6>rtunes.xyz</h6>
+									<img src="images/projects/rtunes.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="http://www.rtunes.xyz/" class="btn">Webapp</a>
+											<a target="_blank" href="http://www.rtunes.xyz/#/download" class="btn">Download</a>
+											<a target="_blank" href="https://github.com/jake-g/rtunes" class="btn">Code</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>C Instrument Tuner</h6>
+									<img src="images/projects/Ctuner.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://github.com/jake-g/tuner" class="btn">Code</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>Online Music Scraper</h6>
+									<img src="images/projects/music-scrape.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://github.com/jake-g/audio-scrape/" class="btn">Code</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>Audio Seperate</h6>
+									<img src="images/projects/audio-separate.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://github.com/jake-g/audio-separate" class="btn">Code</a>
+											<a target="_blank" href="http://research.ics.aalto.fi/ica/cocktail/cocktail_en.cgi" class="btn">Demo</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>Supercollider Compositions</h6>
+									<img src="images/projects/SuperCollider.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://github.com/jake-g/SuperCollider_Compositions" class="btn">Code</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="break"></div>
+							<h4>Automotive</h4>
+							<div class="g1">
+								<div class="image">
+									<h6>Driver Awareness System</h6>
+									<img src="images/projects/driver_aware.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://github.com/jake-g/Driver-Awareness" class="btn">Code</a>
+											<a target="_blank" href="https://youtu.be/vnFNyZdMrwk?list=PLWptjpDqazOymOtZTLaiW0OCP8Qe2uAKr" class="btn">Video</a>
+											<a target="_blank" href="https://uwecocar.github.io/UW-Infotainment/" class="btn">Demo</a>
+											<a target="_blank" href="docs/Consumer_Appeal_Poster.pdf" class="btn">Poster</a>
+											<a target="_blank" href="http://devpost.com/software/distractedness" class="btn">DevPost</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>Dashcam Vehicle Distance</h6>
+									<img src="images/projects/ADAS2.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://github.com/jake-g/Autonomous-Driving-Vision-Algorithms" class="btn">Code</a>
+											<a target="_blank" href="https://www.youtube.com/playlist?list=PLWptjpDqazOymOtZTLaiW0OCP8Qe2uAKr" class="btn">Videos</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>Tesla Model X Falcon Doors</h6>
+									<img src="images/projects/Tesla_modelX.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://www.teslamotors.com/modelx" class="btn">Website</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>EcoCAR 3</h6>
+									<img src="images/projects/ecocar3.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="http://ecocar3.org/washington/about-us/" class="btn">Details</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>Autonomous Vehicle Simulator</h6>
+									<img src="images/projects/torcs.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://github.com/jake-g/Autonomous-Driving-Simulator" class="btn">Code</a>
+											<a target="_blank" href="https://youtu.be/vGdrySzDii4?list=PLWptjpDqazOymOtZTLaiW0OCP8Qe2uAKr" class="btn">Video</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>Lane Tracking</h6>
+									<img src="images/projects/lane_tracking.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://github.com/jake-g/lane-detection" class="btn">Code</a>
+											<a target="_blank" href="https://youtu.be/-vmnam3ergc?list=PLWptjpDqazOymOtZTLaiW0OCP8Qe2uAKr" class="btn">Video</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>Battery Pack Design</h6>
+									<img src="images/papers/Battery_Pack_ESS_EcoCAR3.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="docs/Battery_Pack_ESS_EcoCAR3.pdf" class="btn">Read</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>Tesla Model S Duel Motor</h6>
+									<img src="images/projects/Tesla_DuMo.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://www.teslamotors.com/models" class="btn">Website</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>EcoCAR 2</h6>
+									<img src="images/projects/ecocar_malibu.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="http://uwecocar.com/project.html" class="btn">Website</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>Electric Car Conversion</h6>
+									<img src="images/projects/gti.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="http://electricgti.blogspot.com/" class="btn">Website</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>Homemade 500 Amp DC Motor Controller</h6>
+									<img src="images/projects/controller.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://picasaweb.google.com/110209982684020292593/ControllerConstruction?authkey=Gv1sRgCNeMz4-04cbyIA#slideshow/6030597058882272562" class="btn">Slideshow</a>
+										</div>
+									</div>
+								</div>
+							</div>
 
-								<div class="break"></div>
-								<h4>Presentations</h4>
-								<div class="g1">
-									<div class="image">
-										<h6>Pitch Shift</h6>
-										<img src="images/papers/Pitch_Shift_Pres.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="docs/Pitch_Shift_Pres.pdf" class="btn">Read</a>
-											</div>
+							<div class="break"></div>
+							<h4>Audio Hardware</h4>
+							<div class="g1">
+								<div class="image">
+									<h6>Realtime Pitch Shifter</h6>
+									<img src="images/projects/pitch_shift.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://github.com/jake-g/pitch_shift" class="btn">Code</a>
+											<a target="_blank" href="docs/Pitch_Shift_Pres.pdf" class="btn">Presentation</a>
+											<a target="_blank" href="docs/Pitch_Shift_Report_EE443.pdf" class="btn">Paper</a>
 										</div>
 									</div>
 								</div>
-								<div class="g1">
-									<div class="image">
-										<h6>Lane Detection</h6>
-										<img src="images/papers/Lane_Detection_EE341.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="docs/Lane_Detection_EE341.pdf" class="btn">Read</a>
-											</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>Verellen Amplifiers</h6>
+									<img src="images/projects/verellen.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="http://www.verellenamplifiers.com/verellennewsite/" class="btn">Website</a>
 										</div>
 									</div>
 								</div>
-								<div class="g1">
-									<div class="image">
-										<h6>Electric Car Systems</h6>
-										<img src="images/papers/Electrical_Presentation_UW_EcoCAR3.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="docs/Electrical_Presentation_UW_EcoCAR3.pdf" class="btn">Read</a>
-											</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>Homemade Analog Audio</h6>
+									<img src="images/projects/pedal.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="images/projects/pedalpedal.jpg" class="btn">View</a>
 										</div>
 									</div>
 								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>Arduino Synthesizer</h6>
+									<img src="images/projects/Arduino_synth.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://github.com/jake-g/Arduino-Synth" class="btn">Code</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>RC Car Composer</h6>
+									<img src="images/projects/car-composer.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://github.com/jake-g/Car-Composer" class="btn">Code</a>
+										</div>
+									</div>
+								</div>
+							</div>
 
-								<div class="break"></div>
-								<h4>Posters</h4>
-								<div class="g1">
-									<div class="image">
-										<h6>Phone AI</h6>
-										<img src="images/papers/PhoneAI_poster.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="docs/PhoneAI_poster.pdf" class="btn">View</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="g1">
-									<div class="image">
-										<h6>Spiro Sound</h6>
-										<img src="images/papers/SpiroSound_poster.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="docs/SpiroSound_poster.pdf" class="btn">View</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="g1">
-									<div class="image">
-										<h6>Urban Parking</h6>
-										<img src="images/papers/Urban_Parking_Poster.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="docs/Urban_Parking_Poster.pdf" class="btn">View</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="g1">
-									<div class="image">
-										<h6>Driver Assist Consumer Appeal</h6>
-										<img src="images/papers/Consumer_Appeal_Poster.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="Consumer_Appeal_Poster.pdf" class="btn">View</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- <div class="break"></div>
-								<h4>Designs</h4>
-								<div class="g1">
-									<div class="image">
-										<h6>Regulated Power Supply Design</h6>
-										<img src="images/papers/Regulated_Supply_EE331.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="docs/Regulated_Supply_EE331.pdf" class="btn">Read</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="g1">
-									<div class="image">
-										<h6>Amplifier Design</h6>
-										<img src="images/papers/Audio_Amplifier_EE233.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="docs/Audio_Amplifier_EE233.pdf" class="btn">Read</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div> -->
-						</section>
 						</div>
-						<!-- End papers Data -->
-
-						<!-- Contact Tab Data -->
-						<div id="contact">
-							<section class="clearfix">
-								<h3>Contact</h3>
-
-								<!-- <div class="g1">
-								<div class="sny-icon-box">
-									<div class="sny-icon">
-										<i class="icon-globe"></i>
-									</div>
-									<div class="sny-icon-content">
-										<h4>My Location</h4>
-										<p>Seattle, WA</p>
-										<p>Originally: Spokane, WA.</p>
+						<div class="break"></div>
+						<h4>Fabrication</h4>
+						<div class="g1">
+							<div class="image">
+								<h6>Gameboy Color CAD</h6>
+								<img src="images/projects/gameboy.jpg" alt="">
+								<div class="image-overlay">
+									<div class="image-link">
+										<a target="_blank" href="images/gameboy.jpg" class="btn">View</a>
 									</div>
 								</div>
-							</div> -->
-								<!-- <div class="g1">
-								<div class="sny-icon-box">
-									<div class="sny-icon">
-										<i class="icon-phone"></i>
-									</div>
-									<div class="sny-icon-content">
-										<h4>Mobile Number</h4>
-										<p>509-XXX-8609</p>
-									</div>
-								</div>
-							</div> -->
-								<!-- <div class="g1">
-								<div class="sny-icon-box">
-									<div class="sny-icon">
-										<i class="icon-user"></i>
-									</div>
-									<div class="sny-icon-content">
-										<h4>About Me</h4>
-										<p>Grew up in Spokane, WA.</p>
-									</div>
-								</div>
-							</div> -->
-								<!-- <div class="break"></div>
-							<div class="break"></div> -->
-								<div class="g1">
-									<div class="sny-icon-box">
-										<div class="sny-icon">
-											<i class="icon-envelope"></i>
-										</div>
-										<div class="sny-icon-content">
-											<h5><a target="_blank" href="mailto:jakehgarrison@gmail.com">jakehgarrison@</a></h5>
-										</div>
-									</div>
-								</div>
-								<div class="g1">
-									<div class="sny-icon-box">
-										<div class="sny-icon">
-											<i class="icon-github"></i>
-										</div>
-										<div class="sny-icon-content">
-											<h5><a target="_blank" href="https://github.com/jake-g">jake-g</a></h5>
-										</div>
-									</div>
-								</div>
-								<div class="g1">
-									<div class="sny-icon-box">
-										<div class="sny-icon">
-											<i class="icon-linkedin"></i>
-										</div>
-										<div class="sny-icon-content">
-											<h5><a target="_blank" href="https://www.linkedin.com/in/garrisonjake">Jake Garrison</a></h5>
-										</div>
-									</div>
-								</div>
-							</section>
+							</div>
 						</div>
-						<!-- End Contact Data -->
-					</div>
+					</section>
 				</div>
-				<!-- End Tab Container -->
-				<footer>
-					<p>
-						Created in 2013 by Jake Garrison
-					</p>
-				</footer>
+				<!-- End Projects Data -->
+
+				<!-- papers Tab Data -->
+				<div id="papers">
+					<section class="clearfix">
+						<div class="section">
+							<h4>Papers</h4>
+							<div class="g1">
+								<div class="image">
+									<h6>Smartphone AI</h6>
+									<img src="images/papers/PhoneAI.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="docs/PhoneAI.pdf" class="btn">Read</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>Spiro Sound</h6>
+									<img src="images/papers/SpiroSound.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="docs/SpiroSound.pdf" class="btn">Read</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>Deep Sound Classification</h6>
+									<img src="images/papers/Sound Classification_EE562.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="docs/Sound Classification_EE562.pdf" class="btn">Read</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>Urban Parking AI</h6>
+									<img src="images/papers/Urban_Parking_Report_EE498.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="docs/Urban_Parking_Report_EE498.pdf" class="btn">Read</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>FPGA Pitch Shifter</h6>
+									<img src="images/papers/Pitch_Shift_Report_EE443.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="docs/Pitch_Shift_Report_EE443.pdf" class="btn">Read</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>Cartoon Image Filter</h6>
+									<img src="images/papers/Cartoon_Filter_EE440.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="docs/Cartoon_Filter_EE440.pdf" class="btn">Read</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>Driver Assist Writup</h6>
+									<img src="images/papers/ADAS_Hardware_Tool_Check UW_EcoCAR.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="docs/ADAS_Hardware_Tool_Check UW_EcoCAR.pdf" class="btn">Read</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="break"></div>
+							<h4>Presentations</h4>
+							<div class="g1">
+								<div class="image">
+									<h6>Pitch Shift</h6>
+									<img src="images/papers/Pitch_Shift_Pres.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="docs/Pitch_Shift_Pres.pdf" class="btn">Read</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>Lane Detection</h6>
+									<img src="images/papers/Lane_Detection_EE341.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="docs/Lane_Detection_EE341.pdf" class="btn">Read</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>Electric Car Systems</h6>
+									<img src="images/papers/Electrical_Presentation_UW_EcoCAR3.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="docs/Electrical_Presentation_UW_EcoCAR3.pdf" class="btn">Read</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="break"></div>
+							<h4>Posters</h4>
+							<div class="g1">
+								<div class="image">
+									<h6>Phone AI</h6>
+									<img src="images/papers/PhoneAI_poster.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="docs/PhoneAI_poster.pdf" class="btn">View</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>Spiro Sound</h6>
+									<img src="images/papers/SpiroSound_poster.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="docs/SpiroSound_poster.pdf" class="btn">View</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>Urban Parking</h6>
+									<img src="images/papers/Urban_Parking_Poster.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="docs/Urban_Parking_Poster.pdf" class="btn">View</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<div class="image">
+									<h6>Driver Assist Consumer Appeal</h6>
+									<img src="images/papers/Consumer_Appeal_Poster.jpg" alt="">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="Consumer_Appeal_Poster.pdf" class="btn">View</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- <div class="break"></div> <h4>Designs</h4> <div class="g1"> <div class="image"> <h6>Regulated Power Supply Design</h6> <img src="images/papers/Regulated_Supply_EE331.jpg" alt=""> <div class="image-overlay"> <div class="image-link"> <a
+								target="_blank" href="docs/Regulated_Supply_EE331.pdf" class="btn">Read</a> </div> </div> </div> </div> <div class="g1"> <div class="image"> <h6>Amplifier Design</h6> <img src="images/papers/Audio_Amplifier_EE233.jpg" alt=""> <div
+								class="image-overlay"> <div class="image-link"> <a target="_blank" href="docs/Audio_Amplifier_EE233.pdf" class="btn">Read</a> </div> </div> </div> </div> -->
+						</div>
+					</section>
+				</div>
+				<!-- End papers Data -->
+
+				<!-- Contact Tab Data -->
+				<div id="contact">
+					<section class="clearfix">
+						<h3>Contact</h3>
+
+						<!-- <div class="g1"> <div class="sny-icon-box"> <div class="sny-icon"> <i class="icon-globe"></i> </div> <div class="sny-icon-content"> <h4>My Location</h4> <p>Seattle, WA</p> <p>Originally: Spokane, WA.</p> </div> </div> </div> -->
+						<!-- <div class="g1"> <div class="sny-icon-box"> <div class="sny-icon"> <i class="icon-phone"></i> </div> <div class="sny-icon-content"> <h4>Mobile Number</h4> <p>509-XXX-8609</p> </div> </div> </div> -->
+						<!-- <div class="g1"> <div class="sny-icon-box"> <div class="sny-icon"> <i class="icon-user"></i> </div> <div class="sny-icon-content"> <h4>About Me</h4> <p>Grew up in Spokane, WA.</p> </div> </div> </div> -->
+						<!-- <div class="break"></div> <div class="break"></div> -->
+						<div class="g1">
+							<div class="sny-icon-box">
+								<div class="sny-icon">
+									<i class="icon-envelope"></i>
+								</div>
+								<div class="sny-icon-content">
+									<h5>
+											<a target="_blank" href="mailto:jakehgarrison@gmail.com">jakehgarrison@</a>
+										</h5>
+								</div>
+							</div>
+						</div>
+						<div class="g1">
+							<div class="sny-icon-box">
+								<div class="sny-icon">
+									<i class="icon-github"></i>
+								</div>
+								<div class="sny-icon-content">
+									<h5>
+											<a target="_blank" href="https://github.com/jake-g">jake-g</a>
+										</h5>
+								</div>
+							</div>
+						</div>
+						<div class="g1">
+							<div class="sny-icon-box">
+								<div class="sny-icon">
+									<i class="icon-linkedin"></i>
+								</div>
+								<div class="sny-icon-content">
+									<h5>
+											<a target="_blank" href="https://www.linkedin.com/in/garrisonjake">Jake Garrison</a>
+										</h5>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- End Contact Data -->
 			</div>
-			<!-- #main -->
+		</div>
+		<!-- End Tab Container -->
+		<footer>
+			<p>
+				Created in 2013 by Jake Garrison
+			</p>
+		</footer>
+	</div>
+	<!-- #main -->
 
 </body>
 

@@ -93,8 +93,9 @@ h2 {
 h3 {
   margin: 0;
   font-size: 2.25em;
-  line-height: 1.333em;
-  margin-bottom: 1em;
+  line-height: 1.2em;
+  margin-bottom: 0.8em;
+  margin-top: 0.8em;
 }
 
 /* 36px / 48px */
@@ -103,7 +104,7 @@ h4 {
   margin: 0;
   font-size: 1.5em;
   line-height: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 0.8em;
 }
 
 /* 24px / 24px */
@@ -112,7 +113,7 @@ h5 {
   margin: 0;
   font-size: 1.3125em;
   line-height: 1.143em;
-  margin-bottom: 1.143em;
+  margin-bottom: 0.75em;
 }
 
 /* 21px / 24px */
@@ -416,7 +417,7 @@ body {
   padding: 30px 20px;
   background: #fff;
   /* border: 1px solid #cccccc; */
-  box-shadow: 0px 6px #1abc9c;
+  /* box-shadow: 0px 6px #1abc9c; */
   border-radius: 4px 4px 4px 4px;
 }
 
@@ -484,10 +485,10 @@ body {
 /* Photo */
 
 .photo {
-  float: left;
+  margin: auto;
+  margin-bottom: 15px;
   height: 200px;
   width: 200px;
-  margin-right: 20px;
   overflow: hidden;
 }
 
@@ -506,33 +507,6 @@ body {
 
 .info h4, #header h4 {
   color: #999;
-}
-
-/* Contact */
-
-.main-links ul {
-  list-style: none outside none;
-  margin: 0;
-  padding: 0;
-}
-
-.main-links ul li {
-  border-bottom: 1px solid #cccccc;
-  padding: 10px 0;
-}
-
-.main-links ul li a {
-  font-size: 14px;
-}
-
-/* Contact-info */
-
-/* Icon Styling */
-
-.contact-info i {
-  color: #333;
-  font-size: 46px;
-  display: flex;
 }
 
 /* Item Box */
@@ -757,7 +731,7 @@ body {
 
 .label-info {
   background-color: #5bc0de;
-  margin-bottom: 10px;
+  margin: -10px 0px 5px 15px;
 }
 
 .label-info[href]:hover, .label-info[href]:focus {
@@ -776,93 +750,6 @@ body {
 
 .label-success[href]:hover, .label-success[href]:focus {
   background-color: #449d44;
-}
-
-/* Meters */
-
-.meter {
-  height: 24px;
-  /* Can be anything */
-  position: relative;
-  border: 1px solid #cccccc;
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
-  margin-bottom: 1em;
-}
-
-.meter>span {
-  display: block;
-  height: 100%;
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
-  position: relative;
-  overflow: hidden;
-}
-
-.meter>span>span {
-  margin-left: 4px;
-  color: #fff;
-}
-
-.meter>span:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  /*Gradient animating behind graph bars*/
-  /*background-image:
-  -webkit-gradient(linear, 0 0, 100% 100%,    color-stop(.25, rgba(255, 255, 255, .2)),    color-stop(.25, transparent), color-stop(.5, transparent),    color-stop(.5, rgba(255, 255, 255, .2)),    color-stop(.75, rgba(255, 255, 255, .2)),    color-stop(.75, transparent), to(transparent)
-    );
-  background-image:
-  -moz-linear-gradient(
-    -45deg,    rgba(255, 255, 255, .2) 25%,    transparent 25%,    transparent 50%,    rgba(255, 255, 255, .2) 50%,    rgba(255, 255, 255, .2) 75%,    transparent 75%,    transparent
-    );*/
-  z-index: 1;
-  -webkit-background-size: 50px 50px;
-  -moz-background-size: 50px 50px;
-  -webkit-animation: move 2s linear infinite;
-  -webkit-border-top-right-radius: 8px;
-  -webkit-border-bottom-right-radius: 8px;
-  -moz-border-radius-topright: 8px;
-  -moz-border-radius-bottomright: 8px;
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
-  -webkit-border-top-left-radius: 20px;
-  -webkit-border-bottom-left-radius: 20px;
-  -moz-border-radius-topleft: 20px;
-  -moz-border-radius-bottomleft: 20px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  overflow: hidden;
-}
-
-@-webkit-keyframes move {
-  0% {
-    background-position: 0 0;
-  }
-  100% {
-    background-position: 50px 50px;
-  }
-}
-
-.emerald>span {
-  background-color: #2ecc71;
-}
-
-.carrot>span {
-  background-color: #e67e22;
-}
-
-.blue>span {
-  background-color: #2980b9;
-}
-
-.asbestos>span {
-  background-color: #7f8c8d;
 }
 
 /* Footer */
@@ -899,6 +786,10 @@ Change widths as necessary
   .etabs>li span {
     display: block;
   }
+  .photo {
+    float: left;
+    margin-right: 20px;
+  }
 }
 
 /* TABLET/NETBOOK */
@@ -925,17 +816,17 @@ Change widths as necessary
     width: 98.0%;
   }
   /* asymetrical */
-  .links-col {
+  /* .links-col {
     width: 24.0%;
-  }
+  } */
   .about-col {
-    width: 72.0%;
+    width: 94.0%;
   }
   .sidebar-col {
-    width: 34.0%;
+    width: 30.0%;
   }
   .resume-col {
-    width: 62.0%;
+    width: 66.0%;
   }
 }
 
@@ -963,17 +854,17 @@ Change widths as necessary
     width: 98.0%;
   }
   /* asymetrical */
-  .links-col {
+  /* .links-col {
     width: 24.0%;
-  }
+  } */
   .about-col {
     width: 94.0%;
   }
   .sidebar-col {
-    width: 34.0%;
+    width: 30.0%;
   }
   .resume-col {
-    width: 62.0%;
+    width: 66.0%;
   }
 }
 

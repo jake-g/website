@@ -19,6 +19,7 @@ Resume
 Project gallery 
 * lazy load images
 * add new projects
+* add neural style and other github/gitlab
 * add new papers/Posters
 * github style search
 * no hover action, 

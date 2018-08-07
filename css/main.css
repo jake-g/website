@@ -33,7 +33,7 @@ html {
 body {
   margin: 0;
   min-height: 100%;
-  min-width:300px;
+  min-width: 300px;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -66,7 +66,8 @@ p, q, address, code, ul, img {
 /* Composed to a scale of 12px, 14px, 16px, 18px, 21px, 24px, 36px, 48px, 60px and 72px */
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Work Sans', sans-serif;
+  /* font-family: 'Work Sans', sans-serif; */
+  font-family: 'Open Sans', sans-serif;
   color: #444;
 }
 
@@ -351,7 +352,6 @@ body {
 
 /* Utility */
 
-
 .clearfix:after {
   content: ".";
   visibility: hidden;
@@ -387,7 +387,6 @@ body {
   padding-bottom: 1em;
   clear: both;
 }
-
 
 /* Header */
 
@@ -457,12 +456,12 @@ body {
 
 .info a {
   font-weight: bold;
-  color: #757575;
+  /* color: #757575; */
 }
 
-.info a:hover {
+/* .info a:hover {
   color: #858585;
-}
+} */
 
 /* logo */
 
@@ -648,7 +647,7 @@ body {
 
 .image-overlay {
   position: absolute;
-  z-index: 5;
+  /* z-index: 5; */
   top: 0;
   overflow: hidden;
   width: 100%;
@@ -968,7 +967,7 @@ Change widths as necessary
     width: 24.0%;
   }
   .about-col {
-    width: 72.0%;
+    width: 94.0%;
   }
   .sidebar-col {
     width: 34.0%;
@@ -1066,8 +1065,7 @@ Change widths as necessary
 }
 
 @media only screen and (min-width: 1024px) {
-  .cd-auto-hide-header {
-  }
+  .cd-auto-hide-header {}
 }
 
 .cd-auto-hide-header .logo, .cd-auto-hide-header .nav-trigger {

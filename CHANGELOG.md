@@ -1,4 +1,9 @@
 # Changelog
+---------------
+####8/5/18
+* big redesign
+* pruned content
+* updated with grad school stuff and new job
 
 ---------------
 ####2/24/17

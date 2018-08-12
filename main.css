@@ -27,6 +27,7 @@ html {
   height: 100%;
   font-size: 100%;
   overflow-y: scroll;
+  -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -50,15 +51,20 @@ body {
 
 /* Font-size percentage is based on 16px browser default size */
 
+/* from normalize */
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary {
+    display: block
+}
+
 body, button, input, select {
-  font: 100% 'Lato', sans-serif;
+  font: 100% sans-serif; /*'Lato', */
   *font-size: 1em;
   color: #555;
 }
 
 /* IE7 and older can't resize px based text */
 
-p, q, address, code, ul, img {
+p, q, address, code, ul, img, pre {
   margin: 0 0 1.5em;
   padding: 0;
 }
@@ -160,6 +166,10 @@ code {
 }
 
 /* TABLES */
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
 
 /* FORMS */
 
@@ -217,6 +227,19 @@ q {
 
 /* LISTS */
 
+dl,menu,ol,ul {
+    margin: 1em 0
+}
+
+menu,ol,ul {
+    padding: 0 0 0 40px
+}
+
+nav ul,nav ol {
+    list-style: none;
+    list-style-image: none
+}
+
 ul {
   list-style-position: inside;
   padding: 0;
@@ -242,6 +265,11 @@ a:hover, a:focus, a:active {
   text-decoration: none;
   border: none;
   color: #0f866e;
+  outline: 0
+}
+
+a:focus {
+    outline: thin dotted
 }
 
 /* MEDIA */
@@ -257,6 +285,7 @@ img {
   border: 0;
   -ms-interpolation-mode: bicubic;
 }
+
 
 /* Improve IE's resizing of images */
 
@@ -284,7 +313,7 @@ img {
 
 /* OTHERS */
 
-b {
+b, strong {
   font-weight: bold;
 }
 

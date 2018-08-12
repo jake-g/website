@@ -2,7 +2,6 @@
 
 UPDATE Changelog!!!
 
-#### 7/1/2018
 ### Notes
 * link to thesis in bio. look for other places to insert links
 * make most links go to the section with more info rather than to an external website. (like instead of verellen.com link in bio, have that link go to the project panel)
@@ -23,6 +22,8 @@ UPDATE Changelog!!!
 * no hover action? have buttons just as text below image like reddit
 
 ### Things to update
+* seo
+* optimize speed
 * personal pic (use google one?)
 * pc build
 * mining
@@ -40,7 +41,20 @@ UPDATE Changelog!!!
 * port electric gti blog to here?
 * add news interviews / media attention
 * add puppy.ai craigslist bot, node img scraper, ubi projects
-
+#### From Keep list
+* Older list for things to add from Google keep:
+* Rtunes
+* Ai algorithms
+* Find open air gym code using AI algorithms and add to my repo
+* Ai sound paper
+* DSP compression paper
+* Remove papers that suck
+* Make haiku deck video demo for project
+* Addyl Yolo adas stuff
+* Move less interesting projects and papers to another secions
+* Force touch from ubicomp
+* Update woof app
+* Google music scripts
 
 ### Bugs
 * laggy on safari. is this still true?

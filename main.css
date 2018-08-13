@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
-
 /* @import url(https://fonts.googleapis.com/css?family=Work+Sans:400,700); */
 
 *:before, *:after {
@@ -54,7 +53,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 }
 
 body, button, input, select {
-  font: 100% ;
+  font: 100%;
   font-family: 'Lato', sans-serif;
   font-size: 1em;
   color: #555;
@@ -819,18 +818,8 @@ Change widths as necessary
     float: left;
     margin-right: 20px;
   }
-}
-
-/* TABLET/NETBOOK */
-
-@media only screen and (min-width: 680px) {
-  /* Sidebar */
-  .sidebar {
-    padding-left: 10px;
-    border-left: 1px solid #cccccc;
-  }
   /* COLUMN GRID */
-  .g1, .g2, .links-col, .about-col, .sidebar-col, .resume-col, .g3 {
+  .g1, .g2, .g3 {
     display: inline;
     float: left;
   }
@@ -843,6 +832,21 @@ Change widths as necessary
   }
   .g3 {
     width: 98.0%;
+  }
+}
+
+/* TABLET/NETBOOK */
+
+@media only screen and (min-width: 680px) {
+  /* Sidebar */
+  .sidebar {
+    padding-left: 10px;
+    border-left: 1px solid #cccccc;
+  }
+  /* COLUMN GRID */
+  .links-col, .about-col, .sidebar-col, .resume-col {
+    display: inline;
+    float: left;
   }
   /* asymetrical */
   /* .links-col {

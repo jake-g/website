@@ -4,6 +4,10 @@
 * speed up site 
 * remove js/css, compress imgs
 * remove cdn (awesome and jquery)
+* remove js
+* reorg
+* compress images, zip up old ones
+* update TODO.md
 
 ---------------
 ####8/5/18

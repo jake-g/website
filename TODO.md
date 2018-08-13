@@ -24,6 +24,7 @@ UPDATE Changelog!!!
 * no hover action? have buttons just as text below image like reddit
 
 ### Things to update
+* style transfer + audio demos
 * personal pic (use google one?)
 * pc build
 * mining

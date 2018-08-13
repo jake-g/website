@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Jake Garrison</title>
 	<meta charset="utf-8">
@@ -7,9 +8,22 @@
 	<meta name="description" content="Personal website including academic history, resume, projects, papers and publications.">
 	<meta name="keywords" content="personal, resume, projects, papers, jake, garrison, website, presentations, puppy.ai, rtunes.xyz, uw, university of washington">
 	<meta name="viewport" content="width=device-width">
-	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+	<link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico" />
 	<link rel="stylesheet" href="main.css" async>
-	<script src="main.js"></script>
+	<!-- <script src="main.js"></script> -->
+	<!-- Dynamic header -->
+	<script>
+		var lastScrollTop = 0;
+		window.addEventListener("scroll", function() {
+			var st = window.pageYOffset || document.documentElement.scrollTop;
+			if (st > lastScrollTop) {
+				document.getElementById("header").style.top = "-100%";
+			} else {
+				document.getElementById("header").style.top = "0";
+			}
+			lastScrollTop = st;
+		}, false);
+	</script>
 </head>
 
 <!-- Content -->
@@ -1200,7 +1214,18 @@
 		</footer>
 	</div>
 	<!-- #main -->
-
 </body>
+
+<!-- Google Analytics -->
+<script>
+	window.ga = window.ga || function() {
+		(ga.q = ga.q || []).push(arguments)
+	};
+	ga.l = +new Date;
+	ga('create', 'UA-70620937-1', 'auto');
+	ga('send', 'pageview');
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+<!-- End Google Analytics -->
 
 </html>

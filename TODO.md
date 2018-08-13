@@ -45,6 +45,9 @@ UPDATE Changelog!!!
 * spiroconf
 * thesis (pt1: lungs / spirometry pt2: audio / tech) 
 
+#### presentations
+* thesis sldies
+
 #### posters
 * carpacio
 * pupil eye thing

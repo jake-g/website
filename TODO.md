@@ -6,7 +6,9 @@ UPDATE Changelog!!!
 * link to thesis in bio. look for other places to insert links
 * make most links go to the section with more info rather than to an external website. (like instead of verellen.com link in bio, have that link go to the project panel)
 * top tabs go into icon only too soon
-
+* seo
+* optimize speed
+* disappear header without jquery?
 
 ### Resume
 * reduce text
@@ -22,8 +24,6 @@ UPDATE Changelog!!!
 * no hover action? have buttons just as text below image like reddit
 
 ### Things to update
-* seo
-* optimize speed
 * personal pic (use google one?)
 * pc build
 * mining

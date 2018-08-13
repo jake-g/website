@@ -11,10 +11,6 @@
 
 /* HTML5 DECLARATIONS */
 
-details, footer, header, nav, section {
-  display: block;
-}
-
 audio[controls], video {
   display: inline-block;
   *display: inline;
@@ -52,12 +48,14 @@ body {
 /* Font-size percentage is based on 16px browser default size */
 
 /* from normalize */
-article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary {
-    display: block
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block
 }
 
 body, button, input, select {
-  font: 100% sans-serif; /*'Lato', */
+  font: 100% sans-serif;
+  /*'Lato', */
   *font-size: 1em;
   color: #555;
 }
@@ -166,9 +164,10 @@ code {
 }
 
 /* TABLES */
+
 table {
-    border-collapse: collapse;
-    border-spacing: 0
+  border-collapse: collapse;
+  border-spacing: 0
 }
 
 /* FORMS */
@@ -227,17 +226,17 @@ q {
 
 /* LISTS */
 
-dl,menu,ol,ul {
-    margin: 1em 0
+dl, menu, ol, ul {
+  margin: 1em 0
 }
 
-menu,ol,ul {
-    padding: 0 0 0 40px
+menu, ol, ul {
+  padding: 0 0 0 40px
 }
 
-nav ul,nav ol {
-    list-style: none;
-    list-style-image: none
+nav ul, nav ol {
+  list-style: none;
+  list-style-image: none
 }
 
 ul {
@@ -269,7 +268,7 @@ a:hover, a:focus, a:active {
 }
 
 a:focus {
-    outline: thin dotted
+  outline: thin dotted
 }
 
 /* MEDIA */
@@ -285,7 +284,6 @@ img {
   border: 0;
   -ms-interpolation-mode: bicubic;
 }
-
 
 /* Improve IE's resizing of images */
 
@@ -704,7 +702,7 @@ body {
 
 .sny-icon i {
   display: inline-block;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .sny-icon-content {
@@ -813,7 +811,7 @@ Change widths as necessary
 
 /* MOBILE PORTRAIT */
 
-@media only screen and (min-width: 510px) {
+@media only screen and (min-width: 550px) {
   .etabs>li span {
     display: block;
   }
@@ -828,7 +826,7 @@ Change widths as necessary
 @media only screen and (min-width: 680px) {
   /* Sidebar */
   .sidebar {
-    padding-left: 20px;
+    padding-left: 10px;
     border-left: 1px solid #cccccc;
   }
   /* COLUMN GRID */
@@ -854,16 +852,16 @@ Change widths as necessary
     width: 94.0%;
   }
   .sidebar-col {
-    width: 30.0%;
+    width: 34.0%;
   }
   .resume-col {
-    width: 66.0%;
+    width: 62.0%;
   }
 }
 
 /* LANDSCAPE TABLET/NETBOOK/LAPTOP */
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 900px) {
   .etabs>li span {
     display: inline;
   }
@@ -872,7 +870,7 @@ Change widths as necessary
     margin-right: 6px;
   }
   .tab a {
-    padding: 10px 40px 10px 40px;
+    padding: 10px 20px 10px 20px;
   }
   /* 3 COLUMN GRID */
   .g1 {
@@ -952,11 +950,12 @@ Change widths as necessary
   }
 }
 
-/* --------------------------------
-1. Auto-Hiding Navigation - Simple
--------------------------------- */
+/* Adaptive Header 
+    See: https://stackoverflow.com/questions/36448800/how-to-show-or-hide-a-menu-when-i-scroll-down-or-up#
+*/
 
-.cd-auto-hide-header {
+#header {
+  height: auto;
   position: fixed;
   z-index: 2;
   top: 0;
@@ -964,70 +963,100 @@ Change widths as necessary
   width: 100%;
   /* height: 60px; */
   background-color: #ffffff;
-  /* Force Hardware Acceleration */
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  will-change: transform;
-  -webkit-transition: -webkit-transform .5s;
-  transition: -webkit-transform .5s;
-  transition: transform .5s;
-  transition: transform .5s, -webkit-transform .5s;
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
 }
 
-.cd-auto-hide-header::after {
-  clear: both;
-  content: "";
-  display: block;
+/* Awesome Font icon 
+  genereated from: http://fontello.com/
+  see zip in images/
+*/
+
+@font-face {
+  font-family: 'awesome';
+  src: url('../font/awesome.eot?87710807');
+  src: url('../font/awesome.eot?87710807#iefix') format('embedded-opentype'), url('../font/awesome.woff2?87710807') format('woff2'), url('../font/awesome.woff?87710807') format('woff'), url('../font/awesome.ttf?87710807') format('truetype'), url('../font/awesome.svg?87710807#awesome') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
-.cd-auto-hide-header.is-hidden {
-  -webkit-transform: translateY(-100%);
-  -ms-transform: translateY(-100%);
-  transform: translateY(-100%);
-}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
 
-@media only screen and (min-width: 1024px) {
-  .cd-auto-hide-header {}
-}
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
 
-.cd-auto-hide-header .logo, .cd-auto-hide-header .nav-trigger {
-  position: absolute;
-  top: 50%;
-  bottom: auto;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.cd-auto-hide-header .logo {
-  left: 5%;
-}
-
-.cd-auto-hide-header .logo a, .cd-auto-hide-header .logo img {
-  display: block;
-}
-
-.cd-auto-hide-header .nav-trigger {
-  /* vertically align its content */
-  display: table;
-  height: 100%;
-  padding: 0 1em;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  color: #25283D;
-  font-weight: bold;
-  right: 0;
-  border-left: 1px solid #f2f2f2;
-}
-
-.cd-auto-hide-header .nav-trigger span {
-  /* vertically align inside parent element */
-  display: table-cell;
-  vertical-align: middle;
-}
-
-@media only screen and (min-width: 1024px) {
-  .cd-auto-hide-header .nav-trigger {
-    display: none;
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'awesome';
+    src: url('../font/awesome.svg?87710807#awesome') format('svg');
   }
+}
+*/
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "awesome";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-user:before {
+  content: '\e800';
+}
+
+.icon-align-justify:before {
+  content: '\e801';
+}
+
+.icon-download:before {
+  content: '\e803';
+}
+
+.icon-linkedin:before {
+  content: '\e804';
+}
+
+.icon-globe:before {
+  content: '\e805';
+}
+
+.icon-phone:before {
+  content: '\e806';
+}
+
+.icon-github-circled:before {
+  content: '\f09b';
+}
+
+.icon-mail-alt:before {
+  content: '\f0e0';
+}
+
+.icon-terminal:before {
+  content: '\f120';
+}
+
+.icon-doc-text-inv:before {
+  content: '\f15c';
 }

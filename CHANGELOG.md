@@ -1,5 +1,11 @@
 # Changelog
 ---------------
+####8/12/18
+* speed up site 
+* remove js/css, compress imgs
+* remove cdn (awesome and jquery)
+
+---------------
 ####8/5/18
 * big redesign
 * pruned content

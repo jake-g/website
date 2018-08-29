@@ -1,6 +1,9 @@
 # Changelog
 ---------------
 ####8/12/18
+* edit text
+---------------
+####8/12/18
 * speed up site 
 * remove js/css, compress imgs
 * remove cdn (awesome and jquery)

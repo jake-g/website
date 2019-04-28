@@ -5,13 +5,6 @@ UPDATE Changelog!!!
 ### Things to update
 * personal pic (use google one?)
 
-#### bots
-* craigslist
-* pokemon
-* crypto trading
-* crypto data Scraper
-* maybe move node img scraper here
-* mayboe move music scraper here?
 
 #### health
 * eye, 
@@ -24,8 +17,7 @@ UPDATE Changelog!!!
 * pc build
 * 3d printer and prints
 
-#### machine Learning
-* add zuru project
+
 
 #### vision
 * neural style (WIP)

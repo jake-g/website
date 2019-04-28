@@ -1,4 +1,8 @@
 # Changelog
+
+---------------
+####9/29/18
+* added bot section and zuru
 ---------------
 ####8/12/18
 * edit text

@@ -1,4 +1,8 @@
 # Changelog
+---------------
+####12/30/19
+* updated todo
+* fixed typos, moved acedemic section, changed intro
 
 ---------------
 ####9/29/18

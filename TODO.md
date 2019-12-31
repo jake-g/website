@@ -7,18 +7,8 @@ UPDATE Changelog!!!
 * update resume pdf
 	* mention google job
 	* see notes at bottom of  TODO
-* add color date squre next to awards rather than plaintext
-* dont focus on adecemic epochs anymore, move to nbelow resume maybe
-	* academic epochs: use undergraduate degree and graduate degree as  headers, add another one for digital art
 * can i update linke in with ubi research
-* create archive page or section with old boreing projects graveyard
-* typo quick fix: 
-	* caption is dumb
- 	* sponsored by  Seattle Department of Energy should be dep of trnasportation AND energy
- 	* consumer appeal poster not found
-	* Remove gpa award?
-	* Invited to Boeing Innovation Summit --> Speaker at ...
-	* audio seperate mispslled
+* create archive page or section with old boreing or commented out projects graveyard
 
 
 ### Longterm thoughts
@@ -74,7 +64,7 @@ UPDATE Changelog!!!
 * carpacio
 * pupil eye thing
 * 3d print
-* consumer appeal??
+* consumer appeal fix link
 
 #### other debatable
 * google music / album scrape / reddit scrape code projects

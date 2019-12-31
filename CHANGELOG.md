@@ -1,19 +1,19 @@
 # Changelog
 ---------------
-####12/30/19
+#### 12/30/19
 * updated todo
 * fixed typos, moved acedemic section, changed intro
 
 ---------------
-####9/29/18
+#### 9/29/18
 * added bot section and zuru
 
 ---------------
-####8/12/18
+#### 8/12/18
 * edit text
 
 ---------------
-####8/12/18
+#### 8/12/18
 * speed up site 
 * remove js/css, compress imgs
 * remove cdn (awesome and jquery)
@@ -23,20 +23,20 @@
 * update TODO.md
 
 ---------------
-####8/5/18
+#### 8/5/18
 * big redesign
 * pruned content
 * updated with grad school stuff and new job
 
 ---------------
-####2/24/17
+#### 2/24/17
 * Added sections to projects and papers
 * reduced size of images
 * reorg images
 * cleaned html and css
 
 ---------------
-####2/20/17
+#### 2/20/17
 * Redesigned column layout
 * new resume upload
 * Rewrote about
@@ -49,7 +49,7 @@
 * open links in new tab
 
 ---------------
-####6/25/16
+#### 6/25/16
 * Removed background
 * Download resume
 * Updated projects
@@ -68,7 +68,7 @@
 * Updated About description and added Distraction demo
 
 ---------------
-####4/25/16
+#### 4/25/16
 * updated bio and jobs
 * added hardware toolcheck paper
 * added and organized projects
@@ -76,8 +76,9 @@
 	* parking
 	* classifier
 	* ADAS
+
 ---------------
-####4/5/16
+#### 4/5/16
 * got rid of musician
 * added electric gti on homepage
 * removed face

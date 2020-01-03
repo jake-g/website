@@ -6,23 +6,31 @@ UPDATE Changelog!!!
 * personal pic (use google one?)
 * update resume pdf
 	* mention google job
-	* see notes at bottom of  TODO
+	* see `### Resume`
 * can i update linke in with ubi research
 * create archive page or section with old boreing or commented out projects graveyard
+* link to thesis in bio. look for other places to insert links
+* top tabs go into icon only too soon
+* gallery 
+	* lazy load images?
+	* fix image tiling (weird on large screen)
+	* no hover action? have buttons just as text below image like reddit
+* optimize
+	* less js?
+	* faster load?
+	* seo
+* check for 
+	* add new projects
+	* add other github/gitlab
+
+### Resume
+* reduce text
+* update resume with new jobs
+* update likedin and paper resume to reflect changes
 
 
-### Longterm thoughts
-* less js?
-* faster load?
-* brutalist theme
-* beer journal
-* music end of year page
-* reformat ev blog and serve from here
-* open source more projects
-
+### Projects to add
 #### health
-* eye, 
-* bili
 * spiro
 * cough
 * force touch?
@@ -36,15 +44,13 @@ UPDATE Changelog!!!
 #### vision
 * neural style (WIP)
 * 3d print classifier
-* puppy ai webapp?
 * puppy ai app update info?
-* haiku deck zuru demo vid?
 
 #### audio
+* rtunes is dead, remove link
 * zsyth pi
+* apc mod
 * pi audioset demo (WIP)
-* casio repair
-* other pedals?
 * 8 bit stuff
 
 #### papers
@@ -66,28 +72,29 @@ UPDATE Changelog!!!
 * 3d print
 * consumer appeal fix link
 
-#### other debatable
-* google music / album scrape / reddit scrape code projects
-* add new projects
-* add other github/gitlab
-* add game of life?
-* port electric gti blog to here?
+### Add in future or never debatable
+
+#### content
+* brutalist theme
+* beer journal and process
 * add news interviews / media attention
-
-
-### Notes
-* link to thesis in bio. look for other places to insert links
+* music end of year page
+* reformat ev blog and serve from here
+* make page showing all gear owned (picutres) and casio collection and pedals
 * make most links go to the section with more info rather than to an external website. (like instead of verellen.com link in bio, have that link go to the project panel)
-* top tabs go into icon only too soon
-* seo
 
-### Resume
-* reduce text
-* update resume with new jobs
-* update likedin and paper resume to reflect changes
+#### software
+* open source more projects
+* add game of life?
 
-### Project gallery 
-* lazy load images?
-* fix image tiling (weird on large screen)
-* no hover action? have buttons just as text below image like reddit
+* google music / album scrape / reddit scrape code projects
+
+#### vision
+* puppy ai webapp?
+* haiku deck zuru demo vid?
+
+#### health
+* eye (connect to alex)
+* bili (maybe not)
+
 

@@ -8,9 +8,10 @@ UPDATE Changelog!!!
 	* mention google job
 	* see `### Resume`
 * can i update linke in with ubi research
-* create archive page or section with old boreing or commented out projects graveyard
+
 * link to thesis in bio. look for other places to insert links
 * top tabs go into icon only too soon
+* color dates per year or something
 * gallery 
 	* lazy load images?
 	* fix image tiling (weird on large screen)
@@ -23,6 +24,9 @@ UPDATE Changelog!!!
 	* add new projects
 	* add other github/gitlab
 
+* get photoshoot of 3d printer, clean up photoalbum
+* photoshoot pc build Fill out PC build spec more (images, prices temp, upgrade dates): https://pcpartpicker.com/builds/edit/?userbuild=mRZRsY, consider adding dats gaming pc also 
+
 ### Resume
 * reduce text
 * update resume with new jobs
@@ -34,11 +38,7 @@ UPDATE Changelog!!!
 * spiro
 * cough
 * force touch?
-
-#### fabrication
-* pc build
-* 3d printer and prints
-
+* browser ultrasound
 
 
 #### vision
@@ -60,6 +60,7 @@ UPDATE Changelog!!!
 * pupil eye thing
 * spiroconf
 * thesis (pt1: lungs / spirometry pt2: audio / tech) 
+* paper with Matt
 * Remove papers that suck
 
 #### presentations
@@ -88,7 +89,7 @@ UPDATE Changelog!!!
 * add game of life?
 
 * google music / album scrape / reddit scrape code projects
-
+* get haiku deck zuru page and video backed up
 #### vision
 * puppy ai webapp?
 * haiku deck zuru demo vid?

@@ -1,7 +1,12 @@
 # Changelog
+
 ---------------
-#### 12/30/19
-* beutify html
+#### 1/8/20
+* chipped away at some todo items: fabrication
+
+---------------
+#### 1/3/20
+* beautify html
 * edited sidebar
 
 ---------------

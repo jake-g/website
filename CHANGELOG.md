@@ -1,4 +1,7 @@
 # Changelog
+---------------
+#### 1/12/20
+* Added presentations posters and papers
 
 ---------------
 #### 1/8/20

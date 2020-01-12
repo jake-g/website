@@ -24,8 +24,11 @@ UPDATE Changelog!!!
 	* add new projects
 	* add other github/gitlab
 
-* get photoshoot of 3d printer, clean up photoalbum
 * photoshoot pc build Fill out PC build spec more (images, prices temp, upgrade dates): https://pcpartpicker.com/builds/edit/?userbuild=mRZRsY, consider adding dats gaming pc also 
+* photoshoot zynthian and apc
+* photos of diu pedals, casio cz, strat, other audio HW?
+* photos of house, wally-sever, nuc-server, pi-beer server, skiis
+
 
 ### Resume
 * reduce text
@@ -52,28 +55,23 @@ UPDATE Changelog!!!
 * apc mod
 * pi audioset demo (WIP)
 * 8 bit stuff
+c* cassio cz mods, sk1 mods, photos of pedals
 
 #### papers
-* Ai sound paper?
 * DSP compression paper
-* carpacio
 * pupil eye thing
-* spiroconf
-* thesis (pt1: lungs / spirometry pt2: audio / tech) 
-* paper with Matt
 * Remove papers that suck
 
 #### presentations
-* thesis sldies
 * other ubi slides?
 
 #### posters
-* carpacio
-* pupil eye thing
-* 3d print
 * consumer appeal fix link
 
 ### Add in future or never debatable
+
+* split thesis (pt1: lungs / spirometry pt2: audio / tech) 
+* paper with Matt
 
 #### content
 * brutalist theme

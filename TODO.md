@@ -24,35 +24,25 @@ UPDATE Changelog!!!
 	* add new projects
 	* add other github/gitlab
 
-* photoshoot pc build Fill out PC build spec more (images, prices temp, upgrade dates): https://pcpartpicker.com/builds/edit/?userbuild=mRZRsY, consider adding dats gaming pc also 
+* maybe shorten resume desc
+* consider adding dads gaming pc also 
 * photoshoot zynthian and apc
 * photos of diu pedals, casio cz, strat, other audio HW?
 * photos of house, wally-sever, nuc-server, pi-beer server, skiis
-
+* double check titles (especially with AI) and make more descriptive
 
 ### Resume
 * reduce text
 * update resume with new jobs
 * update likedin and paper resume to reflect changes
 
-
 ### Projects to add
 #### health
-* spiro
-* cough
+
 * force touch?
 * browser ultrasound
 
-
-#### vision
-* neural style (WIP)
-* 3d print classifier
-* puppy ai app update info?
-
 #### audio
-* rtunes is dead, remove link
-* zsyth pi
-* apc mod
 * pi audioset demo (WIP)
 * 8 bit stuff
 c* cassio cz mods, sk1 mods, photos of pedals
@@ -72,6 +62,7 @@ c* cassio cz mods, sk1 mods, photos of pedals
 
 * split thesis (pt1: lungs / spirometry pt2: audio / tech) 
 * paper with Matt
+* make project entry for spiro and cough
 
 #### content
 * brutalist theme

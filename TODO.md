@@ -2,6 +2,13 @@
 
 UPDATE Changelog!!!
 
+reword electrical malibu and camero slide titles
+chnage realtime pitch shifter image to hardaware
+look for dumb titles
+fabrication and some other subtitles missing page break
+reduce resume text
+
+
 ### Things to update
 * fix image tiling (weird on large screen)
 * maybe shorten resume desc

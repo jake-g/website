@@ -1,4 +1,14 @@
 # Changelog
+
+---------------
+#### 2/20/20
+Fix grad date on sidebar of website
+Add CV
+3d printer poster wrong title text
+about link in header points to wrong spot
+add nest below senosis
+remove Seattle WA at bottom
+
 ---------------
 #### 1/12/20
 * Added projects presentations posters and papers

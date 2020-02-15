@@ -7,6 +7,7 @@ chnage realtime pitch shifter image to hardaware
 look for dumb titles
 fabrication and some other subtitles missing page break
 reduce resume text
+Make abridged academic version of thesis for cv
 
 
 ### Things to update

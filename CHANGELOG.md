@@ -1,29 +1,47 @@
 # Changelog
+---------------
+#### 6/20/24
+* move CV ai stuff under ML and rename ML AI, also drivaer awareness
+* Under papers add Writups section for school projects
+* Change acedemeics to School (achedemic echocs)
+* Fix image tiling, recropped, reorderd images
+* Update google
+* Fix images
+* Change "Real-time Pitch Shifter" image to hardware
+* Fabrication and some other subtitles missing
+* Fixed spacing page breaks
+* Update titles
+
+* Add Papers
+  * FRILL A Non-Semantic Speech Embedding for Mobile Devices.pdf
+  * HeAR - Health Acoustic Representations.pdf
+  * LuckyChirp Opportunistic Respiration Sensing Using Cascaded Sonar on Commodity Devices.pdf
+  * Optimizing Audio Augmentations for Contrastive Learning of Health-Related Acoustic Signals.pdf
+  * SpiroConfidence Determining the Validity of Smartphone Based Spirometry Using Machine Learning.pdf
+  * Towards Accurate Differential Diagnosis with Large Language Models.pdf
+  * Whosecough In-the-Wild Cougher Verification Using Multitask Learning.pdf
+* Compress downloaded papers
+
+* Add Patents
+  * [https://patents.google.com/patent/US11627890B2](https://patents.google.com/patent/US11627890B2)
+  * [https://patents.google.com/patent/WO2022035526A1](https://patents.google.com/patent/WO2022035526A1)
+  * [https://patents.google.com/patent/US11862188B2](https://patents.google.com/patent/US11862188B2)
 
 ---------------
 #### 2/20/20
-Fix grad date on sidebar of website
-Add CV
-3d printer poster wrong title text
-about link in header points to wrong spot
-add nest below senosis
-remove Seattle WA at bottom
+* Fix grad date on sidebar of website
+* Add CV
+* 3d printer poster wrong title text
+* about link in header points to wrong spot
+* add nest below senosis
+* remove Seattle WA at bottom
 
 ---------------
-#### 1/12/20
+#### 12/30/19 to 1/12/20
 * Added projects presentations posters and papers
-
----------------
-#### 1/8/20
 * chipped away at some todo items: fabrication
-
----------------
-#### 1/3/20
 * beautify html
 * edited sidebar
-
----------------
-#### 12/30/19
 * updated todo
 * fixed typos, moved acedemic section, changed intro
 
@@ -34,9 +52,6 @@ remove Seattle WA at bottom
 ---------------
 #### 8/12/18
 * edit text
-
----------------
-#### 8/12/18
 * speed up site 
 * remove js/css, compress imgs
 * remove cdn (awesome and jquery)
@@ -44,9 +59,6 @@ remove Seattle WA at bottom
 * reorg
 * compress images, zip up old ones
 * update TODO.md
-
----------------
-#### 8/5/18
 * big redesign
 * pruned content
 * updated with grad school stuff and new job
@@ -57,9 +69,6 @@ remove Seattle WA at bottom
 * reduced size of images
 * reorg images
 * cleaned html and css
-
----------------
-#### 2/20/17
 * Redesigned column layout
 * new resume upload
 * Rewrote about
@@ -99,9 +108,6 @@ remove Seattle WA at bottom
 	* parking
 	* classifier
 	* ADAS
-
----------------
-#### 4/5/16
 * got rid of musician
 * added electric gti on homepage
 * removed face

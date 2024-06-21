@@ -14,6 +14,7 @@
 * Add Google Research blogs, patents
 * Add advisor role
 * Add Scholar Page, link at papers and also sidebars
+* Cleaned up css and update3d to vscode minify tool
 
 
 * Add Papers

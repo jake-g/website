@@ -11,6 +11,10 @@
 * Fabrication and some other subtitles missing
 * Fixed spacing page breaks
 * Update titles
+* Add Google Research blogs, patents
+* Add advisor role
+* Add Scholar Page, link at papers and also sidebars
+
 
 * Add Papers
   * FRILL A Non-Semantic Speech Embedding for Mobile Devices.pdf
@@ -20,6 +24,9 @@
   * SpiroConfidence Determining the Validity of Smartphone Based Spirometry Using Machine Learning.pdf
   * Towards Accurate Differential Diagnosis with Large Language Models.pdf
   * Whosecough In-the-Wild Cougher Verification Using Multitask Learning.pdf
+  *  Wireless: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXNcQegAAAAJ&citation_for_view=kXNcQegAAAAJ:IjCSPb-OGe4C
+  * Morbidity and mortality from COVID-19 post-vaccination breakthrough infections in association with vaccines and the emergence of variants in Bahrain: https://europepmc.org/article/ppr/ppr385975 2022
+
 * Compress downloaded papers
 
 * Add Patents

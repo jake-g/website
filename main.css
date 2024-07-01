@@ -31,7 +31,6 @@ body {
   min-width: 300px;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  color: #666;
   font: 100%;
   font-family: 'Lato', sans-serif;
   font-size: 1em;
@@ -151,7 +150,6 @@ button,
 input,
 select {
   vertical-align: baseline;
-  /* Applied to both button and input */
   line-height: normal;
 }
 
@@ -159,25 +157,23 @@ select {
 button,
 input[type="button"],
 input[type="reset"],
-input[type="submit"] {
-  cursor: pointer;
-  -webkit-appearance: button;
-}
-
+input[type="submit"],
 input[type="checkbox"],
 input[type="radio"] {
+  cursor: pointer;
   box-sizing: border-box;
 }
 
+/* Search Input */
 input[type="search"] {
-  -webkit-appearance: textfield;
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 
 input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
+  display: none;
 }
 
+/* Firefox Focus Styles */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -241,7 +237,7 @@ a:focus,
 a:active {
   text-decoration: none;
   border: none;
-  color: #0f866e;
+  color: #0d7a64;
   outline: 0;
 }
 
@@ -366,7 +362,7 @@ body {
 }
 
 .line-break {
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid #ccc;
   margin-bottom: 2em;
   padding-bottom: 1em;
   clear: both;
@@ -397,7 +393,7 @@ body {
 #tab-data-wrap {
   padding: 30px 20px;
   background: #fff;
-  /* border: 1px solid #cccccc; */
+  /* border: 1px solid #ccc; */
   /* box-shadow: 0px 6px #1abc9c; */
   border-radius: 4px;
 }
@@ -406,7 +402,7 @@ body {
   display: inline-block;
   zoom: 1;
   background: #fff;
-  /* border: solid 1px #cccccc; */
+  /* border: solid 1px #ccc; */
   border-bottom: 0;
   border-radius: 4px 4px 0 0;
   margin-right: 20px;
@@ -487,7 +483,7 @@ body {
 .item-box {
   padding: 6px 6px 6px 10px;
   margin-bottom: 5px;
-  border: 1px solid #cccccc;
+  border: 1px solid #ccc;
   border-radius: 4px;
   min-width: 200px;
 }
@@ -551,7 +547,7 @@ body {
 }
 
 .work li h6 {
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid #ccc;
   margin-bottom: 1em;
 }
 
@@ -561,7 +557,7 @@ body {
 
 /* Projects and Papers */
 .section h4 {
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid #ccc;
   padding: 15px 10px;
   margin-bottom: 0;
 }
@@ -585,7 +581,8 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(214, 214, 214, 0.6);
+  /* Transparent Overlay */
+  background-color: rgba(214, 214, 214, 0.4);
   text-align: center;
   opacity: 0;
   transition: opacity 0.15s ease-out;
@@ -675,25 +672,8 @@ body {
   margin: -10px 0 5px 15px;
 }
 
-.label-info:hover,
-.label-info:focus {
-  background-color: #31b0d5;
-}
-
-.label:hover,
-.label:focus {
-  color: #fff;
-  text-decoration: none;
-  cursor: pointer;
-}
-
 .label-success {
   background-color: #5cb85c;
-}
-
-.label-success:hover,
-.label-success:focus {
-  background-color: #449d44;
 }
 
 /* Footer */
@@ -704,7 +684,7 @@ footer {
   padding: 5px;
   background: rgba(255, 255, 255, 0.8);
   /* box-shadow: 0px 4px #ccc; */
-  color: #333;
+  color: #222;
   border-radius: 4px;
 }
 
@@ -747,7 +727,7 @@ footer p {
   /* Sidebar */
   .sidebar {
     padding-left: 10px;
-    border-left: 1px solid #cccccc;
+    border-left: 1px solid #ccc;
   }
 
   .links-col,
@@ -880,9 +860,102 @@ footer p {
   top: 0;
   left: 0;
   width: 100%;
-  /* height: 60px; */
   background-color: #fff;
-  transition-delay: 0.5s;
+  /* height: 60px; */
+  /* transition-delay: 0.5s; */
+}
+
+/* Dark Mode Toggle */
+#darkModeToggleCheckbox {
+  display: none;
+}
+
+#darkModeToggle {
+  display: inline-block;
+  cursor: pointer;
+}
+
+#darkModeToggle .dark-mode-circle {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #222;
+  /* Dark when unchecked */
+  vertical-align: middle;
+  transition: background-color 0.3s ease;
+}
+
+#darkModeToggleCheckbox:checked+#darkModeToggle .dark-mode-circle {
+  background-color: #ccc;
+  /* Light when checked */
+}
+
+/* Style the dark mode text */
+#darkModeText {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #888;
+  margin-left: 5px;
+  transition: color 0.3s ease;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #222;
+  color: #ccc;
+}
+
+/* Target elements that light color changes */
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6,
+body.dark-mode p,
+body.dark-mode ul,
+body.dark-mode i,
+body.dark-mode footer,
+body.dark-mode label,
+body.dark-mode span,
+body.dark-mode #darkModeText,
+body.dark-mode #header,
+body.dark-mode .tab,
+body.dark-mode #tab-data-wrap {
+  color: #ccc;
+  background-color: #222;
+}
+
+/* Target elements that dark color changes */
+/* Border styles */
+body.dark-mode .line-break,
+body.dark-mode .item-center,
+body.dark-mode .sidebar {
+  border-color: #555;
+}
+
+/* Overlay More transparent in dark mode */
+body.dark-mode .image-overlay {
+  background-color: rgba(30, 30, 30, 0.3);
+}
+
+body.dark-mode footer {
+  background: rgba(34, 34, 34, 0.8);
+}
+
+/* Label Styles - prevent override */
+body.dark-mode .label {
+  color: #222;
+}
+
+body.dark-mode .label-info {
+  background-color: #5dc6e6;
+}
+
+body.dark-mode .label-success {
+  background-color: #67cd67;
 }
 
 /* Awesome Font Icon 

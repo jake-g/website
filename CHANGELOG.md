@@ -15,8 +15,8 @@
 * Add advisor role
 * Add Scholar Page, link at papers and also sidebars
 * Update Google Research
-* Cleaned up al css alot and updated to vscode minify tool
-
+* Cleaned up css alot and updated to vscode minify tool
+* added dark mode toggle and cleaned up css more
 
 * Add Papers
   * FRILL A Non-Semantic Speech Embedding for Mobile Devices.pdf

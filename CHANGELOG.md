@@ -1,6 +1,6 @@
 # Changelog
 ---------------
-#### 6/20/24
+#### 6/20/24 to 7/XX/24
 * move CV ai stuff under ML and rename ML AI, also drivaer awareness
 * Under papers add Writups section for school projects
 * Change acedemeics to School (achedemic echocs)
@@ -17,6 +17,7 @@
 * Update Google Research
 * Cleaned up css alot and updated to vscode minify tool
 * added dark mode toggle and cleaned up css more
+* resized paper/poster ect and reordered
 
 * Add Papers
   * FRILL A Non-Semantic Speech Embedding for Mobile Devices.pdf

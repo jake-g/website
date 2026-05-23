@@ -1,0 +1,27 @@
+# Pre-commit hook configurations for personal website
+# See https://pre-commit.com for more information
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-added-large-files
+        args: ['--maxkb=500']
+
+  - repo: local
+    hooks:
+      - id: compress-assets
+        name: Compress new large images and PDFs
+        entry: make -C processing compress
+        language: system
+        files: '\.(jpg|jpeg|png|pdf)$'
+        pass_filenames: false
+      - id: minify-css
+        name: Minify CSS stylesheet
+        entry: make -C processing minify
+        language: system
+        files: 'main\.css$'
+        pass_filenames: false

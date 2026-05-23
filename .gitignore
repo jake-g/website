@@ -3,3 +3,4 @@ TODO.md
 .DS_Store
 *.zip
 *.code-workspace
+.git_submodules/

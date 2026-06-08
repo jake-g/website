@@ -4,3 +4,5 @@ TODO.md
 *.zip
 *.code-workspace
 .git_submodules/
+image/orig_image
+image/new_image

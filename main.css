@@ -1163,3 +1163,184 @@ body.dark-mode .label-success {
   font-size: 0.85em;
   margin-left: 5px;
 }
+
+.line-break-double {
+  border-bottom: 3px double #ccc;
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+  clear: both;
+}
+
+body.dark-mode .line-break-double {
+  border-color: #555;
+}
+
+.vibe-tag {
+  font-weight: 500;
+  font-size: 0.82em;
+  padding: 1px 6px;
+  border-radius: 4px;
+  background: rgba(147, 51, 234, 0.12);
+  color: #9333ea;
+  border: 1px solid rgba(147, 51, 234, 0.25);
+  margin-left: 4px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+body.dark-mode .vibe-tag {
+  background: rgba(192, 132, 252, 0.18);
+  color: #c084fc;
+  border-color: rgba(192, 132, 252, 0.35);
+}
+
+/* Resume Collapsible Details Styling */
+.no-list.work {
+  padding-left: 0;
+  list-style: none;
+}
+
+.no-list.work > li {
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+details.resume-item {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: #ffffff;
+  transition: all 0.2s ease;
+  overflow: hidden;
+}
+
+details.resume-item[open] {
+  border-color: #cbd5e1;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+summary.resume-header {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  cursor: pointer;
+  list-style: none;
+  gap: 12px;
+}
+
+summary.resume-header::-webkit-details-marker {
+  display: none;
+}
+
+summary.resume-header .logo {
+  float: none;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 42px;
+  flex-shrink: 0;
+  overflow: visible;
+}
+
+summary.resume-header .logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 0;
+  margin: 0;
+}
+
+.resume-title-wrap {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.resume-title-wrap h5 {
+  margin: 0;
+  font-size: 1.05em;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.resume-title-wrap .label {
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.chevron-icon {
+  font-size: 0.75em;
+  color: #64748b;
+  transition: transform 0.2s ease;
+  flex-shrink: 0;
+}
+
+details.resume-item[open] summary.resume-header .chevron-icon {
+  transform: rotate(180deg);
+}
+
+.resume-body {
+  padding: 14px 16px 16px 16px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.resume-body p {
+  margin-bottom: 8px;
+}
+
+.resume-body a {
+  display: inline;
+}
+
+.resume-body p > a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.resume-body ul.list a,
+.resume-body p a:not(:has(b)) {
+  display: inline;
+  margin-right: 0;
+}
+
+/* Dark mode resume accordion */
+body.dark-mode details.resume-item {
+  background: #262626;
+  border-color: #383838;
+}
+
+body.dark-mode details.resume-item[open] {
+  border-color: #4a4a4a;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode summary.resume-header .resume-title-wrap h5 {
+  color: #f1f5f9;
+}
+
+body.dark-mode .resume-body {
+  border-top-color: #333333;
+}
+
+
+
+@media print {
+  details.resume-item[open] summary.resume-header .chevron-icon {
+    transform: none;
+  }
+  
+  details.resume-item .resume-body {
+    display: block !important;
+  }
+  
+  details.resume-item summary.resume-header {
+    pointer-events: none;
+  }
+  
+  details.resume-item summary.resume-header .chevron-icon {
+    display: none;
+  }
+}

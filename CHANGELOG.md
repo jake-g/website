@@ -1,5 +1,22 @@
 # Changelog
 ---------------
+#### July 2026 Update
+* **Resume & Education Restructuring**: 
+  * Split University of Washington education into separate M.S. and B.S. entries with bulleted highlights and expanded academic focus.
+  * Moved UW Guest Lectures to the top of Education with Google Health researcher context and top link buttons for slides.
+  * Relocated Academic Writeups and Posters under the `#school` section at the bottom of the page.
+  * Renamed "Awards & Additional Education" to "Accomplishments" header with refined top spacing.
+* **Styling & Interaction Polish**: 
+  * Fixed inline hyperlink CSS display to prevent awkward line breaks in bulleted resume details.
+  * Fixed clipping on collapsible resume logo icons and made collapsed titles selectable text.
+  * Updated dead external links (EcoCAR, Verellen Amplifiers) to archived Wayback Machine URLs.
+  * Removed magic wand emojis from `vibe-coded` project tags.
+  * Added "Webapp" link for `emojii-flow`.
+  * Configured `@media print` CSS so printing automatically expands all hidden detail blocks.
+* **Toolchain & Maintenance**: 
+  * Added metadata and compression mappings for new project card images (`sensorfm_blog`, `sensorfm`, `bitfury_miner`, `emojii_flow`).
+  * Updated minified CSS assets and maintained automated image processing pipelines.
+
 #### May 2026 Update
 * **Google Health Restructuring**: Removed the category header; moved cards to
   Blogs (Fitbit Air, Health Coach, Pixel Cough/Snore, Nest Hub) and AI/ML projects

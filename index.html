@@ -35,7 +35,22 @@
 			"name": "Jake Garrison",
 			"url": "https://jakegarrison.me/",
 			"jobTitle": "AI Research Engineer",
-			"knowsAbout": ["Health agents", "AI agents", "Multi-agent systems", "Foundation models", "Frontier AI", "Self-improving AI", "Automated AI research", "Edge AI", "Wearable sensing", "Health acoustics"],
+			"knowsAbout": [
+				"Health agents",
+				"AI agents",
+				"Multi-agent systems",
+				"Foundation models",
+				"Large language models",
+				"Self-improving AI",
+				"Automated AI research",
+				"Health acoustics",
+				"Audio representation learning",
+				"Wearable sensing",
+				"Edge AI",
+				"Digital signal processing",
+				"Computer vision",
+				"Robotics and physics simulation"
+			],
 			"worksFor": { "@type": "Organization", "name": "Google" },
 			"alumniOf": { "@type": "CollegeOrUniversity", "name": "University of Washington" },
 			"address": { "@type": "PostalAddress", "addressLocality": "Seattle", "addressRegion": "WA" },
@@ -289,8 +304,8 @@
 												<li>Commercialized UbiComp lab research including BiliCam, SpiroSmart, and CoughSense</li>
 												<li>Developed audio, radar, and sonar algorithms for cough and respiration sensing shipped on Pixel Phones and Nest Hub</li>
 												<li>Developed remote care COVID-19 diagnostic and data science tools</li>
-												<li>Trained large audio and sensor foundation models specialized in health signals</li>
-												<li>Exploring applications of LLMs for consumer health</li>
+												<li>Trained multimodal audio and wearable sensor foundation models (HeAR, AudioFM, SensorFM, SensorLM, LSM)</li>
+												<li>Built personal health agents, multi-agent systems, and self-improving AI for automated scientific discovery (ERA, Codegen Classroom)</li>
 											</ul>
 										</div>
 									</details>
@@ -780,16 +795,17 @@
 							<ul class="list">
 								<li>JAX, PyTorch, TensorFlow, Python, C/C++, Embedded C, MATLAB, SuperCollider, JavaScript, SQL</li>
 								<li>Signal, vision, sound, language and medical data processing</li>
-								<li>Machine learning, large language models (LLMs), foundation models</li>
+								<li>Machine learning, large language models (LLMs), multimodal foundation models, AI agents</li>
+								<li>Self-improving AI, multi-agent systems, automated scientific research (autoresearch)</li>
 								<li>Data science, portfolio pipeline engineering, web scraper engines</li>
 								<li>Modeling, MuJoCo physics simulations, and HIL loop controls</li>
-								<li>Embedded systems firmware development, RTOS</li>
+								<li>Embedded systems firmware development, RTOS, on-device edge AI</li>
 							</ul>
 							<h6>Engineering</h6>
 							<ul class="list">
-								<li>Neural network architectures (Transformers, CNNs, Speech Embeddings)</li>
+								<li>Neural network architectures (Transformers, CNNs, Audio &amp; Sensor Representations)</li>
 								<li>Analog and digital circuit design (PCBs, tube amplifiers)</li>
-								<li>Acoustic engineering &amp; biosignal sensing (sleep/respiration sonar)</li>
+								<li>Acoustic engineering &amp; biosignal sensing (sleep/respiration sonar, HeAR, AudioFM, SensorFM)</li>
 								<li>Vehicle controls (powertrain control, hybrid-electric systems, CAN bus)</li>
 								<li>Autonomous systems (lane detection, self-driving simulators)</li>
 								<li>Additive manufacturing (3D printing, rapid hardware prototyping)</li>
@@ -806,15 +822,18 @@
 							</ul>
 							<h4>Keywords</h4>
 							<p>JAX, PyTorch, TensorFlow, Machine Learning, Deep Learning, Foundation Models, Large Language Models,
-								LLMs, Wearable Sensors, Health Acoustics, Digital Signal Processing, DSP, Audio Embeddings, Audio
-								Representations, Sleep Sensing, Respiration Sensing, Mobile Health, Contactless Sensing, Computer
-								Vision, OpenCV, Analog Electronics, Tube Amplifiers, PCB Design, Firmware Development, Autonomous
-								Driving, Hybrid Electric Vehicles, TORCS Simulator, SuperCollider, Ableton Live parser, vocal synthesis,
-								speech synthesis, pitch detector, instrument tuner, audio separate, cocktail party separation, MuJoCo,
-								reinforcement learning, physics simulation, ESP32 LLM, micro LLM, tokenizer, pre-training, large
-								wearable models, biomarkers, Power electronics, high voltage systems, CAN bus, battery pack design,
-								microcontrollers, FPGA, digital circuits, Plex API, Last.fm scrobble sync, Reddit scraper, housing list
-								scraper, portfolio pipeline</p>
+								LLMs, AI Agents, Health Agents, Personal Health Agent, Multi-Agent Systems, AI Swarms, Self-Improving AI,
+								Recursive Self-Improvement, Automated AI Research, Autoresearch, Empirical Research Assistance, ERA,
+								Codegen Classroom, Frontier AI, Wearable Sensors, SensorFM, SensorLM, LSM, Large Sensor Models,
+								Health Acoustics, HeAR, Health Acoustic Representations, AudioFM, Digital Signal Processing, DSP,
+								Audio Embeddings, Audio Representations, Sleep Sensing, Respiration Sensing, Mobile Health, Contactless
+								Sensing, Computer Vision, OpenCV, Analog Electronics, Tube Amplifiers, PCB Design, Firmware Development,
+								Autonomous Driving, Hybrid Electric Vehicles, TORCS Simulator, SuperCollider, Ableton Live parser,
+								vocal synthesis, speech synthesis, pitch detector, instrument tuner, audio separate, cocktail party
+								separation, MuJoCo, reinforcement learning, physics simulation, ESP32 LLM, micro LLM, Edge AI, On-Device
+								AI, tokenizer, pre-training, large wearable models, biomarkers, probabilistic reasoning, Power
+								electronics, high voltage systems, CAN bus, battery pack design, microcontrollers, FPGA, digital
+								circuits, Plex API, Last.fm scrobble sync, Reddit scraper, housing list scraper, portfolio pipeline</p>
 						</div>
 						<details class="resume-item" style="margin-bottom: 2em; margin-top: 1em;">
 							<summary class="resume-header">
@@ -893,6 +912,18 @@
 							<h2>Projects</h2>
 
 							<h4>Artificial Intelligence (AI/ML)</h4>
+							<div class="g1">
+								<h6>Codegen Classroom: Self-Improving LLM Agents <span class="pub-year">(2026)</span></h6>
+
+								<div class="image">
+									<img loading="lazy" src="image/codegen-classroom.jpg" alt="Codegen Classroom agent scores over cycles">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://github.com/google-research/codegen-classroom" class="btn">Code</a>
+										</div>
+									</div>
+								</div>
+							</div>
 							<div class="g1">
 								<h6>MuJoCo Puppeteer Physics Sim <span class="pub-year">(2026)</span> <span class="vibe-tag">vibe-coded</span></h6>
 
@@ -1802,6 +1833,37 @@
 								<i>Official product announcements, research blogs, and news coverage of engineering projects and technologies I contributed to.</i>
 							</p>
 							<div class="g1">
+								<h6>Bringing Foundational Models to the Front Lines of TB Screening <span class="pub-year">(10/2026)</span></h6>
+
+								<div class="image">
+									<img loading="lazy" src="image/tb_screening.jpg" alt="TB Screening Blog">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank"
+												href="https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/"
+												class="btn">Read</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<h6>The Anatomy of a Personal Health Agent <span class="pub-year">(10/2026)</span></h6>
+
+								<div class="image">
+									<img loading="lazy" src="image/health_agent_blog.jpg" alt="Personal Health Agent Blog">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank"
+												href="https://research.google/blog/the-anatomy-of-a-personal-health-agent/"
+												class="btn">Read Blog</a>
+											<a target="_blank" href="https://www.nature.com/articles/s41586-026-11161-8"
+												class="btn">Read Nature</a>
+											<a target="_blank" href="https://arxiv.org/abs/2508.20148" class="btn">Paper</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
 								<h6>SensorFM: Wearable Health AI <span class="pub-year">(05/2026)</span></h6>
 
 								<div class="image">
@@ -2105,6 +2167,35 @@
 								</a>
 							</p>
 							<div class="g1">
+								<h6>AudioFM: Towards General Purpose Audio Representation Learning <span class="pub-year">(10/2026)</span></h6>
+
+								<div class="image">
+									<img loading="lazy" src="image/audiofm.jpg" alt="AudioFM Paper">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://arxiv.org/abs/2610.34183" class="btn">Read (arXiv)</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
+								<h6>The Anatomy of a Personal Health Agent <span class="pub-year">(10/2026)</span></h6>
+
+								<div class="image">
+									<img loading="lazy" src="image/health_agent.jpg" alt="The Anatomy of a Personal Health Agent">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://www.nature.com/articles/s41586-026-11161-8"
+												class="btn">Read (Nature)</a>
+											<a target="_blank" href="https://arxiv.org/abs/2508.20148" class="btn">Read (arXiv)</a>
+											<a target="_blank"
+												href="https://research.google/blog/the-anatomy-of-a-personal-health-agent/"
+												class="btn">Blog</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="g1">
 								<h6>Towards a General Intelligence and Interface for Wearable Health Data <span
 										class="pub-year">(05/2026)</span></h6>
 
@@ -2130,18 +2221,6 @@
 										<div class="image-link">
 											<a target="_blank" href="https://doi.org/10.1038/s41586-026-10658-6" class="btn">Read (Nature)</a>
 											<a target="_blank" href="https://arxiv.org/abs/2509.06503" class="btn">Read (arXiv)</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="g1">
-								<h6>The Anatomy of a Personal Health Agent <span class="pub-year">(08/2025)</span></h6>
-
-								<div class="image">
-									<img loading="lazy" src="image/health_agent.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://arxiv.org/abs/2508.20148" class="btn">Read (arXiv)</a>
 										</div>
 									</div>
 								</div>
@@ -2383,8 +2462,20 @@
 								</a>
 							</p>
 							<p style="margin-top: -10px; margin-bottom: 15px; font-style: italic; font-size: 0.9em; opacity: 0.8;">
-								Note: 6 additional pending utility applications (filed 2023–2025) are currently non-public.
+								Note: 5 additional pending utility applications (filed 2023–2025) are currently non-public.
 							</p>
+							<div class="g1">
+								<h6>System and method for summarizing health data for use by large language models <span class="pub-year">(06/2026)</span></h6>
+
+								<div class="image">
+									<img loading="lazy" src="image/US20260179738A1.jpg" alt="Health data summarization for LLMs patent">
+									<div class="image-overlay">
+										<div class="image-link">
+											<a target="_blank" href="https://patents.google.com/patent/US20260179738A1" class="btn">View Patent</a>
+										</div>
+									</div>
+								</div>
+							</div>
 							<div class="g1">
 								<h6>Method for detecting and classifying coughs or other non-semantic sounds <span
 										class="pub-year">(01/2024)</span></h6>

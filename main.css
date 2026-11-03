@@ -1333,15 +1333,15 @@ body.dark-mode .resume-body {
   details.resume-item[open] summary.resume-header .chevron-icon {
     transform: none;
   }
-  
+
   details.resume-item .resume-body {
     display: block !important;
   }
-  
+
   details.resume-item summary.resume-header {
     pointer-events: none;
   }
-  
+
   details.resume-item summary.resume-header .chevron-icon {
     display: none;
   }

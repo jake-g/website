@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+# Internal build tooling (git submodule) - not site content.
+Disallow: /processing/
+
+Sitemap: https://jakegarrison.me/sitemap.xml

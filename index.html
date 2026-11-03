@@ -2,16 +2,62 @@
 <html lang="en">
 
 <head>
-	<title>Jake Garrison</title>
+	<title>Jake Garrison | AI Research at Google</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="description"
-		content="Personal website including academic history, resume, projects, papers, and publications.">
+		content="Jake Garrison, AI research engineer at Google working on health agents, foundation models, self-improving AI, and edge AI. Resume, projects, and papers.">
 	<meta name="keywords"
-		content="personal, resume, projects, papers, jake, garrison, website, presentations, puppy.ai, ai, machine learning, google, research, rtunes.xyz, uw, university of washington">
+		content="jake garrison, ai research, google, health agents, ai agents, multi-agent, ai swarms, foundation models, frontier ai, self-improving ai, recursive self-improvement, autoresearch, edge ai, on-device ai, wearables, health acoustics, machine learning, resume, projects, papers, university of washington">
+	<meta name="author" content="Jake Garrison">
+	<link rel="canonical" href="https://jakegarrison.me/">
+	<!-- Open Graph / social previews -->
+	<meta property="og:type" content="profile">
+	<meta property="og:site_name" content="Jake Garrison">
+	<meta property="og:title" content="Jake Garrison | AI Research at Google">
+	<meta property="og:description"
+		content="Jake Garrison, AI research engineer at Google. Resume, projects, papers, and publications.">
+	<meta property="og:url" content="https://jakegarrison.me/">
+	<meta property="og:image" content="https://jakegarrison.me/image/jake.jpg">
+	<meta property="profile:first_name" content="Jake">
+	<meta property="profile:last_name" content="Garrison">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Jake Garrison | AI Research at Google">
+	<!-- Structured data: tells Google this site is the canonical home of the person -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "ProfilePage",
+		"url": "https://jakegarrison.me/",
+		"mainEntity": {
+			"@type": "Person",
+			"name": "Jake Garrison",
+			"url": "https://jakegarrison.me/",
+			"jobTitle": "AI Research Engineer",
+			"knowsAbout": ["Health agents", "AI agents", "Multi-agent systems", "Foundation models", "Frontier AI", "Self-improving AI", "Automated AI research", "Edge AI", "Wearable sensing", "Health acoustics"],
+			"worksFor": { "@type": "Organization", "name": "Google" },
+			"alumniOf": { "@type": "CollegeOrUniversity", "name": "University of Washington" },
+			"address": { "@type": "PostalAddress", "addressLocality": "Seattle", "addressRegion": "WA" },
+			"sameAs": [
+				"https://github.com/jake-g",
+				"https://www.linkedin.com/in/garrisonjake",
+				"https://scholar.google.com/citations?user=kXNcQegAAAAJ"
+			]
+		}
+	}
+	</script>
 	<link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico" />
 	<link rel="stylesheet" href="main.min.css" async>
+	<!-- Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-GDHVET3Z2R"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', 'G-GDHVET3Z2R');
+	</script>
+	<!-- End Google Analytics -->
 </head>
 
 <!-- Content -->
@@ -67,7 +113,7 @@
 		<!-- Header End -->
 		<div id="logo">
 			<div class="break"></div>
-			<h2>Jake Garrison</h2>
+			<h1>Jake Garrison</h1>
 		</div>
 		<!-- Main Tab Container -->
 		<div id="tab-container" class="tab-container">
@@ -78,11 +124,13 @@
 						<div class="about-col">
 							<div class="info">
 								<div class="photo">
-									<img loading="lazy" src="image/jake.jpg" alt="Jake Garrison">
+									<img src="image/jake.jpg" alt="Jake Garrison" fetchpriority="high" width="200" height="200">
 								</div>
 								<h4>I'm Jake.</h4>
 								<p>
 									<i>
+										I work on health agents and foundation models, and more recently on
+										self-improving AI.
 										I studied Electrical and Computer Engineering at the University of Washington as
 										an undergraduate and specialized in machine learning, computer vision, and
 										signal processing for graduate school. I was born and raised in Spokane, WA and
@@ -2819,16 +2867,49 @@
 		});
 	</script>
 	<!-- End Print Resume Expansion -->
-	<!-- Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-GDHVET3Z2R"></script>
+	<!-- Analytics: section tracking -->
 	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
+		(function () {
+			const sections = ['about', 'resume', 'projects', 'blogs', 'papers', 'contact'];
+			const label = id => id.charAt(0).toUpperCase() + id.slice(1);
+			const track = (...args) => { if (typeof gtag === 'function') gtag(...args); };
 
-		gtag('config', 'G-GDHVET3Z2R');
+			// Nav/anchor clicks -> virtual page views so each tab shows as its own page.
+			document.addEventListener('click', e => {
+				const link = e.target.closest('a[href^="#"]');
+				const id = link && link.getAttribute('href').slice(1);
+				if (!sections.includes(id)) return;
+				track('event', 'page_view', {
+					page_title: 'Jake Garrison | ' + label(id),
+					page_location: location.origin + '/' + id,
+				});
+			});
+
+			// Scrolling a section's top into the upper half of the screen (or reaching
+			// the page bottom) -> one section_view event per section per page load.
+			const seen = new Set();
+			let pending = false;
+			const check = () => {
+				pending = false;
+				const atBottom = innerHeight + scrollY >= document.documentElement.scrollHeight - 4;
+				sections.forEach(id => {
+					const el = document.getElementById(id);
+					if (!el || seen.has(id)) return;
+					const top = el.getBoundingClientRect().top;
+					if (top < innerHeight * 0.5 || (atBottom && top < innerHeight)) {
+						seen.add(id);
+						track('event', 'section_view', { section: id });
+					}
+				});
+			};
+			addEventListener('scroll', () => {
+				if (!pending) { pending = true; requestAnimationFrame(check); }
+			}, { passive: true });
+			check();
+		})();
 	</script>
-	<!-- End Google Analytics -->
+	<!-- End Analytics: section tracking -->
+
 </body>
 
 </html>

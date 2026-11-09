@@ -25,3 +25,9 @@ repos:
         language: system
         files: 'main\.css$'
         pass_filenames: false
+      - id: check-local-links
+        name: Validate local HTML links and asset filenames
+        entry: make -C processing check-local
+        language: system
+        files: '(index\.html|\.(jpg|jpeg|png|pdf|doc|docx))$'
+        pass_filenames: false

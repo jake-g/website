@@ -182,10 +182,11 @@
 					<section class="clearfix">
 						<div class="about-col">
 							<h2>Resume</h2>
-							<h3>
+							<h3 class="resume-section-heading">
 								Education
 							</h3>
-							<ul class="no-list work">
+							<a href="#" class="resume-toggle" data-target="education-list" aria-expanded="false">Expand all <span class="chevron-icon">▼</span></a>
+							<ul id="education-list" class="no-list work">
 								<li>
 									<details class="resume-item">
 										<summary class="resume-header">
@@ -265,11 +266,11 @@
 							<p>
 								<i>See the <a href="#school">School</a> section for earlier coursework and projects.</i>
 							</p>
-							<h3>
+							<h3 class="resume-section-heading">
 								Work Experience
 							</h3>
-							<div class="break"></div>
-							<ul class="no-list work">
+							<a href="#" class="resume-toggle" data-target="experience-list" aria-expanded="false">Expand all <span class="chevron-icon">▼</span></a>
+							<ul id="experience-list" class="no-list work">
 								<li>
 									<details class="resume-item">
 										<summary class="resume-header">
@@ -493,10 +494,10 @@
 										</summary>
 										<div class="resume-body">
 											<p>
-												<a target="_blank" href="https://youtu.be/vnFNyZdMrwk">
+												<a target="_blank" href="https://www.youtube.com/watch?v=vnFNyZdMrwk">
 													<b>Video Demo</b>
 												</a>
-												<a target="_blank" href="https://uwecocar.github.io/UW-Infotainment">
+												<a target="_blank" href="https://uwecocar.github.io/UW-Infotainment/">
 													<b>Interactive Demo</b>
 												</a>
 											</p>
@@ -835,10 +836,11 @@
 								electronics, high voltage systems, CAN bus, battery pack design, microcontrollers, FPGA, digital
 								circuits, Plex API, Last.fm scrobble sync, Reddit scraper, housing list scraper, portfolio pipeline</p>
 						</div>
-						<details class="resume-item" style="margin-bottom: 2em; margin-top: 1em;">
+						<details id="accomplishments" class="resume-item" style="margin-bottom: 2em; margin-top: 1em;">
 							<summary class="resume-header">
 								<div class="resume-title-wrap">
 									<h3 style="margin: 0;">Accomplishments</h3>
+									<span class="resume-toggle">Expand</span>
 								</div>
 								<span class="chevron-icon">▼</span>
 							</summary>
@@ -913,909 +915,817 @@
 
 							<h4>Artificial Intelligence (AI/ML)</h4>
 							<div class="g1">
-								<h6>Codegen Classroom: Self-Improving LLM Agents <span class="pub-year">(2026)</span></h6>
-
+								<h6>Codegen Classroom: Self-Improving Agents <span class="pub-year">(2026)</span></h6>
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/google-research/codegen-classroom">GitHub</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/codegen-classroom.jpg" alt="Codegen Classroom agent scores over cycles">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/google-research/codegen-classroom" class="btn">Code</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/google-research/codegen-classroom">
+										<img loading="lazy" src="image/codegen-classroom.jpg" alt="Codegen Classroom agent scores over cycles">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>MuJoCo Puppeteer Physics Sim <span class="pub-year">(2026)</span> <span class="vibe-tag">vibe-coded</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/jake-g/mujoco-puppeteer">GitHub</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/mujoco-puppeteer.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/mujoco-puppeteer" class="btn">Code</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/jake-g/mujoco-puppeteer">
+										<img loading="lazy" src="image/mujoco-puppeteer.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Health Sound Event Detector <span class="pub-year">(2025)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://huggingface.co/google/hear/blob/main/event_detector/README.md">Hugging Face</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/health-event-detector.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://huggingface.co/google/hear/blob/main/event_detector/README.md"
-												class="btn">Model</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://huggingface.co/google/hear/blob/main/event_detector/README.md">
+										<img loading="lazy" src="image/health-event-detector.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>ESP32 Tiny LLM <span class="pub-year">(2024)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/jake-g/esp32-llm">GitHub (ESP32)</a>
+									<a target="_blank" href="https://github.com/jake-g/micro-llm">GitHub (micro-llm)</a>
+									<a target="_blank" href="image/esp32-llm-output.jpg">Output</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/esp32-llm.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/esp32-llm" class="btn">ESP32 Runner</a>
-											<a target="_blank" href="https://github.com/jake-g/micro-llm" class="btn">micro-llm</a>
-											<a target="_blank" href="image/esp32-llm-output.jpg" class="btn">Example</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/jake-g/esp32-llm">
+										<img loading="lazy" src="image/esp32-llm.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>HeAR: Health Acoustic Representations <span class="pub-year">(2024)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/Google-Health/google-health/tree/master/health_acoustic_representations">GitHub</a>
+									<a target="_blank" href="https://huggingface.co/google/hear-pytorch">Hugging Face</a>
+									<a target="_blank" href="doc/HeAR_Health_Acoustic_Representations.pdf">Slides</a>
+									<a target="_blank" href="https://blog.google/technology/health/ai-model-cough-disease-detection/">Blog</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/hear.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="doc/HeAR_Health_Acoustic_Representations.pdf" class="btn">PDF</a>
-											<a target="_blank"
-												href="https://github.com/Google-Health/google-health/tree/master/health_acoustic_representations"
-												class="btn">Code</a>
-											<a target="_blank" href="https://huggingface.co/google/hear-pytorch" class="btn">Model</a>
-											<a target="_blank" href="https://blog.google/technology/health/ai-model-cough-disease-detection/"
-												class="btn">Blog</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/Google-Health/google-health/tree/master/health_acoustic_representations">
+										<img loading="lazy" src="image/hear.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Microcontroller Tutorial <span class="pub-year">(2024)</span> <span class="vibe-tag">vibe-coded</span></h6>
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/jake-g/microcontroller-tutorial">GitHub</a>
+									<a target="_blank" href="doc/Embedded_Microcontroller_slides_475_Fall_2024.pdf">Slides</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/microcontroller-tutorial.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/microcontroller-tutorial" class="btn">Code</a>
-											<a target="_blank" href="doc/Embedded_Microcontroller_slides_475_Fall_2024.pdf"
-												class="btn">Slides</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/jake-g/microcontroller-tutorial">
+										<img loading="lazy" src="image/microcontroller-tutorial.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>emojii-flow <span class="pub-year">(2024)</span> <span class="vibe-tag">vibe-coded</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://jake-g.github.io/emojii-flow/">Webapp</a>
+									<a target="_blank" href="https://github.com/jake-g/emojii-flow">GitHub</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/emojii_flow.jpg" alt="emojii-flow">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/emojii-flow" class="btn">Code</a>
-											<a target="_blank" href="https://jake-g.github.io/emojii-flow/" class="btn">Webapp</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://jake-g.github.io/emojii-flow/">
+										<img loading="lazy" src="image/emojii_flow.jpg" alt="emojii-flow">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>jazzfuzz music <span class="pub-year">(2023)</span> <span class="vibe-tag">vibe-coded</span></h6>
+								<p class="card-links">
+									<a target="_blank" href="https://jake-g.github.io/jazzfuzz/">Webapp</a>
+									<a target="_blank" href="https://github.com/jake-g/jazzfuzz">GitHub</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/jazzfuzz.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://jake-g.github.io/jazzfuzz/" class="btn">Web App</a>
-											<a target="_blank" href="https://github.com/jake-g/jazzfuzz" class="btn">Code</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://jake-g.github.io/jazzfuzz/">
+										<img loading="lazy" src="image/jazzfuzz.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>FRILL: On-Device Audio Representations <span class="pub-year">(2020)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://research.google/blog/frill-on-device-speech-representations-using-tensorflow-lite/">Blog</a>
+									<a target="_blank" href="https://www.kaggle.com/models/google/nonsemantic-speech-benchmark/tensorFlow2/frill-nofrontend/1?tfhub-redirect=true">Kaggle</a>
+									<a target="_blank" href="doc/FRILL_A_Non-Semantic_Speech_Embedding_for_Mobile_Devices.pdf">Paper</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/frill.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="doc/FRILL_A_Non-Semantic_Speech_Embedding_for_Mobile_Devices.pdf"
-												class="btn">Paper</a>
-											<a target="_blank"
-												href="https://www.kaggle.com/models/google/nonsemantic-speech-benchmark/tensorFlow2/frill-nofrontend/1?tfhub-redirect=true"
-												class="btn">Model</a>
-											<a target="_blank"
-												href="https://blog.research.google/2021/06/frill-on-device-speech-representations.html?m=1/"
-												class="btn">Blog: Research</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://research.google/blog/frill-on-device-speech-representations-using-tensorflow-lite/">
+										<img loading="lazy" src="image/frill.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Evolution Simulator <span class="pub-year">(2019)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://jake-g.github.io/evolution-sim/">Webapp</a>
+									<a target="_blank" href="https://github.com/jake-g/evolution-sim">GitHub</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/evolution.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/evolution-sim" class="btn">Code</a>
-											<a target="_blank" href="https://jake-g.github.io/evolution-sim/" class="btn">Live Demo</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://jake-g.github.io/evolution-sim/">
+										<img loading="lazy" src="image/evolution.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>FreshAir Spiro Mobile App <span class="pub-year">(2019)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="doc/SpiroConfidence.pdf">Paper</a>
+									<a target="_blank" href="doc/Spiro_Fresh_Air_App_2019.pdf">Slides</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/freshair_spiro.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="doc/SpiroConfidence.pdf" class="btn">Paper</a>
-											<a target="_blank" href="doc/Spiro_Fresh_Air_App_2019.pdf" class="btn">Slides</a>
-										</div>
-									</div>
+									<a target="_blank" href="doc/SpiroConfidence.pdf">
+										<img loading="lazy" src="image/freshair_spiro.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Neural Network Image Styling <span class="pub-year">(2018)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/jake-g/neural_image_styler">GitHub</a>
+									<a target="_blank" href="https://colab.research.google.com/drive/127iviQdFYMA2D5fV16MWvLxgLAo-iY3X">Colab</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/neural_style.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/neural_image_styler" class="btn">Code</a>
-											<a target="_blank"
-												href="https://colab.research.google.com/drive/127iviQdFYMA2D5fV16MWvLxgLAo-iY3X"
-												class="btn">Colab</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/jake-g/neural_image_styler">
+										<img loading="lazy" src="image/neural_style.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Urban Parking App <span class="pub-year">(2016)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="doc/Urban_Parking_Report_EE498.pdf">Report</a>
+									<a target="_blank" href="doc/Urban_Parking_Poster.pdf">Poster</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/parking.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="doc/Urban_Parking_Poster.pdf" class="btn">Poster</a>
-											<a target="_blank" href="doc/Urban_Parking_Report_EE498.pdf" class="btn">PDF</a>
-										</div>
-									</div>
+									<a target="_blank" href="doc/Urban_Parking_Report_EE498.pdf">
+										<img loading="lazy" src="image/parking.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Haiku Deck Zuru <span class="pub-year">(2016)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://www.haikudeck.com/zuru">Website</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/zuru.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://www.haikudeck.com/zuru" class="btn">Website</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://www.haikudeck.com/zuru">
+										<img loading="lazy" src="image/zuru.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Wikipedia Summarizer <span class="pub-year">(2016)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/jake-g/wikipedia-summarize">GitHub</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/wikisummarize.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/wikipedia-summarize" class="btn">Code</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/jake-g/wikipedia-summarize">
+										<img loading="lazy" src="image/wikisummarize.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Driver Awareness System <span class="pub-year">(2015)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://uwecocar.github.io/UW-Infotainment/">Webapp</a>
+									<a target="_blank" href="https://github.com/jake-g/Driver-Awareness">GitHub</a>
+									<a target="_blank" href="doc/Consumer_Appeal_Poster.pdf">Poster</a>
+									<a target="_blank" href="https://www.youtube.com/watch?v=vnFNyZdMrwk&list=PLWptjpDqazOymOtZTLaiW0OCP8Qe2uAKr">YouTube</a>
+									<a target="_blank" href="http://devpost.com/software/distractedness">DevPost</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/driver_aware.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/Driver-Awareness" class="btn">Code</a>
-											<a target="_blank" href="https://youtu.be/vnFNyZdMrwk?list=PLWptjpDqazOymOtZTLaiW0OCP8Qe2uAKr"
-												class="btn">Video</a>
-											<a target="_blank" href="https://uwecocar.github.io/UW-Infotainment/" class="btn">Demo</a>
-											<a target="_blank" href="doc/Consumer_Appeal_Poster.pdf" class="btn">Poster</a>
-											<a target="_blank" href="http://devpost.com/software/distractedness" class="btn">DevPost</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://uwecocar.github.io/UW-Infotainment/">
+										<img loading="lazy" src="image/driver_aware.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>phone.ai <span class="pub-year">(2014)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="doc/Smartphone_identification.pdf">Paper</a>
+									<a target="_blank" href="doc/Smartphone_identification_poster.pdf">Poster</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/phoneai.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="doc/Smartphone_identification.pdf" class="btn">Paper</a>
-											<a target="_blank" href="doc/Smartphone_identification_poster.pdf" class="btn">Poster</a>
-										</div>
-									</div>
+									<a target="_blank" href="doc/Smartphone_identification.pdf">
+										<img loading="lazy" src="image/phoneai.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>puppy.ai <span class="pub-year">(2014)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://web.archive.org/web/20170518130122/https://itunes.apple.com/us/app/puppy.ai/id1207505795?mt=8">iOS App</a>
+									<a target="_blank" href="https://puppyai.github.io/">Website</a>
+									<a target="_blank" href="https://www.youtube.com/watch?v=gFdy60YwJBo">YouTube</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/puppyai.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank"
-												href="https://web.archive.org/web/20170518130122/https://itunes.apple.com/us/app/puppy.ai/id1207505795?mt=8"
-												class="btn">iOS App</a>
-											<a target="_blank" href="https://puppyai.github.io/" class="btn">Website</a>
-											<a target="_blank" href="https://youtu.be/gFdy60YwJBo" class="btn">Video</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://web.archive.org/web/20170518130122/https://itunes.apple.com/us/app/puppy.ai/id1207505795?mt=8">
+										<img loading="lazy" src="image/puppyai.jpg" alt="">
+									</a>
 								</div>
 							</div>
 
 							<h4>Automation</h4>
 							<div class="g1">
 								<h6>Market Pipeline <span class="pub-year">(2026)</span> <span class="vibe-tag">vibe-coded</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/jake-g/market-pipeline">GitHub</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/market-pipeline.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/market-pipeline" class="btn">Code</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/jake-g/market-pipeline">
+										<img loading="lazy" src="image/market-pipeline.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Plex Sync <span class="pub-year">(2024)</span> <span class="vibe-tag">vibe-coded</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/jake-g/plex-sync">GitHub</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/plex-sync.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/plex-sync" class="btn">Code</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/jake-g/plex-sync">
+										<img loading="lazy" src="image/plex-sync.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Seattle Housing Scraper <span class="pub-year">(2022)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://jake-g.github.io/home-scraper/">Webapp</a>
+									<a target="_blank" href="https://github.com/jake-g/home-scraper">GitHub</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/home-scraper.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/home-scraper" class="btn">Code</a>
-											<a target="_blank" href="https://jake-g.github.io/home-scraper/" class="btn">Webapp</a>
-											<a target="_blank" href="image/home-scraper-site.jpg" class="btn">Screenshot</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://jake-g.github.io/home-scraper/">
+										<img loading="lazy" src="image/home-scraper.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>last.fm Sync <span class="pub-year">(2022)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/jake-g/lastfm-sync">GitHub</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/lastfm-sync.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/lastfm-sync" class="btn">Code</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/jake-g/lastfm-sync">
+										<img loading="lazy" src="image/lastfm-sync.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Ableton Project Parser <span class="pub-year">(2021)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/jake-g/ableton-parser">GitHub</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/ableton-parser.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/ableton-parser" class="btn">Code</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/jake-g/ableton-parser">
+										<img loading="lazy" src="image/ableton-parser.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>YouTube Music Sync <span class="pub-year">(2019)</span></h6>
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/jake-g/ytmusic">GitHub</a>
+								</p>
 								<!-- TODO: Add notebook examples for ytmusic, lastfm, etc. -->
 
 								<div class="image">
-									<img loading="lazy" src="image/ytmusic.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/ytmusic" class="btn">Code</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/jake-g/ytmusic">
+										<img loading="lazy" src="image/ytmusic.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Reddit Music Sub Scraper <span class="pub-year">(2019)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/jake-g/reddit-scraper">GitHub</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/reddit-scraper.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/reddit-scraper" class="btn">Code</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/jake-g/reddit-scraper">
+										<img loading="lazy" src="image/reddit-scraper.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>brew-sensors <span class="pub-year">(2019)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/jake-g/brew-sensors">GitHub</a>
+									<a target="_blank" href="https://photos.app.goo.gl/aTP5XVnkuWo9zkrE8">Photos</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/brew-sensors.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/brew-sensors" class="btn">Code</a>
-											<a target="_blank" href="https://photos.app.goo.gl/aTP5XVnkuWo9zkrE8" class="btn">Photos</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/jake-g/brew-sensors">
+										<img loading="lazy" src="image/brew-sensors.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Craigslist Bot <span class="pub-year">(2017)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/jake-g/craigslist-bot">GitHub</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/craigslist-bot.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/craigslist-bot" class="btn">Code</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/jake-g/craigslist-bot">
+										<img loading="lazy" src="image/craigslist-bot.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Crypto Trader Bot <span class="pub-year">(2017)</span></h6>
-
+								<p class="card-links"><span class="card-link-text">Contact for info</span></p>
 								<div class="image">
 									<img loading="lazy" src="image/crypto-trader.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											Contact for info
-										</div>
-									</div>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Altcoin Statistic Scraper <span class="pub-year">(2017)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://altcoins-code.github.io/altcoins/">Webapp</a>
+									<a target="_blank" href="https://github.com/altcoins-code/altcoins/">GitHub</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/altcoins.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://altcoins-code.github.io/altcoins/" class="btn">Code</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://altcoins-code.github.io/altcoins/">
+										<img loading="lazy" src="image/altcoins.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Pokemon Go Bot <span class="pub-year">(2016)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/pogodevorg/pgoapi">GitHub</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/pokemon-go.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/pogodevorg/pgoapi" class="btn">API</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/pogodevorg/pgoapi">
+										<img loading="lazy" src="image/pokemon-go.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Image Scraper <span class="pub-year">(2016)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/jake-g/image-scrape">GitHub</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/image-scraper.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/image-scrape" class="btn">Code</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/jake-g/image-scrape">
+										<img loading="lazy" src="image/image-scraper.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>rtunes.xyz <span class="pub-year">(2016)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/jake-g/rtunes">GitHub</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/rtunes.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/rtunes" class="btn">Code</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/jake-g/rtunes">
+										<img loading="lazy" src="image/rtunes.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Web Music Scraper <span class="pub-year">(2015)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/jake-g/audio-scrape/">GitHub</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/music-scrape.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/audio-scrape/" class="btn">Code</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/jake-g/audio-scrape/">
+										<img loading="lazy" src="image/music-scrape.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Bankroll Bitfury ASIC Bitcoin Miner <span class="pub-year">(2014)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://bitfury.com/">Website</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/bitfury_miner.jpg" alt="Bitfury ASIC Miner">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://bitfury.com/" class="btn">Bitfury</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://bitfury.com/">
+										<img loading="lazy" src="image/bitfury_miner.jpg" alt="Bitfury ASIC Miner">
+									</a>
 								</div>
 							</div>
 							<div class="break"></div>
 							<h4>Image Processing</h4>
 							<div class="g1">
 								<h6>terminal camera <span class="pub-year">(2015)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/jake-g/term-cam">GitHub</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/term-cam.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/term-cam" class="btn">Code</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/jake-g/term-cam">
+										<img loading="lazy" src="image/term-cam.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Gaze Tracking <span class="pub-year">(2015)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/jake-g/gaze_traker">GitHub</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/gaze_track.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/gaze_traker" class="btn">Code</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/jake-g/gaze_traker">
+										<img loading="lazy" src="image/gaze_track.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Reverse Image Search <span class="pub-year">(2015)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/jake-g/Image-Search">GitHub</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/Img_Search.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/Image-Search" class="btn">Code</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/jake-g/Image-Search">
+										<img loading="lazy" src="image/Img_Search.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Cartoon Filter GUI <span class="pub-year">(2015)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/jake-g/cartoon_filter">GitHub</a>
+									<a target="_blank" href="doc/Cartoon_Filter_EE440.pdf">Report</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/Cartoon_Filter_GUI.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/cartoon_filter" class="btn">Code</a>
-											<a target="_blank" href="doc/Cartoon_Filter_EE440.pdf" class="btn">Paper</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/jake-g/cartoon_filter">
+										<img loading="lazy" src="image/Cartoon_Filter_GUI.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Matlab Image Processing Tools <span class="pub-year">(2015)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/jake-g/image-processing-tools">GitHub</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/bush.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/image-processing-tools" class="btn">Code</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/jake-g/image-processing-tools">
+										<img loading="lazy" src="image/bush.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="line-break"></div>
 							<h4>Audio Processing</h4>
 							<div class="g1">
 								<h6>Vocal Chord Synthesis <span class="pub-year">(2025)</span> <span class="vibe-tag">vibe-coded</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://jake-g.github.io/vocal-chords/">Webapp</a>
+									<a target="_blank" href="https://github.com/jake-g/vocal-chords">GitHub</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/vocal-chords.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/vocal-chords" class="btn">Code</a>
-											<a target="_blank" href="https://jake-g.github.io/vocal-chords/" class="btn">Web App</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://jake-g.github.io/vocal-chords/">
+										<img loading="lazy" src="image/vocal-chords.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>synth.py <span class="pub-year">(2023)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/jake-g/synth">GitHub</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/synth-plot.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/synth" class="btn">Code</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/jake-g/synth">
+										<img loading="lazy" src="image/synth-plot.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Raspberry Pi Synthesizer <span class="pub-year">(2019)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/zynthian">GitHub</a>
+									<a target="_blank" href="https://photos.app.goo.gl/cCvraLzixzuVeePH8">Photos</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/zynthian.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/zynthian" class="btn">Code</a>
-											<a target="_blank" href="https://photos.app.goo.gl/cCvraLzixzuVeePH8" class="btn">Photos</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/zynthian">
+										<img loading="lazy" src="image/zynthian.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Ultrasound Motion Detector <span class="pub-year">(2018)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://jake-g.github.io/ultrasound-motion-webapp/">Webapp</a>
+									<a target="_blank" href="https://github.com/jake-g/ultrasound-motion-webapp">GitHub</a>
+									<a target="_blank" href="https://ubicomplab.cs.washington.edu/pdfs/soundwave.pdf">Paper</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/ultrasound_doppler.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://jake-g.github.io/ultrasound-motion-webapp/" class="btn">Live
-												Demo</a>
-											<a target="_blank" href="https://github.com/jake-g/ultrasound-motion-webapp" class="btn">Code</a>
-											<a target="_blank" href="https://ubicomplab.cs.washington.edu/pdfs/soundwave.pdf"
-												class="btn">Paper</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://jake-g.github.io/ultrasound-motion-webapp/">
+										<img loading="lazy" src="image/ultrasound_doppler.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Realtime Pitch Shifter <span class="pub-year">(2016)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/jake-g/pitch_shift">GitHub</a>
+									<a target="_blank" href="doc/Pitch_Shift_Report_EE443.pdf">Report</a>
+									<a target="_blank" href="doc/Pitch_Shift_Pres.pdf">Slides</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/pitch_shift.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/pitch_shift" class="btn">Code</a>
-											<a target="_blank" href="doc/Pitch_Shift_Pres.pdf" class="btn">Presentation</a>
-											<a target="_blank" href="doc/Pitch_Shift_Report_EE443.pdf" class="btn">Paper</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/jake-g/pitch_shift">
+										<img loading="lazy" src="image/pitch_shift.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>tuner.c <span class="pub-year">(2015)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/jake-g/tuner">GitHub</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/Ctuner.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/tuner" class="btn">Code</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/jake-g/tuner">
+										<img loading="lazy" src="image/Ctuner.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>APC40 Controller Mods <span class="pub-year">(2015)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://photos.app.goo.gl/Rm7oQRXZ8AFieUh8A">Photos</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/apc40.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://photos.app.goo.gl/Rm7oQRXZ8AFieUh8A" class="btn">Photos</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://photos.app.goo.gl/Rm7oQRXZ8AFieUh8A">
+										<img loading="lazy" src="image/apc40.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Audio Separate <span class="pub-year">(2014)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/jake-g/audio-separate">GitHub</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/audio-separate.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/audio-separate" class="btn">Code</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/jake-g/audio-separate">
+										<img loading="lazy" src="image/audio-separate.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>RC Car Composer <span class="pub-year">(2014)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/jake-g/Car-Composer">GitHub</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/car-composer.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/Car-Composer" class="btn">Code</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/jake-g/Car-Composer">
+										<img loading="lazy" src="image/car-composer.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Arduino Synthesizer <span class="pub-year">(2014)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/jake-g/Arduino-Synth">GitHub</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/Arduino_synth.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/Arduino-Synth" class="btn">Code</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/jake-g/Arduino-Synth">
+										<img loading="lazy" src="image/Arduino_synth.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Supercollider Compositions <span class="pub-year">(2014)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/jake-g/SuperCollider_Compositions">GitHub</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/SuperCollider.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/SuperCollider_Compositions"
-												class="btn">Code</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/jake-g/SuperCollider_Compositions">
+										<img loading="lazy" src="image/SuperCollider.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Homemade Analog Audio <span class="pub-year">(2013)</span></h6>
+								<p class="card-links">
+									<a target="_blank" href="image/pedal.jpg">Image</a>
+								</p>
 								<!-- TODO: Make DIY audio pedal photo album or source repo link -->
 
 								<div class="image">
-									<img loading="lazy" src="image/pedal.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="image/pedal.jpg" class="btn">View</a>
-										</div>
-									</div>
+									<a target="_blank" href="image/pedal.jpg">
+										<img loading="lazy" src="image/pedal.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Verellen Amplifiers <span class="pub-year">(2013)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://web.archive.org/web/20210228120612/https://www.verellenamplifiers.com/">Website</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/verellen.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank"
-												href="https://web.archive.org/web/20210228120612/https://www.verellenamplifiers.com/"
-												class="btn">Website</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://web.archive.org/web/20210228120612/https://www.verellenamplifiers.com/">
+										<img loading="lazy" src="image/verellen.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="break"></div>
 							<h4>Fabrication</h4>
 							<div class="g1">
-								<h6>Deep Learning, Gaming and Crypto Mining Rig <span class="pub-year">(2017)</span></h6>
+								<h6>AI, Gaming and Mining PC <span class="pub-year">(2017)</span></h6>
+								<p class="card-links">
+									<a target="_blank" href="https://pcpartpicker.com/builds/edit/?userbuild=mRZRsY">PCPartPicker</a>
+									<a target="_blank" href="https://photos.app.goo.gl/T9L65hVGtUaqLp746">Photos</a>
+								</p>
 								<!-- TODO: Add 2026 PC entry and NUC 2020 entry (with original 2014 if images exist) -->
 
 								<div class="image">
-									<img loading="lazy" src="image/pc.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://pcpartpicker.com/builds/edit/?userbuild=mRZRsY"
-												class="btn">Build</a>
-											<a target="_blank" href="https://photos.app.goo.gl/T9L65hVGtUaqLp746" class="btn">Photos</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://pcpartpicker.com/builds/edit/?userbuild=mRZRsY">
+										<img loading="lazy" src="image/pc.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>3D Printer <span class="pub-year">(2016)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://photos.app.goo.gl/zMqANZtkSiuW3wUK8">Photos</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/3d_printer.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://photos.app.goo.gl/zMqANZtkSiuW3wUK8" class="btn">Photos</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://photos.app.goo.gl/zMqANZtkSiuW3wUK8">
+										<img loading="lazy" src="image/3d_printer.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>3D Printed Gameboy Color Shell <span class="pub-year">(2013)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="image/gameboy.jpg">Image</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/gameboy.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="image/gameboy.jpg" class="btn">View</a>
-										</div>
-									</div>
+									<a target="_blank" href="image/gameboy.jpg">
+										<img loading="lazy" src="image/gameboy.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Terrarium <span class="pub-year">(2018)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://photos.app.goo.gl/Y3d41Pic9AaNAE4k8">Photos</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/terrarium.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://photos.app.goo.gl/Y3d41Pic9AaNAE4k8" class="btn">Photos</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://photos.app.goo.gl/Y3d41Pic9AaNAE4k8">
+										<img loading="lazy" src="image/terrarium.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="break"></div>
 							<h4>Automotive</h4>
 							<div class="g1">
 								<h6>Carpacio <span class="pub-year">(2017)</span></h6>
+								<p class="card-links">
+									<a target="_blank" href="doc/Carpaccio_Paper.pdf">Paper</a>
+									<a target="_blank" href="doc/Carpacio_Poster.pdf">Poster</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/carpacio.jpg" alt="Carpacio">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="doc/Carpaccio_Paper.pdf" class="btn">Paper</a>
-											<a target="_blank" href="doc/Carpacio_Poster.pdf" class="btn">Poster</a>
-										</div>
-									</div>
+									<a target="_blank" href="doc/Carpaccio_Paper.pdf">
+										<img loading="lazy" src="image/carpacio.jpg" alt="Carpacio">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Autonomous Vehicle Simulator <span class="pub-year">(2016)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/jake-g/Autonomous-Driving-Simulator">GitHub</a>
+									<a target="_blank" href="https://www.youtube.com/watch?v=vGdrySzDii4&list=PLWptjpDqazOymOtZTLaiW0OCP8Qe2uAKr">YouTube</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/torcs.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/Autonomous-Driving-Simulator"
-												class="btn">Code</a>
-											<a target="_blank" href="https://youtu.be/vGdrySzDii4?list=PLWptjpDqazOymOtZTLaiW0OCP8Qe2uAKr"
-												class="btn">Video</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/jake-g/Autonomous-Driving-Simulator">
+										<img loading="lazy" src="image/torcs.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Tesla Model X Falcon Doors <span class="pub-year">(2015)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://www.tesla.com/modelx">Website</a>
+									<a target="_blank" href="https://www.youtube.com/watch?v=1uR15k30a0U">YouTube</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/Tesla_modelX.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://www.tesla.com/modelx" class="btn">Website</a>
-											<a target="_blank" href="https://www.youtube.com/watch?v=1uR15k30a0U" class="btn">Reveal Video</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://www.tesla.com/modelx">
+										<img loading="lazy" src="image/Tesla_modelX.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Lane Tracking <span class="pub-year">(2015)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/jake-g/lane-detection">GitHub</a>
+									<a target="_blank" href="https://www.youtube.com/watch?v=-vmnam3ergc&list=PLWptjpDqazOymOtZTLaiW0OCP8Qe2uAKr">YouTube</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/lane_tracking.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/lane-detection" class="btn">Code</a>
-											<a target="_blank" href="https://youtu.be/-vmnam3ergc?list=PLWptjpDqazOymOtZTLaiW0OCP8Qe2uAKr"
-												class="btn">Video</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/jake-g/lane-detection">
+										<img loading="lazy" src="image/lane_tracking.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>EcoCAR 3 <span class="pub-year">(2015)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="http://ecocar3.org/washington/about-us/">Website</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/ecocar3.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="http://ecocar3.org/washington/about-us/" class="btn">Details</a>
-										</div>
-									</div>
+									<a target="_blank" href="http://ecocar3.org/washington/about-us/">
+										<img loading="lazy" src="image/ecocar3.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Dashcam Vehicle Distance <span class="pub-year">(2014)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://github.com/jake-g/Autonomous-Driving-Vision-Algorithms">GitHub</a>
+									<a target="_blank" href="https://www.youtube.com/playlist?list=PLWptjpDqazOymOtZTLaiW0OCP8Qe2uAKr">YouTube</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/ADAS2.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://github.com/jake-g/Autonomous-Driving-Vision-Algorithms"
-												class="btn">Code</a>
-											<a target="_blank" href="https://www.youtube.com/playlist?list=PLWptjpDqazOymOtZTLaiW0OCP8Qe2uAKr"
-												class="btn">Videos</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://github.com/jake-g/Autonomous-Driving-Vision-Algorithms">
+										<img loading="lazy" src="image/ADAS2.jpg" alt="">
+									</a>
 								</div>
 							</div>
 
 							<div class="g1">
 								<h6>Tesla Model S Duel Motor <span class="pub-year">(2014)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://www.tesla.com/models">Website</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/Tesla_DuMo.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://www.tesla.com/models" class="btn">Website</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://www.tesla.com/models">
+										<img loading="lazy" src="image/Tesla_DuMo.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Battery Pack Design and Implementation <span class="pub-year">(2014)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="doc/Battery_Pack_ESS_EcoCAR3.pdf">Report</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/battery_pack.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="doc/Battery_Pack_ESS_EcoCAR3.pdf" class="btn">Read</a>
-										</div>
-									</div>
+									<a target="_blank" href="doc/Battery_Pack_ESS_EcoCAR3.pdf">
+										<img loading="lazy" src="image/battery_pack.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>EcoCAR 2 <span class="pub-year">(2013)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://web.archive.org/web/2016/http://uwecocar.com/project.html">Website</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/ecocar_malibu.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://web.archive.org/web/2016/http://uwecocar.com/project.html" class="btn">Website</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://web.archive.org/web/2016/http://uwecocar.com/project.html">
+										<img loading="lazy" src="image/ecocar_malibu.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Electric Car Conversion <span class="pub-year">(2010)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://electricgti.blogspot.com/">Website</a>
+									<a target="_blank" href="https://photos.app.goo.gl/vovkoSQFk7ptpEYN7">Photos</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/gti.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://electricgti.blogspot.com/" class="btn">Website</a>
-											<a target="_blank" href="https://photos.app.goo.gl/vovkoSQFk7ptpEYN7" class="btn">Photos</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://electricgti.blogspot.com/">
+										<img loading="lazy" src="image/gti.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Homemade 500 Amp DC Motor Controller <span class="pub-year">(2010)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://photos.app.goo.gl/vovkoSQFk7ptpEYN7">Photos</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/controller.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://photos.app.goo.gl/vovkoSQFk7ptpEYN7" class="btn">Photos</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://photos.app.goo.gl/vovkoSQFk7ptpEYN7">
+										<img loading="lazy" src="image/controller.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="break"></div>
 							<h4>Fermentation</h4>
 							<div class="g1">
 								<h6>Ginger Beer <span class="pub-year">(2021)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://photos.app.goo.gl/xLNvYSAqVTPXW6m18">Photos</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/ginger_beer.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://photos.app.goo.gl/xLNvYSAqVTPXW6m18" class="btn">Photos</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://photos.app.goo.gl/xLNvYSAqVTPXW6m18">
+										<img loading="lazy" src="image/ginger_beer.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Home Brewing <span class="pub-year">(2018)</span></h6>
+								<p class="card-links">
+									<a target="_blank" href="https://photos.app.goo.gl/aTP5XVnkuWo9zkrE8">Photos</a>
+								</p>
 								<!-- TODO: Add colab examples to brew log and/or have new project for data science -->
 
 								<div class="image">
-									<img loading="lazy" src="image/brewing.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://photos.app.goo.gl/aTP5XVnkuWo9zkrE8" class="btn">Photos</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://photos.app.goo.gl/aTP5XVnkuWo9zkrE8">
+										<img loading="lazy" src="image/brewing.jpg" alt="">
+									</a>
 								</div>
 							</div>
 						</div>
@@ -1833,324 +1743,255 @@
 								<i>Official product announcements, research blogs, and news coverage of engineering projects and technologies I contributed to.</i>
 							</p>
 							<div class="g1">
-								<h6>Bringing Foundational Models to the Front Lines of TB Screening <span class="pub-year">(10/2026)</span></h6>
-
+								<h6>Foundation Models for TB Screening <span class="pub-year">(10/2026)</span></h6>
+								<p class="card-links">
+									<a target="_blank" href="https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/">Blog</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/tb_screening.jpg" alt="TB Screening Blog">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank"
-												href="https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/"
-												class="btn">Read</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/">
+										<img loading="lazy" src="image/tb_screening.jpg" alt="TB Screening Blog">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>The Anatomy of a Personal Health Agent <span class="pub-year">(10/2026)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://research.google/blog/the-anatomy-of-a-personal-health-agent/">Blog</a>
+									<a target="_blank" href="https://www.nature.com/articles/s41586-026-11161-8">Paper (Nature)</a>
+									<a target="_blank" href="https://arxiv.org/abs/2508.20148">Paper (arXiv)</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/health_agent_blog.jpg" alt="Personal Health Agent Blog">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank"
-												href="https://research.google/blog/the-anatomy-of-a-personal-health-agent/"
-												class="btn">Read Blog</a>
-											<a target="_blank" href="https://www.nature.com/articles/s41586-026-11161-8"
-												class="btn">Read Nature</a>
-											<a target="_blank" href="https://arxiv.org/abs/2508.20148" class="btn">Paper</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://research.google/blog/the-anatomy-of-a-personal-health-agent/">
+										<img loading="lazy" src="image/health_agent_blog.jpg" alt="Personal Health Agent Blog">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>SensorFM: Wearable Health AI <span class="pub-year">(05/2026)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data/">Blog</a>
+									<a target="_blank" href="https://arxiv.org/abs/2605.22759">Paper (arXiv)</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/sensorfm_blog.jpg" alt="SensorFM Blog">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank"
-												href="https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data/"
-												class="btn">Read Blog</a>
-											<a target="_blank" href="https://arxiv.org/abs/2605.22759" class="btn">Paper</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data/">
+										<img loading="lazy" src="image/sensorfm_blog.jpg" alt="SensorFM Blog">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Empirical Research Assistance (ERA) <span class="pub-year">(05/2026)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://research.google/blog/empirical-research-assistance-era-from-nature-publication-to-catalyzing-computational-discovery/">Blog (Nature)</a>
+									<a target="_blank" href="https://research.google/blog/four-ways-google-research-scientists-have-been-using-empirical-research-assistance/">Blog (Use Cases)</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/era_nature_blog.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank"
-												href="https://research.google/blog/empirical-research-assistance-era-from-nature-publication-to-catalyzing-computational-discovery/"
-												class="btn">Read Nature Paper</a>
-											<a target="_blank"
-												href="https://research.google/blog/four-ways-google-research-scientists-have-been-using-empirical-research-assistance/"
-												class="btn">Read Scientist Uses</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://research.google/blog/empirical-research-assistance-era-from-nature-publication-to-catalyzing-computational-discovery/">
+										<img loading="lazy" src="image/era_nature_blog.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Google Health Coach <span class="pub-year">(05/2026)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://blog.google/products-and-platforms/products/google-health/google-health-coach/">Blog</a>
+									<a target="_blank" href="https://store.google.com/product/google_health_premium?hl=en-US">Google Store</a>
+									<a target="_blank" href="https://arxiv.org/abs/2508.20148">Paper (arXiv)</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/health_coach.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank"
-												href="https://blog.google/products-and-platforms/products/google-health/google-health-coach/"
-												class="btn">Read</a>
-											<a target="_blank" href="https://store.google.com/product/google_health_premium?hl=en-US"
-												class="btn">Store</a>
-											<a target="_blank" href="https://arxiv.org/abs/2508.20148" class="btn">Paper</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://blog.google/products-and-platforms/products/google-health/google-health-coach/">
+										<img loading="lazy" src="image/health_coach.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Fitbit Air <span class="pub-year">(05/2026)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://blog.google/products-and-platforms/devices/fitbit/fitbit-air/">Blog</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/fitbit_air.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://blog.google/products-and-platforms/devices/fitbit/fitbit-air/"
-												class="btn">Read</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://blog.google/products-and-platforms/devices/fitbit/fitbit-air/">
+										<img loading="lazy" src="image/fitbit_air.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>LLM Tree Search <span class="pub-year">(09/2025)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://research.google/blog/accelerating-scientific-discovery-with-ai-powered-empirical-software/">Blog</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/era_blog.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank"
-												href="https://research.google/blog/accelerating-scientific-discovery-with-ai-powered-empirical-software/"
-												class="btn">Read</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://research.google/blog/accelerating-scientific-discovery-with-ai-powered-empirical-software/">
+										<img loading="lazy" src="image/era_blog.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Insulin resistance prediction from wearables <span class="pub-year">(08/2025)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://research.google/blog/insulin-resistance-prediction-from-wearables-and-routine-blood-biomarkers/">Blog</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/insulin_wearables_blog.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank"
-												href="https://research.google/blog/insulin-resistance-prediction-from-wearables-and-routine-blood-biomarkers/"
-												class="btn">Read</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://research.google/blog/insulin-resistance-prediction-from-wearables-and-routine-blood-biomarkers/">
+										<img loading="lazy" src="image/insulin_wearables_blog.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>SensorLM: Wearable sensors language <span class="pub-year">(07/2025)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://research.google/blog/sensorlm-learning-the-language-of-wearable-sensors/">Blog</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/sensorlm_blog.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank"
-												href="https://research.google/blog/sensorlm-learning-the-language-of-wearable-sensors/"
-												class="btn">Read</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://research.google/blog/sensorlm-learning-the-language-of-wearable-sensors/">
+										<img loading="lazy" src="image/sensorlm_blog.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>LSM-2: Learning incomplete sensor data <span class="pub-year">(07/2025)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://research.google/blog/lsm-2-learning-from-incomplete-wearable-sensor-data/">Blog</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/lsm2_blog.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank"
-												href="https://research.google/blog/lsm-2-learning-from-incomplete-wearable-sensor-data/"
-												class="btn">Read</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://research.google/blog/lsm-2-learning-from-incomplete-wearable-sensor-data/">
+										<img loading="lazy" src="image/lsm2_blog.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Scaling Wearable Foundation Models <span class="pub-year">(11/2024)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://research.google/blog/scaling-wearable-foundation-models/">Blog</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/lsm1_blog.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://research.google/blog/scaling-wearable-foundation-models/"
-												class="btn">Read</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://research.google/blog/scaling-wearable-foundation-models/">
+										<img loading="lazy" src="image/lsm1_blog.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>HeAR: Acoustic disease detection <span class="pub-year">(08/2024)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://blog.google/technology/health/ai-model-cough-disease-detection/">Blog</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/hear_disease_blog.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://blog.google/technology/health/ai-model-cough-disease-detection/"
-												class="btn">Read</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://blog.google/technology/health/ai-model-cough-disease-detection/">
+										<img loading="lazy" src="image/hear_disease_blog.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>HeAR: Hugging Face <span class="pub-year">(08/2024)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://huggingface.co/google/hear-pytorch">Hugging Face</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/hear_model_card.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://huggingface.co/google/hear-pytorch" class="btn">Read</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://huggingface.co/google/hear-pytorch">
+										<img loading="lazy" src="image/hear_model_card.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Aigen raises $12m to scale its fleet of solar-powered robots <span class="pub-year">(11/2023)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://agfundernews.com/aigen-raises-12m-to-scale-its-fleet-of-solar-powered-autonomous-robots-to-more-than-20000-acres">Article (AgFunder)</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/aigen_funding.png" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank"
-												href="https://agfundernews.com/aigen-raises-12m-to-scale-its-fleet-of-solar-powered-autonomous-robots-to-more-than-20000-acres"
-												class="btn">Read</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://agfundernews.com/aigen-raises-12m-to-scale-its-fleet-of-solar-powered-autonomous-robots-to-more-than-20000-acres">
+										<img loading="lazy" src="image/aigen_funding.png" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Google AI is helping you sleep better <span class="pub-year">(03/2023)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://blog.google/products-and-platforms/devices/pixel/health-ai-better-sleep/">Blog</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/sleep-better.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank"
-												href="https://blog.google/products-and-platforms/devices/pixel/health-ai-better-sleep/"
-												class="btn">Read</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://blog.google/products-and-platforms/devices/pixel/health-ai-better-sleep/">
+										<img loading="lazy" src="image/sleep-better.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Pixel: Cough and Snore Sound Detection <span class="pub-year">(10/2022)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://techcrunch.com/2022/10/06/the-pixel-7-will-have-a-snoring-and-coughing-detection-feature/">Article (TechCrunch)</a>
+									<a target="_blank" href="https://support.google.com/pixelphone/answer/9137850#zippy=%2Ccheck-cough-and-snore-data">Support</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/pixel-cough.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank"
-												href="https://techcrunch.com/2022/10/06/the-pixel-7-will-have-a-snoring-and-coughing-detection-feature/"
-												class="btn">Read</a>
-											<a target="_blank"
-												href="https://support.google.com/pixelphone/answer/9137850#zippy=%2Ccheck-cough-and-snore-data"
-												class="btn">Setup</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://techcrunch.com/2022/10/06/the-pixel-7-will-have-a-snoring-and-coughing-detection-feature/">
+										<img loading="lazy" src="image/pixel-cough.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Nest Hub: Sleep, Respiration, Cough Sensing <span class="pub-year">(11/2021)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://research.google/blog/contactless-sleep-sensing-in-nest-hub/">Blog (Release)</a>
+									<a target="_blank" href="https://research.google/blog/enhanced-sleep-sensing-in-nest-hub/">Blog (Sensing)</a>
+									<a target="_blank" href="https://blog.google/products/google-nest/sleeping-job-how-we-built-new-nest-hub/">Blog (Sleep Lab)</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/nest_hub_respiration.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://research.google/blog/contactless-sleep-sensing-in-nest-hub/"
-												class="btn">Read Release</a>
-											<a target="_blank" href="https://research.google/blog/enhanced-sleep-sensing-in-nest-hub/?m=1"
-												class="btn">Read Sensing</a>
-											<a target="_blank"
-												href="https://blog.google/products/google-nest/sleeping-job-how-we-built-new-nest-hub/"
-												class="btn">Read Sleep Lab</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://research.google/blog/contactless-sleep-sensing-in-nest-hub/">
+										<img loading="lazy" src="image/nest_hub_respiration.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>FRILL: On-device speech TF Lite <span class="pub-year">(06/2021)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://research.google/blog/frill-on-device-speech-representations-using-tensorflow-lite/">Blog</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/frill_speech_blog.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank"
-												href="https://research.google/blog/frill-on-device-speech-representations-using-tensorflow-lite/"
-												class="btn">Read</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://research.google/blog/frill-on-device-speech-representations-using-tensorflow-lite/">
+										<img loading="lazy" src="image/frill_speech_blog.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Important household sounds become more accessible <span class="pub-year">(10/2020)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://blog.google/products-and-platforms/platforms/android/new-sound-notifications-on-android/">Blog</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/nest_sound_notifications.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank"
-												href="https://blog.google/products-and-platforms/platforms/android/new-sound-notifications-on-android/"
-												class="btn">Read</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://blog.google/products-and-platforms/platforms/android/new-sound-notifications-on-android/">
+										<img loading="lazy" src="image/nest_sound_notifications.jpg" alt="">
+									</a>
 								</div>
 							</div>
 
 							<div class="g1">
 								<h6>Exclusive: Google buys Seattle health monitoring startup Senosis <span class="pub-year">(08/2017)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://www.geekwire.com/2017/exclusive-google-buys-seattle-health-monitoring-startup-senosis-bolstering-digital-health-push/">Article (GeekWire)</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/senosis_geekwire.png" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank"
-												href="https://www.geekwire.com/2017/exclusive-google-buys-seattle-health-monitoring-startup-senosis-bolstering-digital-health-push/"
-												class="btn">Read</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://www.geekwire.com/2017/exclusive-google-buys-seattle-health-monitoring-startup-senosis-bolstering-digital-health-push/">
+										<img loading="lazy" src="image/senosis_geekwire.png" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Convert Wikipedia to a Presentation Automatically <span class="pub-year">(05/2017)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://blog.haikudeck.com/wikipedia-presentation/">Blog</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/haiku_deck_wikipedia.png" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank"
-												href="https://blog.haikudeck.com/wikipedia-presentation/"
-												class="btn">Read</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://blog.haikudeck.com/wikipedia-presentation/">
+										<img loading="lazy" src="image/haiku_deck_wikipedia.png" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>This is Tesla's D: an all-wheel-drive Model S with eyes on the road <span class="pub-year">(10/2014)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://www.theverge.com/2014/10/9/6955357/this-is-tesla-s-d-an-all-wheel-drive-car-with-eyes-on-the-road">Article (The Verge)</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/tesla_model_d.png" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank"
-												href="https://www.theverge.com/2014/10/9/6955357/this-is-tesla-s-d-an-all-wheel-drive-car-with-eyes-on-the-road"
-												class="btn">Read</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://www.theverge.com/2014/10/9/6955357/this-is-tesla-s-d-an-all-wheel-drive-car-with-eyes-on-the-road">
+										<img loading="lazy" src="image/tesla_model_d.png" alt="">
+									</a>
 								</div>
 							</div>
 						</div>
@@ -2168,288 +2009,245 @@
 							</p>
 							<div class="g1">
 								<h6>AudioFM: Towards General Purpose Audio Representation Learning <span class="pub-year">(10/2026)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://arxiv.org/abs/2610.34183">Paper (arXiv)</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/audiofm.jpg" alt="AudioFM Paper">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://arxiv.org/abs/2610.34183" class="btn">Read (arXiv)</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://arxiv.org/abs/2610.34183">
+										<img loading="lazy" src="image/audiofm.jpg" alt="AudioFM Paper">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>The Anatomy of a Personal Health Agent <span class="pub-year">(10/2026)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://www.nature.com/articles/s41586-026-11161-8">Paper (Nature)</a>
+									<a target="_blank" href="https://arxiv.org/abs/2508.20148">Paper (arXiv)</a>
+									<a target="_blank" href="https://research.google/blog/the-anatomy-of-a-personal-health-agent/">Blog</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/health_agent.jpg" alt="The Anatomy of a Personal Health Agent">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://www.nature.com/articles/s41586-026-11161-8"
-												class="btn">Read (Nature)</a>
-											<a target="_blank" href="https://arxiv.org/abs/2508.20148" class="btn">Read (arXiv)</a>
-											<a target="_blank"
-												href="https://research.google/blog/the-anatomy-of-a-personal-health-agent/"
-												class="btn">Blog</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://www.nature.com/articles/s41586-026-11161-8">
+										<img loading="lazy" src="image/health_agent.jpg" alt="The Anatomy of a Personal Health Agent">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Towards a General Intelligence and Interface for Wearable Health Data <span
 										class="pub-year">(05/2026)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://arxiv.org/abs/2605.22759">Paper (arXiv)</a>
+									<a target="_blank" href="https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data/">Blog</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/sensorfm.jpg" alt="SensorFM Paper">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://arxiv.org/abs/2605.22759" class="btn">Read (arXiv)</a>
-											<a target="_blank"
-												href="https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data/"
-												class="btn">Blog</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://arxiv.org/abs/2605.22759">
+										<img loading="lazy" src="image/sensorfm.jpg" alt="SensorFM Paper">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>An AI System to Help Scientists Write Expert-Level Empirical Software <span
 										class="pub-year">(09/2025)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://doi.org/10.1038/s41586-026-10658-6">Paper (Nature)</a>
+									<a target="_blank" href="https://arxiv.org/abs/2509.06503">Paper (arXiv)</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/empirical_software.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://doi.org/10.1038/s41586-026-10658-6" class="btn">Read (Nature)</a>
-											<a target="_blank" href="https://arxiv.org/abs/2509.06503" class="btn">Read (arXiv)</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://doi.org/10.1038/s41586-026-10658-6">
+										<img loading="lazy" src="image/empirical_software.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>SensorLM: Learning the Language of Wearable Sensors <span class="pub-year">(06/2025)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://arxiv.org/abs/2506.09108">Paper (arXiv)</a>
+									<a target="_blank" href="doc/SensorLM_Learning_the_Language_of_Wearable_Sensors.pdf">Paper (PDF)</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/sensorlm.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://arxiv.org/abs/2506.09108" class="btn">Read (arXiv)</a>
-											<a target="_blank" href="doc/SensorLM_Learning_the_Language_of_Wearable_Sensors.pdf"
-												class="btn">PDF</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://arxiv.org/abs/2506.09108">
+										<img loading="lazy" src="image/sensorlm.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>LSM-2: Learning from Incomplete Wearable Sensor Data <span class="pub-year">(06/2025)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://arxiv.org/abs/2506.05321">Paper (arXiv)</a>
+									<a target="_blank" href="doc/LSM_2_Learning_from_Incomplete_Wearable_Sensor_Data.pdf">Paper (PDF)</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/lsm2.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://arxiv.org/pdf/2506.05321" class="btn">Read (arXiv)</a>
-											<a target="_blank" href="doc/LSM_2_Learning_from_Incomplete_Wearable_Sensor_Data.pdf"
-												class="btn">PDF</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://arxiv.org/abs/2506.05321">
+										<img loading="lazy" src="image/lsm2.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Assessment of Asthma Severity Using Remote Sensors: A Pilot Study <span
 										class="pub-year">(04/2025)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S2213219825003198">Paper (ScienceDirect)</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/asthma.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S2213219825003198"
-												class="btn">Read (Journal)</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S2213219825003198">
+										<img loading="lazy" src="image/asthma.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Scaling Wearable Foundation Models <span class="pub-year">(10/2024)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://arxiv.org/abs/2410.13638">Paper (arXiv)</a>
+									<a target="_blank" href="doc/Scaling_Wearable_Foundation_Models.pdf">Paper (PDF)</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/lsm1.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://arxiv.org/pdf/2410.13638" class="btn">Read (arXiv)</a>
-											<a target="_blank" href="doc/Scaling_Wearable_Foundation_Models.pdf" class="btn">PDF</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://arxiv.org/abs/2410.13638">
+										<img loading="lazy" src="image/lsm1.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>What Are the Odds? Language Models Are Capable of Probabilistic Reasoning <span
 										class="pub-year">(06/2024)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://arxiv.org/abs/2406.12830">Paper (arXiv)</a>
+									<a target="_blank" href="doc/What_are_the_odds_Language_Models_are_Capable_of_Probabilistic_Reasoning.pdf">Paper (PDF)</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/probabilistic_reasoning.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://arxiv.org/abs/2406.12830" class="btn">Read (arXiv)</a>
-											<a target="_blank"
-												href="doc/What_are_the_odds_Language_Models_are_Capable_of_Probabilistic_Reasoning.pdf"
-												class="btn">PDF</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://arxiv.org/abs/2406.12830">
+										<img loading="lazy" src="image/probabilistic_reasoning.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>HeAR: Health Acoustic Representations <span class="pub-year">(03/2024)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://arxiv.org/abs/2403.02522">Paper (arXiv)</a>
+									<a target="_blank" href="doc/HeAR_Health_Acoustic_Representations.pdf">Slides</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/hear_paper.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://arxiv.org/abs/2403.02522" class="btn">Read (arXiv)</a>
-											<a target="_blank" href="doc/HeAR_Health_Acoustic_Representations.pdf" class="btn">PDF</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://arxiv.org/abs/2403.02522">
+										<img loading="lazy" src="image/hear_paper.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Towards Accurate Differential Diagnosis with Large Language Models <span
 										class="pub-year">(11/2023)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://doi.org/10.1038/s41586-025-08869-4">Paper (Nature)</a>
+									<a target="_blank" href="https://arxiv.org/abs/2312.00164">Paper (arXiv)</a>
+									<a target="_blank" href="doc/Towards_Accurate_Differential_Diagnosis_with_Large_Language_Models.pdf">Paper (PDF)</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/towards_accurate_diagnosis_paper.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://doi.org/10.1038/s41586-025-08869-4" class="btn">Read (Nature)</a>
-											<a target="_blank" href="https://arxiv.org/abs/2312.00164" class="btn">Read (arXiv)</a>
-											<a target="_blank"
-												href="doc/Towards_Accurate_Differential_Diagnosis_with_Large_Language_Models.pdf"
-												class="btn">PDF</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://doi.org/10.1038/s41586-025-08869-4">
+										<img loading="lazy" src="image/towards_accurate_diagnosis_paper.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Optimizing Audio Augmentations for Contrastive Learning of Health-Related Acoustic Signals <span
 										class="pub-year">(09/2023)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://arxiv.org/abs/2309.05843">Paper (arXiv)</a>
+									<a target="_blank" href="doc/Optimizing_Audio_Augmentations_for_Contrastive_Learning_of_Health-Related_Acoustic_Signals.pdf">Paper (PDF)</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/optimizing_audio_aug_paper.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://arxiv.org/abs/2309.05843" class="btn">Read (arXiv)</a>
-											<a target="_blank"
-												href="doc/Optimizing_Audio_Augmentations_for_Contrastive_Learning_of_Health-Related_Acoustic_Signals.pdf"
-												class="btn">PDF</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://arxiv.org/abs/2309.05843">
+										<img loading="lazy" src="image/optimizing_audio_aug_paper.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Morbidity and Mortality from COVID-19 Postvaccination Breakthrough Infections <span
 										class="pub-year">(07/2022)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="doc/Morbidity_and_mortality_from_COVID-19_postvaccination_breakthrough_infections.pdf">Paper</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/morbidity_covid_paper.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank"
-												href="doc/Morbidity_and_mortality_from_COVID-19_postvaccination_breakthrough_infections.pdf"
-												class="btn">PDF</a>
-										</div>
-									</div>
+									<a target="_blank" href="doc/Morbidity_and_mortality_from_COVID-19_postvaccination_breakthrough_infections.pdf">
+										<img loading="lazy" src="image/morbidity_covid_paper.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>LuckyChirp: Respiration Sensing Using Cascaded Sonar <span class="pub-year">(05/2022)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="doc/LuckyChirp_Opportunistic_Respiration_Sensing_Using_Cascaded_Sonar_on_Commodity_Devices.pdf">Paper</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/lucky_chirp_paper.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank"
-												href="doc/LuckyChirp_Opportunistic_Respiration_Sensing_Using_Cascaded_Sonar_on_Commodity_Devices.pdf"
-												class="btn">PDF</a>
-										</div>
-									</div>
+									<a target="_blank" href="doc/LuckyChirp_Opportunistic_Respiration_Sensing_Using_Cascaded_Sonar_on_Commodity_Devices.pdf">
+										<img loading="lazy" src="image/lucky_chirp_paper.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Whosecough: In-the-Wild Cougher Verification Using Multitask Learning <span
 										class="pub-year">(11/2020)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="doc/Whosecough_In-the-Wild_Cougher_Verification_Using_Multitask_Learning.pdf">Paper</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/whoscough_paper.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank"
-												href="doc/Whosecough_In-the-Wild_Cougher_Verification_Using_Multitask_Learning.pdf"
-												class="btn">PDF</a>
-										</div>
-									</div>
+									<a target="_blank" href="doc/Whosecough_In-the-Wild_Cougher_Verification_Using_Multitask_Learning.pdf">
+										<img loading="lazy" src="image/whoscough_paper.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>FRILL: A Non-Semantic Speech Embedding for Mobile Devices <span class="pub-year">(11/2020)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://arxiv.org/abs/2011.04609">Paper (arXiv)</a>
+									<a target="_blank" href="doc/FRILL_A_Non-Semantic_Speech_Embedding_for_Mobile_Devices.pdf">Paper (PDF)</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/frill_paper.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://arxiv.org/abs/2011.04609" class="btn">Read (arXiv)</a>
-											<a target="_blank" href="doc/FRILL_A_Non-Semantic_Speech_Embedding_for_Mobile_Devices.pdf"
-												class="btn">PDF</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://arxiv.org/abs/2011.04609">
+										<img loading="lazy" src="image/frill_paper.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>SpiroSound AI Master's Thesis <span class="pub-year">(05/2018)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://digital.lib.washington.edu/researchworks/items/7cfbfbb8-5737-4a9b-b6f6-65f4f8c526ae">Thesis (UW)</a>
+									<a target="_blank" href="doc/spiro_thesis_final.pdf">Thesis (PDF)</a>
+									<a target="_blank" href="doc/Spiro_Thesis_Presentation.pdf">Slides</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/thesis_spiro_final.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank"
-												href="https://digital.lib.washington.edu/researchworks/items/7cfbfbb8-5737-4a9b-b6f6-65f4f8c526ae"
-												class="btn">Read (External)</a>
-											<a target="_blank" href="doc/spiro_thesis_final.pdf" class="btn">PDF</a>
-											<a target="_blank" href="doc/Spiro_Thesis_Presentation.pdf" class="btn">Slides</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://digital.lib.washington.edu/researchworks/items/7cfbfbb8-5737-4a9b-b6f6-65f4f8c526ae">
+										<img loading="lazy" src="image/thesis_spiro_final.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>SpiroConfidence: Validity of Smartphone Spirometry <span class="pub-year">(05/2018)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="doc/SpiroConfidence.pdf">Paper</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/SpiroConfidence.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="doc/SpiroConfidence.pdf" class="btn">PDF</a>
-										</div>
-									</div>
+									<a target="_blank" href="doc/SpiroConfidence.pdf">
+										<img loading="lazy" src="image/SpiroConfidence.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Carpacio: Distinguishing Driver and Passenger Touches <span class="pub-year">(10/2017)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="doc/Carpaccio_Paper.pdf">Paper</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/Carpacio_Paper.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="doc/Carpaccio_Paper.pdf" class="btn">PDF</a>
-										</div>
-									</div>
+									<a target="_blank" href="doc/Carpaccio_Paper.pdf">
+										<img loading="lazy" src="image/Carpacio_Paper.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Wireless Routing in Hostile Environments <span class="pub-year">(12/2014)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="doc/Wireless_Routing_EE418.pdf">Report</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/wireless_routing_paper.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="doc/Wireless_Routing_EE418.pdf" class="btn">PDF</a>
-										</div>
-									</div>
+									<a target="_blank" href="doc/Wireless_Routing_EE418.pdf">
+										<img loading="lazy" src="image/wireless_routing_paper.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<!-- End publications Data -->
@@ -2466,54 +2264,47 @@
 							</p>
 							<div class="g1">
 								<h6>System and method for summarizing health data for use by large language models <span class="pub-year">(06/2026)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://patents.google.com/patent/US20260179738A1">Patent</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/US20260179738A1.jpg" alt="Health data summarization for LLMs patent">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://patents.google.com/patent/US20260179738A1" class="btn">View Patent</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://patents.google.com/patent/US20260179738A1">
+										<img loading="lazy" src="image/US20260179738A1.jpg" alt="Health data summarization for LLMs patent">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Method for detecting and classifying coughs or other non-semantic sounds <span
 										class="pub-year">(01/2024)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://patents.google.com/patent/US11862188B2">Patent</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/US11862188.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://patents.google.com/patent/US11862188B2" class="btn">View
-												Patent</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://patents.google.com/patent/US11862188B2">
+										<img loading="lazy" src="image/US11862188.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Contactless cough detection and attribution <span class="pub-year">(04/2023)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://patents.google.com/patent/US11627890B2">Patent</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/US11627890.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://patents.google.com/patent/US11627890B2" class="btn">View
-												Patent</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://patents.google.com/patent/US11627890B2">
+										<img loading="lazy" src="image/US11627890.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Contactless sleep detection and disturbance attribution <span class="pub-year">(02/2022)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="https://patents.google.com/patent/WO2022035526A1">Patent</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/WO2022035526A1.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="https://patents.google.com/patent/WO2022035526A1" class="btn">View
-												Patent</a>
-										</div>
-									</div>
+									<a target="_blank" href="https://patents.google.com/patent/WO2022035526A1">
+										<img loading="lazy" src="image/WO2022035526A1.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<!-- End Patents Data -->
@@ -2527,104 +2318,92 @@
 							<h4>Presentations</h4>
 							<div class="g1">
 								<h6>Embedded AI/ML Lectures</h6>
-
+								<p class="card-links">
+									<a target="_blank" href="doc/Embedded_AI_ML_475_Fall_2025.pdf">Slides (AI/ML '25)</a>
+									<a target="_blank" href="doc/Embedded_Platforms_475_Fall_2024.pdf">Slides (Platforms '24)</a>
+									<a target="_blank" href="doc/Embedded_Microcontroller_slides_475_Fall_2024.pdf">Slides (MCU '24)</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/embedded_ai_presentation.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="doc/Embedded_AI_ML_475_Fall_2025.pdf" class="btn">Embedded AI/ML
-												(2025)</a>
-											<a target="_blank" href="doc/Embedded_Platforms_475_Fall_2024.pdf" class="btn">Embedded Platforms
-												(2024)</a>
-											<a target="_blank" href="doc/Embedded_Microcontroller_slides_475_Fall_2024.pdf"
-												class="btn">Microcontrollers Lecture (2024)</a>
-										</div>
-									</div>
+									<a target="_blank" href="doc/Embedded_AI_ML_475_Fall_2025.pdf">
+										<img loading="lazy" src="image/embedded_ai_presentation.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Consumer Product Engineering Lecture <span class="pub-year">(2020)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="doc/Consumer_Product_Engineering_2020_Lecture.pdf">Slides</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/product_engineering_presentation.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="doc/Consumer_Product_Engineering_2020_Lecture.pdf" class="btn">View</a>
-										</div>
-									</div>
+									<a target="_blank" href="doc/Consumer_Product_Engineering_2020_Lecture.pdf">
+										<img loading="lazy" src="image/product_engineering_presentation.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Understanding the World Through Data Lecture <span class="pub-year">(2020)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="doc/Understanding_World_Through_Data_2020_Lecture.pdf">Slides</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/world_data_presentation.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="doc/Understanding_World_Through_Data_2020_Lecture.pdf"
-												class="btn">View</a>
-										</div>
-									</div>
+									<a target="_blank" href="doc/Understanding_World_Through_Data_2020_Lecture.pdf">
+										<img loading="lazy" src="image/world_data_presentation.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>FreshAir Spiro Mobile App Presentation <span class="pub-year">(2019)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="doc/Spiro_Fresh_Air_App_2019.pdf">Slides</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/fresh_air_pres.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="doc/Spiro_Fresh_Air_App_2019.pdf" class="btn">View</a>
-										</div>
-									</div>
+									<a target="_blank" href="doc/Spiro_Fresh_Air_App_2019.pdf">
+										<img loading="lazy" src="image/fresh_air_pres.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Spiro AI <span class="pub-year">(2018)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="doc/Spiro_Thesis_Presentation.pdf">Slides</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/Spiro_Thesis_Presentation.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="doc/Spiro_Thesis_Presentation.pdf" class="btn">View</a>
-										</div>
-									</div>
+									<a target="_blank" href="doc/Spiro_Thesis_Presentation.pdf">
+										<img loading="lazy" src="image/Spiro_Thesis_Presentation.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Pitch Shift on DSP <span class="pub-year">(2015)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="doc/Pitch_Shift_Pres.pdf">Slides</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/Pitch_Shift_Pres.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="doc/Pitch_Shift_Pres.pdf" class="btn">View</a>
-										</div>
-									</div>
+									<a target="_blank" href="doc/Pitch_Shift_Pres.pdf">
+										<img loading="lazy" src="image/Pitch_Shift_Pres.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Electric Chevy Camaro Electrical Presentation <span class="pub-year">(2015)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="doc/Electrical_Presentation_UW_EcoCAR3.pdf">Slides</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/Electrical_Presentation_UW_EcoCAR3.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="doc/Electrical_Presentation_UW_EcoCAR3.pdf" class="btn">View</a>
-										</div>
-									</div>
+									<a target="_blank" href="doc/Electrical_Presentation_UW_EcoCAR3.pdf">
+										<img loading="lazy" src="image/Electrical_Presentation_UW_EcoCAR3.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Electric Chevy Malibu Electrical Presentation <span class="pub-year">(2014)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="doc/Electrical_Presentation_UW_EcoCAR2.pdf">Slides</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/Electrical_Presentation_UW_EcoCAR2.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="doc/Electrical_Presentation_UW_EcoCAR2.pdf" class="btn">View</a>
-										</div>
-									</div>
+									<a target="_blank" href="doc/Electrical_Presentation_UW_EcoCAR2.pdf">
+										<img loading="lazy" src="image/Electrical_Presentation_UW_EcoCAR2.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<!-- End Presentation Data -->
@@ -2633,28 +2412,26 @@
 							<!-- <h4>Designs</h4> -->
 							<!-- <div class="g1">
 									<h6>Regulated Power Supply Design <span class="pub-year">(2014)</span></h6>
-
-									<div class="image">
+								<p class="card-links">
+									<a target="_blank" href="doc/Regulated_Supply_EE331.pdf">Report</a>
+								</p>
+								<div class="image">
+									<a target="_blank" href="doc/Regulated_Supply_EE331.pdf">
 										<img loading="lazy" src="image/Regulated_Supply_EE331.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="doc/Regulated_Supply_EE331.pdf" class="btn">Read</a>
-												</div>
-										</div>
-									</div>
-								</div> -->
+									</a>
+								</div>
+							</div> -->
 							<!-- <div class="g1">
 									<h6>Amplifier Design <span class="pub-year">(2013)</span></h6>
-
-									<div class="image">
+								<p class="card-links">
+									<a target="_blank" href="doc/Audio_Amplifier_EE233.pdf">Report</a>
+								</p>
+								<div class="image">
+									<a target="_blank" href="doc/Audio_Amplifier_EE233.pdf">
 										<img loading="lazy" src="image/Audio_Amplifier_EE233.jpg" alt="">
-										<div class="image-overlay">
-											<div class="image-link">
-												<a target="_blank" href="doc/Audio_Amplifier_EE233.pdf" class="btn">Read</a>
-											</div>
-										</div>
-									</div>
-								</div> -->
+									</a>
+								</div>
+							</div> -->
 						</div>
 					</section>
 				</div>
@@ -2684,7 +2461,7 @@
 							doors and Autopilot. Following this, I focused on autonomous
 							driving and in-vehicle display research via EcoCAR. During this time I continued to build
 							audio hardware and software. I briefly worked at
-							<a target="_blank" href="https://web.archive.org/web/20210228120612/https://www.verellenamplifiers.com//">Verellen Amplifiers</a>,
+							<a target="_blank" href="https://web.archive.org/web/20210228120612/https://www.verellenamplifiers.com/">Verellen Amplifiers</a>,
 							researched various sound synthesis techniques, and also built
 							<a target="_blank" href="https://github.com/jake-g/rtunes">rtunes</a>, a cross-platform music discovery app based on
 							crowdsourced data from Reddit and AI. I also began contributing to hardware and software
@@ -2711,53 +2488,49 @@
 					<section class="clearfix">
 						<div class="section">
 							<!-- Writeups Tab Data -->
-							<h4>Academic Writeups</h4>
+							<h4>Academic Reports</h4>
 							<div class="g1">
 								<h6>Urban Parking AI <span class="pub-year">(2016)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="doc/Urban_Parking_Report_EE498.pdf">Report</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/Urban_Parking_Report_EE498.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="doc/Urban_Parking_Report_EE498.pdf" class="btn">PDF</a>
-										</div>
-									</div>
+									<a target="_blank" href="doc/Urban_Parking_Report_EE498.pdf">
+										<img loading="lazy" src="image/Urban_Parking_Report_EE498.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>FPGA Pitch Shifter <span class="pub-year">(2015)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="doc/Pitch_Shift_Report_EE443.pdf">Report</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/Pitch_Shift_Report_EE443.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="doc/Pitch_Shift_Report_EE443.pdf" class="btn">PDF</a>
-										</div>
-									</div>
+									<a target="_blank" href="doc/Pitch_Shift_Report_EE443.pdf">
+										<img loading="lazy" src="image/Pitch_Shift_Report_EE443.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Cartoon Image Filter <span class="pub-year">(2015)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="doc/Cartoon_Filter_EE440.pdf">Report</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/Cartoon_Filter_EE440.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="doc/Cartoon_Filter_EE440.pdf" class="btn">PDF</a>
-										</div>
-									</div>
+									<a target="_blank" href="doc/Cartoon_Filter_EE440.pdf">
+										<img loading="lazy" src="image/Cartoon_Filter_EE440.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
-								<h6>Driver Assist Writeup <span class="pub-year">(2015)</span></h6>
-
+								<h6>Driver Assist Hardware <span class="pub-year">(2015)</span></h6>
+								<p class="card-links">
+									<a target="_blank" href="doc/ADAS_Hardware_Tool_Check_UW_EcoCAR.pdf">Report</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/ADAS_Hardware_Tool_Check_UW_EcoCAR.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="doc/ADAS_Hardware_Tool_Check_UW_EcoCAR.pdf" class="btn">PDF</a>
-										</div>
-									</div>
+									<a target="_blank" href="doc/ADAS_Hardware_Tool_Check_UW_EcoCAR.pdf">
+										<img loading="lazy" src="image/ADAS_Hardware_Tool_Check_UW_EcoCAR.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<!-- End writeups Data -->
@@ -2766,74 +2539,68 @@
 							<h4>Academic Posters</h4>
 							<div class="g1">
 								<h6>Spiro Sound <span class="pub-year">(2018)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="doc/SpiroPoster_poster.pdf">Poster</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/SpiroSound_poster.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="doc/SpiroPoster_poster.pdf" class="btn">View</a>
-										</div>
-									</div>
+									<a target="_blank" href="doc/SpiroPoster_poster.pdf">
+										<img loading="lazy" src="image/SpiroSound_poster.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Carpacio Driver Identification <span class="pub-year">(2017)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="doc/Carpacio_Poster.pdf">Poster</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/Carpacio_Poster.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="doc/Carpacio_Poster.pdf" class="btn">View</a>
-										</div>
-									</div>
+									<a target="_blank" href="doc/Carpacio_Poster.pdf">
+										<img loading="lazy" src="image/Carpacio_Poster.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Phone AI <span class="pub-year">(2016)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="doc/Smartphone_identification_poster.pdf">Poster</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/Smartphone_identification_poster.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="doc/Smartphone_identification_poster.pdf" class="btn">View</a>
-										</div>
-									</div>
+									<a target="_blank" href="doc/Smartphone_identification_poster.pdf">
+										<img loading="lazy" src="image/Smartphone_identification_poster.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Driver Assist Consumer Appeal <span class="pub-year">(2016)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="doc/Consumer_Appeal_Poster.pdf">Poster</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/Consumer_Appeal_Poster.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="doc/Consumer_Appeal_Poster.pdf" class="btn">View</a>
-										</div>
-									</div>
+									<a target="_blank" href="doc/Consumer_Appeal_Poster.pdf">
+										<img loading="lazy" src="image/Consumer_Appeal_Poster.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>3D Printing AI Monitor <span class="pub-year">(2015)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="doc/3DP_Poster.pdf">Poster</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/3DP_Poster.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="doc/3DP_Poster.pdf" class="btn">View</a>
-										</div>
-									</div>
+									<a target="_blank" href="doc/3DP_Poster.pdf">
+										<img loading="lazy" src="image/3DP_Poster.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="g1">
 								<h6>Urban Parking <span class="pub-year">(2014)</span></h6>
-
+								<p class="card-links">
+									<a target="_blank" href="doc/Urban_Parking_Poster.pdf">Poster</a>
+								</p>
 								<div class="image">
-									<img loading="lazy" src="image/Urban_Parking_Poster.jpg" alt="">
-									<div class="image-overlay">
-										<div class="image-link">
-											<a target="_blank" href="doc/Urban_Parking_Poster.pdf" class="btn">View</a>
-										</div>
-									</div>
+									<a target="_blank" href="doc/Urban_Parking_Poster.pdf">
+										<img loading="lazy" src="image/Urban_Parking_Poster.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<!-- End Posters Data -->
@@ -2958,6 +2725,36 @@
 		});
 	</script>
 	<!-- End Print Resume Expansion -->
+	<!-- Resume Expand/Collapse Controls -->
+	<script>
+		(function () {
+			document.querySelectorAll('a.resume-toggle[data-target]').forEach(link => {
+				const list = document.getElementById(link.dataset.target);
+				if (!list) return;
+				const items = Array.from(list.querySelectorAll('details.resume-item'));
+				const sync = () => {
+					const allOpen = items.length > 0 && items.every(d => d.open);
+					link.firstChild.nodeValue = allOpen ? 'Collapse all ' : 'Expand all ';
+					link.setAttribute('aria-expanded', String(allOpen));
+				};
+				link.addEventListener('click', e => {
+					e.preventDefault();
+					const open = !items.every(d => d.open);
+					items.forEach(d => { d.open = open; });
+					sync();
+				});
+				items.forEach(d => d.addEventListener('toggle', sync));
+			});
+			const acc = document.getElementById('accomplishments');
+			const accHint = acc && acc.querySelector('.resume-toggle');
+			if (acc && accHint) {
+				acc.addEventListener('toggle', () => {
+					accHint.textContent = acc.open ? 'Collapse' : 'Expand';
+				});
+			}
+		})();
+	</script>
+	<!-- End Resume Expand/Collapse Controls -->
 	<!-- Analytics: section tracking -->
 	<script>
 		(function () {

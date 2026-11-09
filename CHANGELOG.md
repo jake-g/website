@@ -1,21 +1,31 @@
 # Changelog
 ---------------
-#### July 2026 Update
-* **Resume & Education Restructuring**: 
-  * Split University of Washington education into separate M.S. and B.S. entries with bulleted highlights and expanded academic focus.
-  * Moved UW Guest Lectures to the top of Education with Google Health researcher context and top link buttons for slides.
-  * Relocated Academic Writeups and Posters under the `#school` section at the bottom of the page.
-  * Renamed "Awards & Additional Education" to "Accomplishments" header with refined top spacing.
-* **Styling & Interaction Polish**: 
-  * Fixed inline hyperlink CSS display to prevent awkward line breaks in bulleted resume details.
-  * Fixed clipping on collapsible resume logo icons and made collapsed titles selectable text.
-  * Updated dead external links (EcoCAR, Verellen Amplifiers) to archived Wayback Machine URLs.
-  * Removed magic wand emojis from `vibe-coded` project tags.
-  * Added "Webapp" link for `emojii-flow`.
-  * Configured `@media print` CSS so printing automatically expands all hidden detail blocks.
-* **Toolchain & Maintenance**: 
-  * Added metadata and compression mappings for new project card images (`sensorfm_blog`, `sensorfm`, `bitfury_miner`, `emojii_flow`).
-  * Updated minified CSS assets and maintained automated image processing pipelines.
+#### November 2026 Update
+* **Card Layout Simplification**:
+  * Replaced thumbnail hover overlays with compact `/` inline link rows directly below card titles and linked thumbnails to their primary action with a `#1abc9c` hover highlight.
+  * Standardized link labels to concise nouns/platforms (removing verbs and redundant `(PDF)` labels), disambiguated multiple links of the same type, and ordered primary actions first.
+  * Standardized external URLs (canonical YouTube and arXiv links), renamed coursework writeups to `Academic Reports`, and shortened lengthy card titles.
+* **Resume Controls**:
+  * Added `Expand all` / `Collapse all` toggles to Education and Work Experience, an `Expand` / `Collapse` indicator to Accomplishments, and hover highlights on resume cards.
+  * Hid empty logo placeholders in `@media print` and cut ~1 KB from `main.min.css`.
+* **New Content & Tooling**:
+  * Added 2026 project, blog, publication, and patent cards (`Codegen Classroom`, `AudioFM`, `Health Agent`, `SensorFM`, `TB Screening`, `US20260179738A1`).
+  * Added structured search metadata, `sitemap.xml`, `robots.txt`, section view tracking, and offline GA4/Search Console analytics scripts.
+  * Normalized `doc/` PDF filenames to remove spaces and added automated local link and asset validation (`make check-local`).
+
+#### August 2026 Update
+* **Resume & Education Restructuring**:
+  * Split University of Washington education into separate M.S. and B.S. entries with bulleted highlights and reordered the education timeline.
+  * Moved UW Guest Lectures to the top of Education with Google Health researcher context and slide links.
+  * Relocated Academic Writeups and Posters under the `#school` section and consolidated the school callout.
+  * Renamed "Awards & Additional Education" to "Accomplishments" and appended `(2018)` year markers to static resume/CV PDF links.
+* **Portfolio Styling Updates**:
+  * Added `Carpacio (2017)` to Automotive projects, added `Webapp` link for `emojii-flow`, and updated project sorting and `vibe-coded` tags.
+  * Fixed inline hyperlink CSS display in resume details, fixed clipping on resume logo icons, and updated dead external links (EcoCAR, Verellen) to Wayback Machine archives.
+  * Added JavaScript and `@media print` hooks so printing automatically expands all collapsible resume details.
+* **Toolchain Maintenance**:
+  * Added metadata and compression mappings for new project images and moved raw assets to `orig_image/`.
+  * Refreshed publication metrics, image compression caches, and minified CSS assets.
 
 #### May 2026 Update
 * **Google Health Restructuring**: Removed the category header; moved cards to
@@ -140,7 +150,7 @@
 ---------------
 #### 8/12/18
 * edit text
-* speed up site 
+* speed up site
 * remove js/css, compress imgs
 * remove cdn (awesome and jquery)
 * remove js

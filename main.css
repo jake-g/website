@@ -1,6 +1,21 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
-/* @import url(https://fonts.googleapis.com/css?family=Work+Sans:400,700); */
+/* Font metric overrides to eliminate CLS during swap */
+@font-face {
+  font-family: 'Lato Fallback';
+  src: local('Arial'), local('Roboto'), local('Helvetica Neue');
+  size-adjust: 97.4%;
+  ascent-override: 101%;
+  descent-override: 22%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: 'Open Sans Fallback';
+  src: local('Arial'), local('Roboto'), local('Helvetica Neue');
+  size-adjust: 105.5%;
+  ascent-override: 101%;
+  descent-override: 28%;
+  line-gap-override: 0%;
+}
 
 /* Reset and Base Styles */
 *,
@@ -32,7 +47,7 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font: 100%;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', 'Lato Fallback', sans-serif;
   font-size: 1em;
   color: #555;
 }
@@ -75,7 +90,7 @@ h4,
 h5,
 h6 {
   /* font-family: 'Work Sans', sans-serif; */
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', 'Open Sans Fallback', sans-serif;
   color: #444;
 }
 
@@ -256,6 +271,7 @@ video {
 /* Fluid images */
 img {
   border: 0;
+  height: auto;
 }
 
 /*Selected or Marked Text */
@@ -566,20 +582,23 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-.section > h2,
-.section > h3,
-.section > h4,
-.section > .break,
-.section > p {
+
+.section>h2,
+.section>h3,
+.section>h4,
+.section>.break,
+.section>p {
   width: 100%;
 }
+
 .section h4 {
   padding: 15px 10px;
   margin-top: 45px;
   margin-bottom: 0;
 }
-.section h2 + h4,
-.section h3 + h4 {
+
+.section h2+h4,
+.section h3+h4 {
   margin-top: 10px;
 }
 
@@ -602,8 +621,8 @@ body {
   text-decoration: underline;
 }
 
-.card-links a + a::before,
-.resume-body p > a:has(b) + a:has(b)::before {
+.card-links a+a::before,
+.resume-body p>a:has(b)+a:has(b)::before {
   content: "/";
   margin: 0 6px;
   color: #cbd5e1;
@@ -617,8 +636,8 @@ body {
   color: #888;
 }
 
-body.dark-mode .card-links a + a::before,
-body.dark-mode .resume-body p > a:has(b) + a:has(b)::before {
+body.dark-mode .card-links a+a::before,
+body.dark-mode .resume-body p>a:has(b)+a:has(b)::before {
   color: #555;
 }
 
@@ -883,6 +902,7 @@ footer p {
   #logo h2 {
     margin: 0 !important;
   }
+
   #tab-container,
   #tab-data-wrap,
   #about,
@@ -1041,18 +1061,8 @@ body.dark-mode .label-success {
     url('./font/awesome.svg?87710807#awesome') format('svg');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
-
-/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
-/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
-/*
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: 'awesome';
-    src: url('./font/awesome.svg?87710807#awesome') format('svg');
-  }
-}
-*/
 
 /* Icon Styles */
 [class^="icon-"]::before,
@@ -1161,7 +1171,7 @@ body.dark-mode .vibe-tag {
   list-style: none;
 }
 
-.no-list.work > li {
+.no-list.work>li {
   margin-bottom: 10px;
   list-style: none;
 }
@@ -1256,7 +1266,7 @@ details.resume-item[open] summary.resume-header .chevron-icon {
   display: inline;
 }
 
-.resume-body p > a {
+.resume-body p>a {
   display: inline-block;
 }
 
